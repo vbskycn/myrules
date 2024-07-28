@@ -26,11 +26,11 @@ https://myrules.zhoujie218.top
 
 
 
-| Adguard去广告     | https://myrules.zhoujie218.top/rule/AdGuard/Advertising/Advertising.txt |
+|                   |                                                              |
 | ----------------- | ------------------------------------------------------------ |
 | Adguard去广告精简 | https://myrules.zhoujie218.top/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt |
 | Adguard_小米电视  | https://myrules.zhoujie218.top/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt |
-|                   |                                                              |
+| Adguard去广告     | https://myrules.zhoujie218.top/rule/AdGuard/Advertising/Advertising.txt |
 |                   |                                                              |
 
 
@@ -39,11 +39,12 @@ https://myrules.zhoujie218.top
 
 
 
-| OpenAI域名大全 | https://myrules.zhoujie218.top/rule/Clash/OpenAI/OpenAI.yaml |
-| -------------- | ------------------------------------------------------------ |
-| YouTube        | https://myrules.zhoujie218.top/rule/Clash/YouTube/YouTube.yaml |
-| Microsoft      | https://myrules.zhoujie218.top//rule/Clash/Microsoft/Microsoft.yaml |
-| Proxy          | https://myrules.zhoujie218.top//rule/Clash/Proxy/Proxy.yaml  |
+|           |                                                              |
+| --------- | ------------------------------------------------------------ |
+| YouTube   | https://myrules.zhoujie218.top/rule/Clash/YouTube/YouTube.yaml |
+| Microsoft | https://myrules.zhoujie218.top//rule/Clash/Microsoft/Microsoft.yaml |
+| Proxy     | https://myrules.zhoujie218.top//rule/Clash/Proxy/Proxy.yaml  |
+| OpenAI    | https://myrules.zhoujie218.top/rule/Clash/OpenAI/OpenAI.yaml |
 
 
 
@@ -58,91 +59,91 @@ https://myrules.zhoujie218.top
     reject:
       type: http
       behavior: domain
-      url: "https://github.zhoujie218.top/raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/reject.txt"
       path: ./ruleset/reject.yaml
       interval: 86400
   
     icloud:
       type: http
       behavior: domain
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/icloud.txt"
       path: ./ruleset/icloud.yaml
       interval: 86400
   
     apple:
       type: http
       behavior: domain
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/apple.txt"
       path: ./ruleset/apple.yaml
       interval: 86400
   
     google:
       type: http
       behavior: domain
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/google.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/google.txt"
       path: ./ruleset/google.yaml
       interval: 86400
   
     proxy:
       type: http
       behavior: domain
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/proxy.txt"
       path: ./ruleset/proxy.yaml
       interval: 86400
   
     direct:
       type: http
       behavior: domain
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/direct.txt"
       path: ./ruleset/direct.yaml
       interval: 86400
   
     private:
       type: http
       behavior: domain
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/private.txt"
       path: ./ruleset/private.yaml
       interval: 86400
   
     gfw:
       type: http
       behavior: domain
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/gfw.txt"
       path: ./ruleset/gfw.yaml
       interval: 86400
   
     tld-not-cn:
       type: http
       behavior: domain
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/tld-not-cn.txt"
       path: ./ruleset/tld-not-cn.yaml
       interval: 86400
   
     telegramcidr:
       type: http
       behavior: ipcidr
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/telegramcidr.txt"
       path: ./ruleset/telegramcidr.yaml
       interval: 86400
   
     cncidr:
       type: http
       behavior: ipcidr
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/cncidr.txt"
       path: ./ruleset/cncidr.yaml
       interval: 86400
   
     lancidr:
       type: http
       behavior: ipcidr
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/lancidr.txt"
       path: ./ruleset/lancidr.yaml
       interval: 86400
   
     applications:
       type: http
       behavior: classical
-      url: "https://github.zhoujie218.top/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt"
+      url: "https://myrules.zhoujie218.top/rule/clash-rules/applications.txt"
       path: ./ruleset/applications.yaml
       interval: 86400
       
