@@ -4,8 +4,8 @@ name: Sync Repositories
 on:
   # 定时任务：每天 0 点和 12 点 UTC 时间（相当于北京时间 8 点和 20 点）
   schedule:
-    - cron: '0 0 * * *'
-    - cron: '0 12 * * *'
+    - cron: '0 3 * * *'
+    - cron: '0 20 * * *'
   # 手动触发
   workflow_dispatch:
 
@@ -54,7 +54,7 @@ jobs:
           # 添加所有更改的文件到暂存区
           git add .
           # 提交更改，并包含北京时间的时间戳
-          git commit -m "同步仓库更新 $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "同步仓库更新，北京时间 $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')"
           # 推送更改到远程仓库
           git push origin master
         env:
