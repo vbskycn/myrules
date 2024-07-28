@@ -1,0 +1,62 @@
+name: Sync Repositories
+
+# 配置工作流触发的条件
+on:
+  # 定时任务：每天 0 点和 12 点 UTC 时间（相当于北京时间 8 点和 20 点）
+  schedule:
+    - cron: '0 0 * * *'
+    - cron: '0 12 * * *'
+  # 手动触发
+  workflow_dispatch:
+
+# 定义要运行的作业
+jobs:
+  clone_and_sync:
+    # 指定作业运行的环境
+    runs-on: ubuntu-latest
+
+    # 作业中的具体步骤
+    steps:
+      # 第一步：签出你的仓库
+      - name: Checkout your repository
+        # 使用 actions/checkout@v3 action 来签出代码
+        uses: actions/checkout@v3
+        with:
+          # 保留仓库中的所有文件（fetch-depth 设置为 0 以获取完整的 Git 历史记录）
+          fetch-depth: 0
+
+      # 第二步：同步 blackmatrix7/ios_rule_script 仓库的更新
+      - name: Sync with blackmatrix7/ios_rule_script
+        run: |
+          # 添加 upstream 远程仓库指向 blackmatrix7/ios_rule_script
+          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
+          # 获取 upstream 仓库的最新代码
+          git fetch upstream
+          # 合并 upstream/master 分支的最新代码到当前分支，处理没有共同历史的仓库
+          git merge upstream/master --allow-unrelated-histories -m "Merge from upstream"
+
+      # 第三步：克隆 Loyalsoldier/clash-rules 仓库
+      - name: Clone Loyalsoldier/clash-rules
+        run: |
+          # 克隆 Loyalsoldier/clash-rules 仓库的 release 分支到临时目录 temp-clash-rules
+          git clone --depth 1 --branch release https://github.com/Loyalsoldier/clash-rules.git temp-clash-rules
+          # 使用 rsync 同步文件到 /rule/clash-rules 目录，仅更新已有文件
+          rsync -av --update temp-clash-rules/ rule/clash-rules/
+          # 删除临时目录
+          rm -rf temp-clash-rules
+
+      # 第四步：提交并推送更改
+      - name: Commit and Push changes
+        run: |
+          # 配置 Git 用户信息
+          git config --global user.name "github-bot-username"
+          git config --global user.email "github-bot-email@example.com"
+          # 添加所有更改的文件到暂存区
+          git add .
+          # 提交更改，并包含北京时间的时间戳
+          git commit -m "同步仓库更新 $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')"
+          # 推送更改到远程仓库
+          git push origin master
+        env:
+          # 用于推送更改的 GitHub Token（自动提供）
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
