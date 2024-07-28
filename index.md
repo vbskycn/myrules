@@ -19,10 +19,11 @@ https://myrules.zhoujie218.top
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/AdvertisingLite) | [去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/Advertising) | [去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/AdvertisingTest) | [隐私保护](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/Privacy) | [BlockHttpDNS](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/AdGuard/BlockHttpDNS) |
 
-| 📵Advertising                                                 |                                                              |                                                              |                                                              |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite) | [去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising) | [去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest) | [直连](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Direct) | [知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhihuAds) |
-| [小米电视去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingMiTV) |                                                              |                                                              |                                                              |                                                              |
+
+
+| 📵Advertising                                                 |                                                              |                                                              |                                                              |                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [去广告精简版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite) | [去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising) | [去广告测试版](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest) | [直连](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Direct) | [知乎广告拦截](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhihuAds) | [小米电视去广告](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingMiTV) |
 
 
 
@@ -50,7 +51,9 @@ https://myrules.zhoujie218.top
 
 #### 使用说明
 
-- yaml，请使用 behavior: "classical"。
+- yaml，请使用 behavior: "classical"
+
+- txt,请使用 behavior: "domain"
 
 - clash配置文件示例
 
