@@ -2,10 +2,10 @@ name: Sync Repositories
 
 # 配置工作流触发的条件
 on:
-  # 定时任务：每天 0 点和 12 点 UTC 时间（相当于北京时间 8 点和 20 点）
+  # 定时任务：每天 3 点和 15 点 UTC 时间（相当于北京时间 11 点和 23 点）
   schedule:
-    - cron: '0 0 * * *'
-    - cron: '0 12 * * *'
+    - cron: '0 3 * * *'
+    - cron: '0 15 * * *'
   # 手动触发
   workflow_dispatch:
 
