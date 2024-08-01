@@ -9,6 +9,17 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master #查找这
 https://myrules.zhoujie218.top
 ```
 
+## Custom模板
+
+不泄漏dns,分流比较全，
+
+```
+https://myrules.zhoujie218.top/Custom/cfg/Custom_Clash.ini
+
+
+https://myrules.zhoujie218.top/Custom/cfg/Custom_Clash_my.ini
+```
+
 
 
 ## Adguard分类
