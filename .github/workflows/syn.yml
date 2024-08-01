@@ -51,7 +51,17 @@ jobs:
           # 删除临时目录
           rm -rf temp-clash-rules
 
-      # 第四步：提交并推送更改
+      # 第四步：克隆 Aethersailor/Custom_OpenClash_Rules 仓库
+      - name: Clone Aethersailor/Custom_OpenClash_Rules
+        run: |
+          # 克隆 Aethersailor/Custom_OpenClash_Rules 仓库的 main 分支到临时目录 temp-custom-openclash-rules
+          git clone --depth 1 --branch main https://github.com/Aethersailor/Custom_OpenClash_Rules.git temp-custom-openclash-rules
+          # 使用 rsync 同步文件到 Custom_OpenClash_Rules 目录，仅更新已有文件
+          rsync -av --update temp-custom-openclash-rules/ Custom_OpenClash_Rules/
+          # 删除临时目录
+          rm -rf temp-custom-openclash-rules
+
+      # 第五步：提交并推送更改
       - name: Commit and Push changes
         run: |
           # 添加所有更改的文件到暂存区
