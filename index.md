@@ -11,12 +11,15 @@ https://myrules.zhoujie218.top
 
 ## Custom模板
 
-不泄漏dns,分流比较全，
+不泄漏dns,分流比较全
 
 ```
 https://myrules.zhoujie218.top/Custom/cfg/Custom_Clash.ini
+```
 
+自用分组
 
+```
 https://myrules.zhoujie218.top/Custom/cfg/Custom_Clash_my.ini
 ```
 
