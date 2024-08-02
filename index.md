@@ -17,7 +17,7 @@ https://myrules.zhoujie218.top
 https://myrules.zhoujie218.top/Custom/cfg/Custom_Clash.ini
 ```
 
-自用分组
+自用分组(加入了自己的节点信息，请务使用)
 
 ```
 https://myrules.zhoujie218.top/Custom/cfg/Custom_Clash_my.ini
