@@ -23,6 +23,12 @@ https://myrules.zhoujie218.top/Custom/cfg/Custom_Clash.ini
 https://myrules.zhoujie218.top/Custom/cfg/Custom_Clash_my.ini
 ```
 
+不泄漏节点的转换程序(由CF-workers中转劫持真实密码)
+
+```
+https://psub.zhoujie218.top
+```
+
 
 
 ## Adguard分类
