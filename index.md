@@ -1,5 +1,5 @@
 # myrules
-各种规则自用，克隆自github开源仓库 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) ，[Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) 自动同步更新，转换成直连地址
+各种规则自用，克隆自github开源仓库 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) ，[Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules) ，[Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules) 自动同步更新，转换成直连地址
 
 还需要什么规则自己替换
 
@@ -25,9 +25,7 @@ https://myrules.zhoujie218.top/Custom/cfg/Custom_Clash_my.ini
 
 不泄漏节点的转换程序(由CF-workers中转劫持真实密码)
 
-```
 https://psub.zhoujie218.top
-```
 
 
 
