@@ -1,0 +1,8 @@
+# NAME: Custom_Direct
+# AUTHOR: vbskycn
+# REPO: https://github.com/vbskycn/myrules
+# 自己个人需求定制强制直连列表
+
+# 自定义域名
+DOMAIN-SUFFIX,zhoujie218.top
+DOMAIN-SUFFIX,dnwx.vip
