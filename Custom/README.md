@@ -1,4 +1,4 @@
-<h1 align="center">OpenClash 保姆级设置教程<br>&<br>个人自用全分组订阅转换模板</h1>
+<h1 align="center">OpenClash<br>保姆级设置教程<br>&<br>全分组订阅转换模板</h1>
 
 <p align="center">
    <img src="https://img.shields.io/github/stars/Aethersailor/Custom_OpenClash_Rules?style=for-the-badge&logo=github" alt="GitHub stars">
@@ -41,7 +41,7 @@
 * 国外域名和 IP 使用远端节点服务器的 DNS 进行解析，取得最佳解析结果；  
 * 国内域名返回真实 IP，国外域名返回 Fake-IP；
 * 增加若干冷门域名规则（互动对战平台、猫眼浏览器、蓝点网、EA Desktop 下载 CDN 等），绝无副作用。具体内容详见 Rule\Custom_Direct.list 文件）;  
-* 无需手搓配置，每日定时自动更新上游规则，一次设置即可长期无人值守，无需反复折腾；  
+* 每日定时自动更新上游规则，一次设置即可长期无人值守，无需反复折腾；  
 * 增加更多的节点区域分组（英国、加拿大等）；    
 * 尽力实现海外下载流量强制直连（相关规则完善中）；  
 * 广告屏蔽功能（可选）  
@@ -86,12 +86,12 @@ https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/OpenWrt-IPv6-设置�
 目前本仓库订阅模板对 BT 和 PT 流量的处理依托上游规则碎片完成，可能有不足之处，逐渐完善中。  
 
 ## 不能正常工作？  
-本仓库提供的仅仅是订阅转换模板以及 OpenClash 有关的设置教程，并不会导致 OpenWrt 以及 OpenClash 工作异常。  
-本人使用的是 ImmortalWrt 官方编译版本，主路由 PPPOE 拨号环境，本仓库仅能保证在同样固件同样网络条件的情况下正常工作。  
+本仓库提供的仅仅是订阅转换模板以及 OpenClash 有关的设置教程，且所有设置操作均基于 OpenClash 的图形界面，没有任何超出常规范围的设置和修改，因此不会导致 OpenWrt 以及 OpenClash 工作异常。  
+本人使用的固件是 ImmortalWrt 官方编译版本，主路由 PPPOE 拨号环境，本仓库仅能保证在同样固件同样网络条件的情况下正常工作。  
 旁路由/二级路由相关设置基于本人对 OpenWrt 以及 OpenClash 的理解而形成，理论上不会导致问题，请自己根据实际情况调整。  
 
-按照教程设置后如果有异常，请从教程和模板以外的因素自行查找原因。  
-故障原因包括但不限于 OpenClash、内核、订阅服务亦或是搭配其他插件、他人编译的固件，以及某些设备内置 DNS 等原因，均与本仓库内容无关，请自行排障，不再予以解答。  
+OpenClash 设置以及订阅转换模板具有普适性，按照教程设置后如果有异常，请从教程和模板以外的因素自行查找原因。  
+故障原因包括但不限于 OpenClash、内核、订阅服务亦或是搭配其他插件、他人编译的固件，以及某些设备内置 DNS 等原因。以上原因均与本仓库内容无关，请自行排障，不再予以解答。  
 
 ## 控制面板效果截图  
 历史截图，可能和当前版本不一致，仅供示意  
