@@ -1,4 +1,4 @@
-<h1 align="center">OpenClash<br>保姆级设置教程<br>&<br>全分组订阅转换模板</h1>
+<h1 align="center">OpenClash 保姆级设置教程<br>&<br>全分组订阅转换模板</h1>
 
 <p align="center">
    <img src="https://img.shields.io/github/stars/Aethersailor/Custom_OpenClash_Rules?style=for-the-badge&logo=github" alt="GitHub stars">
@@ -15,7 +15,10 @@
 欢迎 star ！  
 
 ## 更新  
-本仓库模板包含的规则均为引用的上游规则碎片，上游规则更新与本仓库模板的更新没有直接关系  
+本仓库模板包含的规则均为引用的上游规则碎片，上游规则更新与本仓库模板的更新没有直接关系，只需设置每日更新订阅即可获取最新规则。  
+
+2024.8.9  
+更新 Steam 下载 CDN 规则。  
 
 2024.7.28  
 换用新的广告拦截设置方法，现在使用 OpenClash 的开发者选项来实现广告屏蔽功能，大幅提升便利性。  
@@ -49,7 +52,7 @@
 ## 使用方法  
 准备好你的订阅链接，然后按照本仓库 [Wiki 中的图文教程](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/OpenClash-设置教程)对 OpenClash 进行设置程，教程中已包括了本仓库订阅转换模板的使用方法：  
 https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/OpenClash-设置教程  
-教程非常详尽，只需按部就班设置即可，有手就行！  
+教程非常详尽，只需按部就班设置即可。全部设置内容均基于 OpenClash 的 luci 设置页面，有手就行！  
 
 此处也提供本仓库订阅模板的单独下载地址：  
 https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/cfg/Custom_Clash.ini  
@@ -102,11 +105,11 @@ OpenClash 设置以及订阅转换模板具有普适性，按照教程设置后�
 本人常年使用的一家机场，价格和流量都比较适中，搭配本仓库的订阅模板使用，体验保证拉满。
 
 - 节点覆盖地区全面，全 IEPL 线路不过墙，低延迟稳定流畅。
-- 流媒体和 ChatGPT 全解锁，高峰时期油管 8K 视频秒开无压力。
+- 流媒体和 ChatGPT 全解锁，高峰期油管 8K 视频秒开无压力。
 - 支持游戏加速和 IPv6 出站。
 - 工单支持简体中文沟通且客服反应迅速。  
 
-注册链接：[SSRDOG 注册](https://dog1.ssrdog111.com/#/register?code=FnSb4oWM)  
+注册链接：[SSRDOG 注册](https://dog1.ssrdog111.com/#/register?code=FnSb4oWM)（包含 aff 信息，感谢支持！）  
 
 本仓库订阅模板的节点地区分类即参考了该机场的节点地区进行分类。  
 
