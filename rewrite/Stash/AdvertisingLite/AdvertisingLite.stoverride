@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-08-08 02:15:00
+desc: 最后更新时间 2024-08-15 02:15:30
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1139
-# mitm: 838
+# reject: 1143
+# mitm: 842
 # force-http-engine-hosts: 6
-# total: 1983
+# total: 1991
 
 
 
@@ -23,6 +23,7 @@ http:
     - ^http?:\/\/tianqi\.2345\.com\/api\/content\/getContentFeeds\.php - reject
     - ^http[s]?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/refresh - reject
     - ^https:\/\/aag\.enmonster\.com\/apa\/(index\/)?advert\/(skin|multi\/positions|demand\/home\/poster) - reject
+    - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/ - reject
     - ^https:\/\/ad\.xiaotucc\.com\/advert - reject
     - ^https:\/\/adsoss\.zhinengxiyifang\.cn\/ads - reject
     - ^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig - reject
@@ -49,6 +50,7 @@ http:
     - ^https:\/\/dict\.youdao\.com\/dictusertask\/system - reject
     - ^https:\/\/dict\.youdao\.com\/homepage\/tile - reject
     - ^https:\/\/dict\.youdao\.com\/vip\/activity\/couponinfo - reject
+    - ^https:\/\/dinamicx\.alibabausercontent\.com\/pub\/fish_home_top_kingkong_new\/ - reject
     - ^https:\/\/file\.dian\.so\/c\/leto - reject
     - ^https:\/\/gw\.chuangkit\.com\/team\/app\/common\/ad\/ - reject
     - ^https:\/\/hdgateway\.zto\.com\/getAdInfo - reject
@@ -163,6 +165,7 @@ http:
     - ^https?:\/\/afd\.baidu\.com\/afd\/entry - reject
     - ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
     - ^https?:\/\/agn\.aty\.sohu\.com\/m? - reject
+    - ^https?:\/\/aikanvod\.miguvideo\.com\/video\/p\/i_adverseInterface\.jsp - reject
     - ^https?:\/\/aimg\.babytreeimg\.com\/group1\/M00\/*\/*\/.*.jpg - reject
     - ^https?:\/\/als\.baidu\.com\/clog\/clog - reject
     - ^https?:\/\/alt-r\.my\.com\/mobile - reject
@@ -449,6 +452,7 @@ http:
     - ^https?:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$ - reject
     - ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ - reject
     - ^https?:\/\/cdnmobibank\.bankofbeijing\.com\.cn\/cdn\/MarketingCloud\/.+\/.+\/99_1\/.+\.jpg - reject
+    - ^https?:\/\/cdns\.chinastock\.com\.cn\/cdn\/omc\/app\/app\/(index_pop_banner|startup_banner) - reject
     - ^https?:\/\/cds\.wifi188\.com\/feeds\.sec - reject
     - ^https?:\/\/cgbank\.oss-cn-shenzhen\.aliyuncs\.com\/visual\/advertisingImg\/.+.jpg - reject
     - ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v1\/promote\/ios\/start\/page - reject
@@ -1178,6 +1182,7 @@ http:
     - "aag.enmonster.com"
     - "access.mypikpak.com"
     - "acs-m.freshippo.com"
+    - "acs.m.goofish.com"
     - "acs.m.taobao.com"
     - "acs.youku.com"
     - "act.vip.iqiyi.com"
@@ -1209,6 +1214,7 @@ http:
     - "afd.baidu.com"
     - "agent-count.pconline.com.cn"
     - "agn.aty.sohu.com"
+    - "aikanvod.miguvideo.com"
     - "aimg.babytreeimg.com"
     - "als.baidu.com"
     - "alt-r.my.com"
@@ -1441,6 +1447,7 @@ http:
     - "cdn.wup.huya.com"
     - "cdnfile1.msstatic.com"
     - "cdnmobibank.bankofbeijing.com.cn"
+    - "cdns.chinastock.com.cn"
     - "cds.wifi188.com"
     - "cgbank.oss-cn-shenzhen.aliyuncs.com"
     - "channel.beitaichufang.com"
@@ -1486,6 +1493,7 @@ http:
     - "dict.youdao.com"
     - "dictvip-business.youdao.com"
     - "dili.bdatu.com"
+    - "dinamicx.alibabausercontent.com"
     - "direct.z-bank.com"
     - "discuz.gtimg.cn"
     - "dispatcher.camera360.com"
