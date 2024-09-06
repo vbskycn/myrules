@@ -12,10 +12,13 @@
 手把手嘴对嘴指导你将 OpenClash 设置为效率、安全和便利三者兼顾的完美状态，零基础小白也能轻松看懂。  
 按照本仓库 [Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki) 中的教程，搭配本仓库的[订阅模板](https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/cfg/Custom_Clash.ini)对 OpenClash 进行设置，仅依靠 OpenClash 自身，无需套娃其他工具，即可实现快速、无污染、无泄漏的 DNS 解析以及完善多样的分流功能，同时配合 Dnsmasq 可实现无第三方插件的广告拦截，并且完美兼容 IPv6。  
 
-欢迎 star ！  
+欢迎 star ！转载请注明出处，感谢！
 
 ## 更新  
-本仓库模板包含的规则均为引用的上游规则碎片，上游规则更新与本仓库模板的更新没有直接关系，只需设置每日更新订阅即可获取最新规则。  
+本仓库模板包含的规则均为引用的上游规则碎片，上游规则更新与本仓库模板的更新没有直接关系，只需根据教程设置每日更新订阅即可每日自动获取最新规则。  
+
+2024.9.7  
+根据 OpenClash v0.46.024-beta 的界面改动，更新部分教程图片。  
 
 2024.8.9  
 更新 Steam 下载 CDN 规则。  
@@ -94,7 +97,7 @@ https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/OpenWrt-IPv6-设置�
 旁路由/二级路由相关设置基于本人对 OpenWrt 以及 OpenClash 的理解而形成，理论上不会导致问题，请自己根据实际情况调整。  
 
 OpenClash 设置以及订阅转换模板具有普适性，按照教程设置后如果有异常，请从教程和模板以外的因素自行查找原因。  
-故障原因包括但不限于 OpenClash、内核、订阅转换服务亦或是搭配其他插件、他人编译的固件，以及某些设备内置 DNS 等原因。以上原因均与本仓库内容无关，请自行排查故障，不再予以解答。  
+故障原因包括但不限于 OpenClash 自身、Clash 内核自身、订阅转换服务亦或是搭配其他插件、他人编译的固件、OpenWrt 设置错误，以及某些设备内置 DNS 等原因。以上原因均与本仓库内容无关，请自行排查故障，相关 issue 将被直接关闭，不再予以解答。  
 
 ## 控制面板效果截图  
 历史截图，可能和当前版本不一致，仅供示意  
