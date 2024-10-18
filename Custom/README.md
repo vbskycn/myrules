@@ -12,7 +12,9 @@
 本项以中国大陆境内的网络环境为参考，探讨如何将 OpenClash 设置为效率、安全和省心三者兼顾的完美状态，零基础小白也能轻松看懂。  
 按照本项目的 [Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki) 中的设置方案，搭配本项目的[订阅转换模板](https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/cfg/Custom_Clash.ini)对 OpenClash 进行设置，仅依靠 OpenClash 自身，无需套娃其他工具，即可实现快速、无污染、无泄漏的 DNS 解析以及完善多样的分流功能，同时配合 Dnsmasq 可实现无第三方插件的广告拦截，并且完美兼容 IPv6。  
 
-欢迎 star ！转载请注明出处，感谢！
+欢迎 star ！
+
+本项目编写于2024年4月，为非盈利项目，转载内容请注明本项目的仓库地址，感谢合作！
 
 ## 特别声明  
 1. 本项目的主要目的是探索与学习 OpenWrt 系统插件 OpenClash，因此无法确保所有内容的合法性、完整性、准确性或有效性。
@@ -65,9 +67,10 @@ https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/cfg/C
 PS：如果在控制面板中为“漏网之鱼”策略组选择了“全球直连”策略，则不能通过防泄露测试。  
 
 ## 关于广告过滤  
-由于放弃了套娃其他工具，且大陆域名绕过了 Clash 内核，因此无法依靠 OpenClash 的规则来完成广告过滤，广告过滤功能只能通过 Dnsmasq 来实现。  
-借助 OpenClash 的“开发者选项”功能，让 OpenClash 每次启动时为 Dnsmasq 拉取相应的广告过滤规则文件，同时利用 OpenClash 启动时会重启 Dnsmasq 的特性使广告过滤规则生效。  
-具体设置见 Wiki 中的方案：[广告拦截设置方案](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/%E6%97%A0%E6%8F%92%E4%BB%B6%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%A1%88)
+由于放弃了套娃其他工具，且大陆域名绕过了 Clash 内核，因此无法依靠 OpenClash 的规则来完成广告过滤。  
+本项目借助 OpenClash 的“开发者选项”功能，让 OpenClash 每次启动时为 Dnsmasq 拉取相应的广告过滤规则文件，从而实现广告过滤功能而不依赖第三方插件。  
+具体设置见 Wiki 中的方案：[广告拦截设置方案](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/%E6%97%A0%E6%8F%92%E4%BB%B6%E5%B9%BF%E5%91%8A%E6%8B%A6%E6%88%AA%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%A1%88)  
+其中提供了 Dnsmasq 格式和 hosts 格式的两种设置方法的示例，可以照抄，亦可自由设置其他任何符合格式要求的广告规则。
 
 ## 关于 IPv6  
 谁说 OpenClash 不能和 IPv6 同时工作？  
