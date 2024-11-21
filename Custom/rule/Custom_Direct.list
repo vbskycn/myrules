@@ -6,12 +6,10 @@
 # 规则内容较少，不会影响性能，请放心使用
 
 # ImmortalWrt 在线更新服务
-DOMAIN-SUFFIX,sysupgrade.kyarucloud.moe
+#DOMAIN-SUFFIX,sysupgrade.kyarucloud.moe
 # ImmortalWrt 软件仓库
 DOMAIN-SUFFIX,immortalwrt.org
 DOMAIN-SUFFIX,vsean.net
-# OpenWrt AI 站点
-DOMAIN-SUFFIX,openwrt.ai
 # 订阅转换
 DOMAIN-SUFFIX,apiurl.v1.mk
 # 机场域名
