@@ -1,14 +1,3 @@
-## 脚本文件  
-这里存放一些自制的 OpenClash 相关的脚本文件，切勿擅自使用！
-
-after-sysupgrade.sh  
-系统升级后，修改 OpenClash 中被还原的设置。
-脚本尚未完善，请勿使用！  
-
-modify_openclash_rules.sh  
-一键修改 OpenClash 的“开发者选项”  
-脚本尚未完善，请勿使用！  
-
-one_key_setup.sh  
-一键修改 OpenClash 设置为本仓库教程中的设置  
-脚本尚未完善，请勿使用！  
+自用脚本文件。  
+擅自使用，后果自负。  
+wget -O - https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/shell/install_openclash_dev.sh | sh
