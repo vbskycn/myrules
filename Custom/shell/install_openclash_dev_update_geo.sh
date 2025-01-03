@@ -52,6 +52,31 @@ if [ $? -ne 0 ]; then
   echo "Meta 内核更新失败，请检查日志。"
   exit 1
 fi
-
-# 完成更新提示
 echo "Meta 内核更新完成！"
+
+# 开始更新 GeoIP 数据库
+echo "开始更新 GeoIP 数据库..."
+/usr/share/openclash/openclash_geoip.sh
+if [ $? -ne 0 ]; then
+  echo "GeoIP 数据库更新失败，请检查日志。"
+  exit 1
+fi
+echo "GeoIP 数据库更新完成！"
+
+# 开始更新 GeoSite 数据库
+echo "开始更新 GeoSite 数据库..."
+/usr/share/openclash/openclash_geosite.sh
+if [ $? -ne 0 ]; then
+  echo "GeoSite 数据库更新失败，请检查日志。"
+  exit 1
+fi
+echo "GeoSite 数据库更新完成！"
+
+# 开始更新大陆白名单
+echo "开始更新大陆白名单..."
+/usr/share/openclash/openclash_chnroute.sh
+if [ $? -ne 0 ]; then
+  echo "大陆白名单更新失败，请检查日志。"
+  exit 1
+fi
+echo "大陆白名单更新完成！"
