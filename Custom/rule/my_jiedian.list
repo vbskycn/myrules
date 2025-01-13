@@ -4,3 +4,6 @@
 # 自己个人需求定制强制代理列表
 
 # 自定义域名
+DOMAIN,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-KEYWORD,cloudflare

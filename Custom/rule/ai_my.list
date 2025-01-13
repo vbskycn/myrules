@@ -4,13 +4,10 @@
 # 自己个人需求定制强制代理列表
 
 # 自定义域名
-DOMAIN,cloudflare.com
+
 DOMAIN,cursor.sh
 DOMAIN,cursor.app
-DOMAIN,cloudflare.com
-DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.app
 DOMAIN-KEYWORD,cursor
 DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-KEYWORD,cloudflare
