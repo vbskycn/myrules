@@ -1,14 +1,23 @@
-## 脚本文件  
-这里存放一些自制的 OpenClash 相关的脚本文件，切勿擅自使用！
+自用脚本文件。  
+擅自使用，后果自负。  
 
-after-sysupgrade.sh  
-系统升级后，修改 OpenClash 中被还原的设置。
-脚本尚未完善，请勿使用！  
 
-modify_openclash_rules.sh  
-一键修改 OpenClash 的“开发者选项”  
-脚本尚未完善，请勿使用！  
+### install_openclash_dev.sh  
+一键更新 OpenClash 和 Meta 内核为最新 dev 版本。  
+ImmortalWrt 在值守式更新后，会将 OpenClash 和内核还原为 Master 版本，这个脚本可以一键更新 OpenClash 和内核为仓库中的最新 dev 版本，免去在 luci 上操作的麻烦。  
+适合 dev 版本爱好者。  
+```bash
+curl -s https://gh-proxy.com/https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/shell/install_openclash_dev.sh | sh
+```
 
-one_key_setup.sh  
-一键修改 OpenClash 设置为本仓库教程中的设置  
-脚本尚未完善，请勿使用！  
+### install_openclash_dev_update_geo.sh
+一键更新 OpenClash 和 Meta 内核为最新 dev 版本，并更新 GeoIP 和 GeoSite 数据库、大陆白名单、订阅链接。  
+```bash
+ curl -s https://gh-proxy.com/https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/shell/install_openclash_dev_update_geo.sh | sh
+ ```
+
+### edit_custom_firewall_rules.sh
+一键写入“开发者选项”中的去广告命令（anti-AD 广告过滤规则 + Github520 加速规则）  
+```bash
+curl -s https://gh-proxy.com/https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/shell/edit_custom_firewall_rules.sh | sh
+```

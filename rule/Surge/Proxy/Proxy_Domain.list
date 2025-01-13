@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-12-15 02:12:13
+# UPDATED: 2025-01-06 02:11:54
 # DOMAIN: 12
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 5909
+# DOMAIN-SUFFIX: 5925
 # IP-CIDR: 93
 # IP-CIDR6: 4
 # USER-AGENT: 8
-# TOTAL: 6052
+# TOTAL: 6068
 .000webhost.com
 .030buy.com
 .0rz.tw
@@ -688,6 +688,8 @@
 .brookings.edu
 .brucewang.net
 .brutaltgp.com
+.bsky.app
+.bsky.social
 .bt2mag.com
 .bt95.com
 .btaia.com
@@ -1025,6 +1027,7 @@
 .cn6.eu
 .cna.com.tw
 .cnabc.com
+.cnbeta.com.tw
 .cnd.org
 .cnet.com
 .cnineu.com
@@ -1224,6 +1227,7 @@
 .debug.com
 .deck.ly
 .decodet.co
+.deepai.org
 .deepmind.com
 .deezer.com
 .definebabe.com
@@ -1308,6 +1312,7 @@
 .docker.com
 .docker.io
 .dockerhub.com
+.docs.new
 .doctorvoice.org
 .documentingreality.com
 .dogfartnetwork.com
@@ -2096,6 +2101,7 @@
 .greenvpn.org
 .grindr.com
 .grotty-monday.com
+.ground.news
 .gs-discuss.com
 .gsearch.media
 .gstatic.com
@@ -2146,6 +2152,7 @@
 .hackmd.io
 .hackthatphone.net
 .hahlo.com
+.haijiao.com
 .hakkatv.org.tw
 .handcraftedsoftware.org
 .hanime.tv
@@ -2194,6 +2201,7 @@
 .here.com
 .heritage.org
 .heroku.com
+.herokuapp.com
 .heungkongdiscuss.com
 .hexieshe.com
 .hexieshe.xyz
@@ -2336,6 +2344,7 @@
 .hoxx.com
 .hoyolab.com
 .hpa.gov.tw
+.hpjav.com
 .hqcdp.org
 .hqjapanesesex.com
 .hqmovies.com
@@ -2423,6 +2432,7 @@
 .iask.bz
 .iask.ca
 .iav19.com
+.iavian.net
 .ibiblio.org
 .ibit.am
 .iblist.com
@@ -3772,6 +3782,7 @@
 .pcanywhere.net
 .pcc.gov.tw
 .pcdvd.com.tw
+.pcgamestorrents.com
 .pchome.com.tw
 .pcij.org
 .pcloud.com
@@ -4319,6 +4330,7 @@
 .shat-tibet.com
 .shattered.io
 .shazam.com
+.sheets.new
 .sheikyermami.com
 .shellfire.de
 .shemalez.com
@@ -4410,6 +4422,7 @@
 .sleazydream.com
 .slheng.com
 .slickvpn.com
+.slides.new
 .slideshare.net
 .slime.com.tw
 .slinkset.com
@@ -4427,6 +4440,7 @@
 .smith.edu
 .smyxy.org
 .snapchat.com
+.snapseed.com
 .snaptu.com
 .sndcdn.com
 .sneakme.net
@@ -5421,6 +5435,7 @@
 .vpnworldwide.com
 .vpser.net
 .vraiesagesse.net
+.vrchat.com
 .vrmtr.com
 .vrsmash.com
 .vs.com
@@ -5530,6 +5545,7 @@
 .wha.la
 .whatblocked.com
 .whatbrowser.org
+.whats.new
 .whatsonweibo.com
 .wheatseeds.org
 .wheelockslatin.com
