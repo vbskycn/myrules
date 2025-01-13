@@ -7,7 +7,10 @@
 DOMAIN,cursor.com
 DOMAIN,cursor.sh
 DOMAIN,cursor.app
+DOMAIN,cloudflare.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.app
 DOMAIN-KEYWORD,cursor
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-KEYWORD,cloudflare
