@@ -1,0 +1,11 @@
+# NAME: Custom_Direct
+# AUTHOR: vbskycn
+# REPO: https://github.com/vbskycn/myrules
+# 自己个人需求定制强制代理列表
+
+# 自定义域名
+DOMAIN,cursor.com
+DOMAIN,cursor.app
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.app
+DOMAIN-KEYWORD,cursor
