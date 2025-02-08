@@ -10,9 +10,10 @@
 # ImmortalWrt 软件仓库
 DOMAIN-SUFFIX,immortalwrt.org
 DOMAIN-SUFFIX,vsean.net
-# GitHub CDN
+# GitHub 反代 CDN
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,github.boki.moe
+DOMAIN-SUFFIX,gh-proxy.com
 # 猫眼浏览器
 DOMAIN-SUFFIX,catsxp.com
 # DDNS
@@ -103,3 +104,5 @@ DOMAIN-SUFFIX,ningtingche.com
 DOMAIN-SUFFIX,guoocang.com
 # GoLink 加速器
 DOMAIN-SUFFIX,golinkapi.com
+# 智慧笑联
+DOMAIN-SUFFIX,xiaolianhb.com
