@@ -6,11 +6,8 @@
 
 # 自定义域名
 
-DOMAIN,cursor.sh
-DOMAIN,cursor.app
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.app
-DOMAIN-KEYWORD,cursor
-DOMAIN,cloudflare.com
+# DOMAIN-KEYWORD,cursor
 DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-KEYWORD,cloudflare
+# DOMAIN-KEYWORD,cloudflare
