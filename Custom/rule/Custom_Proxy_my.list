@@ -11,5 +11,6 @@ DOMAIN,cursor.app
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.app
 DOMAIN-KEYWORD,cursor
-DOMAIN-SUFFIX,cloudflare.com
 DOMAIN,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-KEYWORD,cloudflare
