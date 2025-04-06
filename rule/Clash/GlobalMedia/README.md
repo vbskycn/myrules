@@ -12,18 +12,18 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-03-21 02:13:50
+最后更新时间：2025-04-05 02:13:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 27  | 
-| DOMAIN-KEYWORD | 24  | 
-| DOMAIN-SUFFIX | 1256  | 
+| DOMAIN | 35  | 
+| DOMAIN-KEYWORD | 26  | 
+| DOMAIN-SUFFIX | 1270  | 
 | IP-CIDR | 918  | 
 | IP-CIDR6 | 6  | 
 | PROCESS-NAME | 3  | 
-| TOTAL | 2234  | 
+| TOTAL | 2258  | 
 
 
 ## Clash 
@@ -114,6 +114,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml
 - https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/GMedia.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTubeMusic.yaml
+- https://ruleset.isagood.day/youtube_music.conf
 
 
 感谢以上规则作者的辛勤付出（排名不分先后）。
