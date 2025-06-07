@@ -1,13 +1,13 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-03-28 02:09:25
-# DOMAIN: 23742
+# UPDATED: 2025-05-28 02:10:14
+# DOMAIN: 23751
 # DOMAIN-KEYWORD: 187
-# DOMAIN-SUFFIX: 13925
+# DOMAIN-SUFFIX: 13927
 # IP-CIDR: 186
 # IP-CIDR6: 1
-# TOTAL: 38041
+# TOTAL: 38052
 payload:
   - '00-gov.cn'
   - '0024aadd.com'
@@ -5986,6 +5986,7 @@ payload:
   - 'dde.jishengjc.com'
   - 'ddf67683e4778d.com'
   - 'ddfnykqqiexse.com'
+  - 'ddfs-public.ddimg.mobi'
   - 'ddivuwlehkijd.com'
   - 'ddl.3g567.com'
   - 'ddljcvtxfjtc.com'
@@ -6375,6 +6376,7 @@ payload:
   - 'dnpehliwdvjkp.com'
   - 'dnrywryy.com'
   - 'dns.jd.com'
+  - 'dns.m.sm.cn'
   - 'dns.ximalaya.com'
   - 'dnset.com'
   - 'dntrax.com'
@@ -9185,6 +9187,7 @@ payload:
   - 'hbsimg.com'
   - 'hbtzzlcxfijk.com'
   - 'hbyinzhibao.cn'
+  - 'hc-ssp.sm.cn'
   - 'hcatboilyxs.com'
   - 'hccwwz.cn'
   - 'hceykfajyioqkz.com'
@@ -13088,6 +13091,7 @@ payload:
   - 'mirtesen.ru'
   - 'misosoup.io'
   - 'misslk.com'
+  - 'mistat.xiaomi.com'
   - 'mitatic.xyz'
   - 'mitouxoo.net'
   - 'miwhonjam.com'
@@ -14761,6 +14765,7 @@ payload:
   - 'orbowlada.strefa.pl'
   - 'orcapia.com'
   - 'ordbtltlcmqv.com'
+  - 'order.sm.cn'
   - 'ordermc.com'
   - 'ordingly.com'
   - 'ordssuspicuousc.info'
@@ -17280,6 +17285,7 @@ payload:
   - 'rtrk.co.nz'
   - 'rtrk.com'
   - 'rtrlseqbudrzfd.com'
+  - 'rttrack.ddxq.mobi'
   - 'rtypxhlfvmez.com'
   - 'ru.net'
   - 'ru.velti.com'
@@ -19896,6 +19902,7 @@ payload:
   - 'tracker.ai.xiaomi.com'
   - 'tracker.stats.in.th'
   - 'tracker.tgbus.com'
+  - 'trackercollect.ddxq.mobi'
   - 'trackertest.org'
   - 'trackfeed.com'
   - 'tracki112.com'
@@ -21067,6 +21074,7 @@ payload:
   - 'vid123.net'
   - 'vidcoin.com'
   - 'vidcpm.com'
+  - 'video-ad.sm.cn'
   - 'video-loader.com'
   - 'video-people.com'
   - 'video-stats.video.google.com'
@@ -21931,6 +21939,7 @@ payload:
   - 'wofan.net'
   - 'woghqyjpiwddme.com'
   - 'wojiacanting.info'
+  - 'wolong-dsp.sm.cn'
   - 'wolopcqjzajiht.com'
   - 'wolqstldvfkuhp.com'
   - 'womanear.com'
@@ -24023,6 +24032,7 @@ payload:
   - '+.1q8h.cn'
   - '+.1qwe3r.com'
   - '+.1r49n.cn'
+  - '+.1rtb.net'
   - '+.1tlm.cn'
   - '+.1uandun.com'
   - '+.1x26q3.cn'
@@ -25523,6 +25533,7 @@ payload:
   - '+.adview.cn'
   - '+.advmob.cn'
   - '+.advombat.ru'
+  - '+.adwangmai.com'
   - '+.adwasu.wasu.tv'
   - '+.adweb.test.ximalaya.com'
   - '+.adweb.ximalaya.com'
@@ -30229,6 +30240,7 @@ payload:
   - '+.image.hj217.com'
   - '+.image.p4p.sogou.com'
   - '+.image.qj175.com'
+  - '+.image.zzd.sm.cn'
   - '+.imagelx.yidianzixun.com'
   - '+.imageplus.baidu.cn'
   - '+.imageplus.baidu.com'
@@ -34458,7 +34470,6 @@ payload:
   - '+.slygzsc.cn'
   - '+.slzs.52xiyou.com'
   - '+.sm.0.0.0.0.cn'
-  - '+.sm.cn'
   - '+.sm.toutiao.com'
   - '+.sm077.com'
   - '+.sm1.todgo.com'
@@ -37118,6 +37129,7 @@ payload:
   - '+.yezijizhang.com'
   - '+.yezilm.com'
   - '+.yf898.com'
+  - '+.yfanads.com'
   - '+.yfano.com'
   - '+.yfcode.m.gxwztv.com'
   - '+.yfxixi.com'
@@ -37558,7 +37570,6 @@ payload:
   - '+.zl588.com'
   - '+.zlauk.cn'
   - '+.zlongad.com'
-  - '+.zlsdk.1rtb.net'
   - '+.zlsw.nnjxqd.com'
   - '+.zm-bulu.cn'
   - '+.zmgod.com'
