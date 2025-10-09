@@ -1,13 +1,46 @@
+# ===========================================
 # NAME: Custom_Proxy
-# AUTHOR: Aethersailor
+# AUTHOR: 周先生
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
-# 强制代理列表，个人设置
+# DESCRIPTION: 强制代理规则列表（个人自定义）
+# ===========================================
 
 
-# 自定义域名
-
+# =========================
+# 💻 开发工具类
+# =========================
+# Cursor 编辑器及服务
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.app
 # DOMAIN-KEYWORD,cursor
+
+
+# =========================
+# 🌐 网络基础设施类
+# =========================
+# Cloudflare 加速与控制面板
 DOMAIN-SUFFIX,cloudflare.com
 # DOMAIN-KEYWORD,cloudflare
+
+
+# =========================
+# 🚀 Google 服务类
+# =========================
+# （解决 Google Pay / Play 服务加载转圈等问题）
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,services.googleapis.cn
+DOMAIN,clientservices.googleapis.com
+DOMAIN,services.googleapis.cn
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+
+
+# =========================
+# 📦 CDN / 前端资源类
+# =========================
+# jsDelivr 静态资源 CDN
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,cdn.jsdelivr.net
+
+
+
