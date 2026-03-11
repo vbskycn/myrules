@@ -1,0 +1,3 @@
+# 自定义域名列表
+# 格式：DOMAIN-SUFFIX 或 DOMAIN-WILDCARD
+DOMAIN-SUFFIX,cfyx.icnjx.com
