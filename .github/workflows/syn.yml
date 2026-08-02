@@ -1,74 +1,110 @@
-name: Sync Repositories
+name: Sync Rules
 
-# 配置工作流触发的条件
 on:
-  # 定时任务：每天 4 点和 15 点  时间（相当于北京时间 11 点和 23 点）
+  # Runs every day at 04:00 Asia/Shanghai.
   schedule:
-    - cron: '0 20 * * *'
-  # 手动触发
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
-# 定义要运行的作业
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-rules-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  clone_and_sync:
-    # 指定作业运行的环境
+  sync:
     runs-on: ubuntu-latest
 
-    # 作业中的具体步骤
     steps:
-      # 第一步：签出你的仓库
-      - name: Checkout your repository
-        # 使用 actions/checkout@v3 action 来签出代码
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          # 保留仓库中的所有文件（fetch-depth 设置为 0 以获取完整的 Git 历史记录）
           fetch-depth: 0
 
-      # 在合并前配置 Git 用户信息
-      - name: Set up Git user
+      - name: Configure Git
         run: |
-          git config --global user.name "github-bot-username"
-          git config --global user.email "github-bot-email@example.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      # 第二步：同步 blackmatrix7/ios_rule_script 仓库的更新
-      - name: Sync with blackmatrix7/ios_rule_script
+      - name: Sync blackmatrix7/ios_rule_script
         run: |
-          # 添加 upstream 远程仓库指向 blackmatrix7/ios_rule_script
-          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
-          # 获取 upstream 仓库的最新代码
-          git fetch upstream
-          # 合并 upstream/master 分支的最新代码到当前分支，处理没有共同历史的仓库
-          git merge upstream/master --allow-unrelated-histories -m "Merge from upstream"
+          set -euo pipefail
 
-      # 第三步：克隆 Loyalsoldier/clash-rules 仓库
-      - name: Clone Loyalsoldier/clash-rules
-        run: |
-          # 克隆 Loyalsoldier/clash-rules 仓库的 release 分支到临时目录 temp-clash-rules
-          git clone --depth 1 --branch release https://github.com/Loyalsoldier/clash-rules.git temp-clash-rules
-          # 使用 rsync 同步文件到 /rule/clash-rules 目录，仅更新已有文件
-          rsync -av --update temp-clash-rules/ rule/clash-rules/
-          # 删除临时目录
-          rm -rf temp-clash-rules
+          backup_dir="$(mktemp -d)"
+          restore_custom_rules() {
+            if [ -d "$backup_dir/Custom" ]; then
+              mkdir -p Custom
+              rsync -a "$backup_dir/Custom/" Custom/
+            fi
+            rm -rf "$backup_dir"
+          }
+          trap restore_custom_rules EXIT
 
-      # 第四步：克隆 Aethersailor/Custom_OpenClash_Rules 仓库
-      - name: Clone Aethersailor/Custom_OpenClash_Rules
-        run: |
-          # 克隆 Aethersailor/Custom_OpenClash_Rules 仓库的 main 分支到临时目录 temp-custom-openclash-rules
-          git clone --depth 1 --branch main https://github.com/Aethersailor/Custom_OpenClash_Rules.git temp-custom-openclash-rules
-          # 使用 rsync 同步文件到 Custom_OpenClash_Rules 目录，仅更新已有文件
-          rsync -av --update temp-custom-openclash-rules/ Custom/
-          # 删除临时目录
-          rm -rf temp-custom-openclash-rules
+          mkdir -p "$backup_dir/Custom/cfg" "$backup_dir/Custom/rule"
+          find Custom/cfg -maxdepth 1 -type f -iname "*_my*.ini" -exec cp -a {} "$backup_dir/Custom/cfg/" \; 2>/dev/null || true
+          find Custom/rule -maxdepth 1 -type f \( -iname "*_my*.list" -o -iname "ai_my.list" -o -iname "my_jiedian.list" \) -exec cp -a {} "$backup_dir/Custom/rule/" \; 2>/dev/null || true
 
-      # 第五步：提交并推送更改
-      - name: Commit and Push changes
+          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git 2>/dev/null || git remote set-url upstream https://github.com/blackmatrix7/ios_rule_script.git
+          git fetch --prune upstream master
+
+          if git merge-base --is-ancestor upstream/master HEAD; then
+            echo "blackmatrix7/ios_rule_script is already included."
+            exit 0
+          fi
+
+          git merge --no-edit -X theirs upstream/master
+
+      - name: Sync Loyalsoldier/clash-rules
         run: |
-          # 添加所有更改的文件到暂存区
-          git add .
-          # 提交更改，并包含北京时间的时间戳
-          git commit -m "同步源仓库更新， $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')"
-          # 推送更改到远程仓库
-          git push origin master
-        env:
-          # 用于推送更改的 GitHub Token（自动提供）
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          set -euo pipefail
+
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
+
+          git clone --depth 1 --branch release https://github.com/Loyalsoldier/clash-rules.git "$tmp_dir/clash-rules"
+          mkdir -p rule/clash-rules
+          rsync -a --delete \
+            --exclude=".git/" \
+            --exclude=".github/" \
+            "$tmp_dir/clash-rules/" rule/clash-rules/
+
+      - name: Sync Aethersailor/Custom_OpenClash_Rules
+        run: |
+          set -euo pipefail
+
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
+
+          git clone --depth 1 --branch main https://github.com/Aethersailor/Custom_OpenClash_Rules.git "$tmp_dir/custom-openclash-rules"
+          mkdir -p Custom
+          rsync -a --delete \
+            --exclude=".git/" \
+            --exclude=".github/" \
+            --exclude="cfg/*_my*.ini" \
+            --exclude="rule/*_my*.list" \
+            --exclude="rule/ai_my.list" \
+            --exclude="rule/my_jiedian.list" \
+            "$tmp_dir/custom-openclash-rules/" Custom/
+
+      - name: Commit and push changes
+        run: |
+          set -euo pipefail
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "Sync upstream rules, $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')"
+          else
+            echo "No working tree changes to commit."
+          fi
+
+          git fetch origin master
+          git pull --rebase origin master
+
+          if [ "$(git rev-list --count origin/master..HEAD)" = "0" ]; then
+            echo "No local commits to push."
+            exit 0
+          fi
+
+          git push origin HEAD:master
