@@ -21,7 +21,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Configure Git
         run: |
@@ -32,29 +32,24 @@ jobs:
         run: |
           set -euo pipefail
 
-          backup_dir="$(mktemp -d)"
-          restore_custom_rules() {
-            if [ -d "$backup_dir/Custom" ]; then
-              mkdir -p Custom
-              rsync -a "$backup_dir/Custom/" Custom/
-            fi
-            rm -rf "$backup_dir"
-          }
-          trap restore_custom_rules EXIT
+          tmp_dir="$(mktemp -d)"
+          trap 'rm -rf "$tmp_dir"' EXIT
 
-          mkdir -p "$backup_dir/Custom/cfg" "$backup_dir/Custom/rule"
-          find Custom/cfg -maxdepth 1 -type f -iname "*_my*.ini" -exec cp -a {} "$backup_dir/Custom/cfg/" \; 2>/dev/null || true
-          find Custom/rule -maxdepth 1 -type f \( -iname "*_my*.list" -o -iname "ai_my.list" -o -iname "my_jiedian.list" \) -exec cp -a {} "$backup_dir/Custom/rule/" \; 2>/dev/null || true
+          git clone --depth 1 --branch master https://github.com/blackmatrix7/ios_rule_script.git "$tmp_dir/ios_rule_script"
 
-          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git 2>/dev/null || git remote set-url upstream https://github.com/blackmatrix7/ios_rule_script.git
-          git fetch --prune upstream master
+          for path in blank external icon rewrite script source; do
+            mkdir -p "$path"
+            rsync -a --delete "$tmp_dir/ios_rule_script/$path/" "$path/"
+          done
 
-          if git merge-base --is-ancestor upstream/master HEAD; then
-            echo "blackmatrix7/ios_rule_script is already included."
-            exit 0
-          fi
+          mkdir -p rule
+          rsync -a --delete \
+            --exclude="clash-rules/" \
+            "$tmp_dir/ios_rule_script/rule/" rule/
 
-          git merge --no-edit -X theirs upstream/master
+          for file in .gitignore LICENSE README.md; do
+            cp -a "$tmp_dir/ios_rule_script/$file" "$file"
+          done
 
       - name: Sync Loyalsoldier/clash-rules
         run: |
@@ -93,21 +88,16 @@ jobs:
           set -euo pipefail
 
           if [ -n "$(git status --porcelain)" ]; then
+            git fetch --depth 1 origin master
+            if [ "$(git rev-parse origin/master)" != "$GITHUB_SHA" ]; then
+              echo "::error::origin/master has new commits. Re-run this workflow to sync from the latest master."
+              exit 1
+            fi
+
             git add -A
             git commit -m "Sync upstream rules, $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')"
           else
             echo "No working tree changes to commit."
-          fi
-
-          git fetch origin master
-
-          if ! git merge-base --is-ancestor origin/master HEAD; then
-            echo "::error::origin/master has new commits. Re-run this workflow to sync from the latest master."
-            exit 1
-          fi
-
-          if [ "$(git rev-list --count origin/master..HEAD)" = "0" ]; then
-            echo "No local commits to push."
             exit 0
           fi
 
