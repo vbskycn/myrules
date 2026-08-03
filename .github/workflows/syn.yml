@@ -11,7 +11,7 @@ permissions:
 
 concurrency:
   group: sync-rules-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   sync:
@@ -100,7 +100,11 @@ jobs:
           fi
 
           git fetch origin master
-          git pull --rebase origin master
+
+          if ! git merge-base --is-ancestor origin/master HEAD; then
+            echo "::error::origin/master has new commits. Re-run this workflow to sync from the latest master."
+            exit 1
+          fi
 
           if [ "$(git rev-list --count origin/master..HEAD)" = "0" ]; then
             echo "No local commits to push."
