@@ -1,13 +1,13 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-05-28 02:10:14
-# DOMAIN: 23751
+# UPDATED: 2025-12-08 02:03:38
+# DOMAIN: 23753
 # DOMAIN-KEYWORD: 187
-# DOMAIN-SUFFIX: 13927
+# DOMAIN-SUFFIX: 13939
 # IP-CIDR: 186
 # IP-CIDR6: 1
-# TOTAL: 38052
+# TOTAL: 38066
 payload:
   - DOMAIN,00-gov.cn
   - DOMAIN,0024aadd.com
@@ -1707,6 +1707,7 @@ payload:
   - DOMAIN,adsdk.com
   - DOMAIN,adsdk.vivo.com.cn
   - DOMAIN,adsdot.ph
+  - DOMAIN,adsehera.ximalaya.com
   - DOMAIN,adsensecamp.com
   - DOMAIN,adsensedetective.com
   - DOMAIN,adser.io
@@ -8592,6 +8593,7 @@ payload:
   - DOMAIN,gg.1whour.com
   - DOMAIN,gg.huolinhe.com
   - DOMAIN,gg1.jc001.cn
+  - DOMAIN,ggadoffline.miguvideo.com
   - DOMAIN,ggaji.com
   - DOMAIN,ggc.cmvideo.cn
   - DOMAIN,ggdata1.cnr.cn
@@ -25321,6 +25323,7 @@ payload:
   - DOMAIN-SUFFIX,admedia.com
   - DOMAIN-SUFFIX,admeta.vo.llnwd.net
   - DOMAIN-SUFFIX,admgr.qingting.fm
+  - DOMAIN-SUFFIX,admiitad.com
   - DOMAIN-SUFFIX,admin.louxia.org
   - DOMAIN-SUFFIX,admin5.com
   - DOMAIN-SUFFIX,admin6.com
@@ -25645,6 +25648,7 @@ payload:
   - DOMAIN-SUFFIX,ahjzys.com
   - DOMAIN-SUFFIX,ahlxxx.com
   - DOMAIN-SUFFIX,ahqlx.top
+  - DOMAIN-SUFFIX,ahqovxli.com
   - DOMAIN-SUFFIX,ahszgog.com
   - DOMAIN-SUFFIX,ahuac.com
   - DOMAIN-SUFFIX,ahunai.cn
@@ -25872,6 +25876,7 @@ payload:
   - DOMAIN-SUFFIX,analyticsengine.s3.amazonaws.com
   - DOMAIN-SUFFIX,analyticsv2.dol.gr
   - DOMAIN-SUFFIX,analyze.full-marke.com
+  - DOMAIN-SUFFIX,analyzer51.fc2.com
   - DOMAIN-SUFFIX,analyzer52.fc2.com
   - DOMAIN-SUFFIX,anastasiaana.com
   - DOMAIN-SUFFIX,anatomicele.site
@@ -27302,6 +27307,7 @@ payload:
   - DOMAIN-SUFFIX,cloud.zyiis.net
   - DOMAIN-SUFFIX,cloudad.asia
   - DOMAIN-SUFFIX,cloudcdn.dopa.com.cn
+  - DOMAIN-SUFFIX,cloudfront-labs.amazonaws.com
   - DOMAIN-SUFFIX,cloudmobi.net
   - DOMAIN-SUFFIX,cloudpush.iqiyi.com
   - DOMAIN-SUFFIX,clubpenguinclub.com
@@ -27545,6 +27551,7 @@ payload:
   - DOMAIN-SUFFIX,counter.wapstart.ru
   - DOMAIN-SUFFIX,counter.yesky.com
   - DOMAIN-SUFFIX,counter.zerohedge.com
+  - DOMAIN-SUFFIX,counter2.blog.livedoor.com
   - DOMAIN-SUFFIX,counter2.condenast.it
   - DOMAIN-SUFFIX,countersys.cn
   - DOMAIN-SUFFIX,countertrck.com
@@ -28218,7 +28225,6 @@ payload:
   - DOMAIN-SUFFIX,dnfeu.com
   - DOMAIN-SUFFIX,dnskuu.com
   - DOMAIN-SUFFIX,dnvus.com
-  - DOMAIN-SUFFIX,do-not-tracker.org
   - DOMAIN-SUFFIX,do69ifsly4.me
   - DOMAIN-SUFFIX,doa1.immobilier-neuf.com
   - DOMAIN-SUFFIX,docerad.wps.cn
@@ -28760,7 +28766,6 @@ payload:
   - DOMAIN-SUFFIX,events.pingan.com
   - DOMAIN-SUFFIX,events.secureserver.net
   - DOMAIN-SUFFIX,eventurypol.site
-  - DOMAIN-SUFFIX,eviltracker.net
   - DOMAIN-SUFFIX,evisit.exeter.ac.uk
   - DOMAIN-SUFFIX,evt.izooto.com
   - DOMAIN-SUFFIX,evt.klarna.com
@@ -28970,6 +28975,7 @@ payload:
   - DOMAIN-SUFFIX,findnsave.idahostatesman.com
   - DOMAIN-SUFFIX,finead.cn
   - DOMAIN-SUFFIX,fingahvf.top
+  - DOMAIN-SUFFIX,fipabtomqok.com
   - DOMAIN-SUFFIX,fipipo.cn
   - DOMAIN-SUFFIX,firefang.cn
   - DOMAIN-SUFFIX,fishkekcamp.info
@@ -29042,6 +29048,7 @@ payload:
   - DOMAIN-SUFFIX,fpdownload.macromedia.com
   - DOMAIN-SUFFIX,fqtra.com
   - DOMAIN-SUFFIX,fqzds.com
+  - DOMAIN-SUFFIX,fractionfridgejudiciary.com
   - DOMAIN-SUFFIX,frame.enet.com.cn
   - DOMAIN-SUFFIX,fraudmetrix.cn
   - DOMAIN-SUFFIX,frdhq.cn
@@ -29458,6 +29465,7 @@ payload:
   - DOMAIN-SUFFIX,gneusqa.cn
   - DOMAIN-SUFFIX,gnmbd.top
   - DOMAIN-SUFFIX,gnncc.cc
+  - DOMAIN-SUFFIX,go-mpulse.net
   - DOMAIN-SUFFIX,go.10086.cn
   - DOMAIN-SUFFIX,go.hangzhou.com.cn
   - DOMAIN-SUFFIX,go.onclasrv.com
@@ -29568,6 +29576,7 @@ payload:
   - DOMAIN-SUFFIX,gtmsdd.alicdn.com
   - DOMAIN-SUFFIX,gtmucs.cn
   - DOMAIN-SUFFIX,gtnde.com
+  - DOMAIN-SUFFIX,gtrk.s3.amazonaws.com
   - DOMAIN-SUFFIX,gu.qlogo.cn
   - DOMAIN-SUFFIX,guaas.com
   - DOMAIN-SUFFIX,guang.lesports.com
@@ -31138,6 +31147,7 @@ payload:
   - DOMAIN-SUFFIX,kqy1.com
   - DOMAIN-SUFFIX,kr.sybspools.com
   - DOMAIN-SUFFIX,krakeshlaja.com
+  - DOMAIN-SUFFIX,kreopbkabsit.com
   - DOMAIN-SUFFIX,krux.net
   - DOMAIN-SUFFIX,ks67.com
   - DOMAIN-SUFFIX,ksdsuzhou.com
@@ -32693,6 +32703,7 @@ payload:
   - DOMAIN-SUFFIX,obj9.cn
   - DOMAIN-SUFFIX,oca.telemetry.microsoft.com.nsatc.net
   - DOMAIN-SUFFIX,ocm8.masmovil.es
+  - DOMAIN-SUFFIX,ocponcphaafb.com
   - DOMAIN-SUFFIX,ocsp.godaddy.com
   - DOMAIN-SUFFIX,octopuszyw.cn
   - DOMAIN-SUFFIX,od0gddq27wkk.com
@@ -33185,7 +33196,6 @@ payload:
   - DOMAIN-SUFFIX,pixel.newscgp.com
   - DOMAIN-SUFFIX,pixel.newsdiscover.com.au
   - DOMAIN-SUFFIX,pixel.pcworld.com
-  - DOMAIN-SUFFIX,pixel.propublica.org
   - DOMAIN-SUFFIX,pixel.prosieben.de
   - DOMAIN-SUFFIX,pixel.quantserve.com
   - DOMAIN-SUFFIX,pixel.reddit.com
@@ -33302,6 +33312,7 @@ payload:
   - DOMAIN-SUFFIX,pp9899.com
   - DOMAIN-SUFFIX,pp9kk.com
   - DOMAIN-SUFFIX,ppcashpop.com
+  - DOMAIN-SUFFIX,ppezijkacga.com
   - DOMAIN-SUFFIX,ppjia55.com
   - DOMAIN-SUFFIX,ppoi.org
   - DOMAIN-SUFFIX,pptte.com
@@ -34899,6 +34910,7 @@ payload:
   - DOMAIN-SUFFIX,stats.uswitch.com
   - DOMAIN-SUFFIX,stats.videodelivery.net
   - DOMAIN-SUFFIX,stats.visistat.com
+  - DOMAIN-SUFFIX,stats.wp.com
   - DOMAIN-SUFFIX,stats.wwd.com
   - DOMAIN-SUFFIX,stats.yinyuetai.com
   - DOMAIN-SUFFIX,stats.ynet.co.il
@@ -35206,6 +35218,7 @@ payload:
   - DOMAIN-SUFFIX,taplytics.com
   - DOMAIN-SUFFIX,tappx.com
   - DOMAIN-SUFFIX,taptica.com
+  - DOMAIN-SUFFIX,tapwhigwy.com
   - DOMAIN-SUFFIX,tarawerap.com
   - DOMAIN-SUFFIX,targetedinfo.com
   - DOMAIN-SUFFIX,targetedmedia.com.cn
@@ -35306,6 +35319,7 @@ payload:
   - DOMAIN-SUFFIX,thefuncoolstuff.com
   - DOMAIN-SUFFIX,thegreenzoneblog.com
   - DOMAIN-SUFFIX,thejesperbay.com
+  - DOMAIN-SUFFIX,thelifeandmore.com
   - DOMAIN-SUFFIX,themaxmall.com
   - DOMAIN-SUFFIX,themecat.cn
   - DOMAIN-SUFFIX,themee.cn
@@ -35549,7 +35563,6 @@ payload:
   - DOMAIN-SUFFIX,tracker.uprinting.com
   - DOMAIN-SUFFIX,tracker.wordstream.com
   - DOMAIN-SUFFIX,tracker.yhd.com
-  - DOMAIN-SUFFIX,trackersimulator.org
   - DOMAIN-SUFFIX,trackerstatistik.init-ag.de
   - DOMAIN-SUFFIX,tracking-opi.fonpit.de
   - DOMAIN-SUFFIX,tracking-server-prod-1.zenmxapps.com
@@ -35613,6 +35626,7 @@ payload:
   - DOMAIN-SUFFIX,traffic.uusee.com
   - DOMAIN-SUFFIX,trafficfactory.biz
   - DOMAIN-SUFFIX,trafficforce.com
+  - DOMAIN-SUFFIX,trafficfuelpixel.s3-us-west-2.amazonaws.com
   - DOMAIN-SUFFIX,trafficjam.cn
   - DOMAIN-SUFFIX,trafficjunky.com
   - DOMAIN-SUFFIX,trafficjunky.net

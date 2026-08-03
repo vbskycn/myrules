@@ -1,8 +1,8 @@
 ! Title: AdvertisingLite
 ! Author: blackmatrix7
 ! Homepage: https://github.com/blackmatrix7/ios_rule_script
-! Updated: 2025-06-04 02:11:15
-! Total: 37678
+! Updated: 2026-08-02 02:56:42
+! Total: 37692
 
 
 ||00-gov.cn^
@@ -3041,6 +3041,7 @@
 ||admez.com^
 ||admgr.qingting.fm^
 ||admicro1.vcmedia.vn^
+||admiitad.com^
 ||admile.ru^
 ||admin.louxia.org^
 ||admin.vserv.mobi^
@@ -3393,6 +3394,7 @@
 ||adse.wsa.ximalaya.com^
 ||adse.ximalaya.com^
 ||adsebs.ximalaya.com^
+||adsehera.ximalaya.com^
 ||adsence.sogou.com^
 ||adsense.html5.qq.com^
 ||adsensecamp.com^
@@ -4134,6 +4136,7 @@
 ||ahlxxx.com^
 ||ahneiwkpsnxign.com^
 ||ahqlx.top^
+||ahqovxli.com^
 ||ahrbsdyjux.com^
 ||ahrcwekji.com^
 ||ahstrelgnh.com^
@@ -4644,6 +4647,7 @@
 ||analyticswizard.com^
 ||analytk.com^
 ||analyze.full-marke.com^
+||analyzer51.fc2.com^
 ||analyzer52.fc2.com^
 ||anametrix.com^
 ||anametrix.net^
@@ -8387,6 +8391,7 @@
 ||cloudcoins.co^
 ||cloudflare.solutions^
 ||cloudflareinsights.com^
+||cloudfront-labs.amazonaws.com^
 ||cloudiiv.com^
 ||cloudioo.net^
 ||cloudmade.com^
@@ -8998,6 +9003,7 @@
 ||counter.zerohedge.com^
 ||counter.zone.ee^
 ||counter160.com^
+||counter2.blog.livedoor.com^
 ||counter2.condenast.it^
 ||counter27.ch^
 ||counterbot.com^
@@ -10838,7 +10844,6 @@
 ||dnyjhikistbhvg.com^
 ||dnzevkqpk.com^
 ||dnzwjlbknhe.com^
-||do-not-tracker.org^
 ||do09.net^
 ||do69ifsly4.me^
 ||doa1.immobilier-neuf.com^
@@ -12459,7 +12464,6 @@
 ||evghlumwjasu.com^
 ||evgywgur.com^
 ||eviclick.pro^
-||eviltracker.net^
 ||evisit.exeter.ac.uk^
 ||evisitanalyst.com^
 ||evlpfjro.com^
@@ -13075,6 +13079,7 @@
 ||finsbfaizzx.com^
 ||finverty.info^
 ||fiozxmznaba.com^
+||fipabtomqok.com^
 ||fipipo.cn^
 ||firaxtech.com^
 ||firefang.cn^
@@ -13381,6 +13386,7 @@
 ||fqtra.com^
 ||fqwrluzjti.com^
 ||fqzds.com^
+||fractionfridgejudiciary.com^
 ||frailoffer.com^
 ||frame.enet.com.cn^
 ||framentyder.pro^
@@ -14211,6 +14217,7 @@
 ||gg570.com^
 ||gg86.pinggu.org^
 ||gg8888.cnfol.com^
+||ggadoffline.miguvideo.com^
 ||ggaji.com^
 ||ggb.douguo.com^
 ||ggc.cmvideo.cn^
@@ -14442,6 +14449,7 @@
 ||gnpge.com^
 ||gntzacjc.com^
 ||gnuxgnnkflvkm.com^
+||go-mpulse.net^
 ||go-quicky.com^
 ||go.10086.cn^
 ||go.bestmobiworld.com^
@@ -14791,6 +14799,7 @@
 ||gtnmyddlf.com^
 ||gtop.ro^
 ||gtopstats.com^
+||gtrk.s3.amazonaws.com^
 ||gts-ads.twistbox.com^
 ||gtsads.com^
 ||gtsgdddss.com^
@@ -18755,6 +18764,7 @@
 ||krb.devphp.org.ua^
 ||krboeyeq.com^
 ||krdvzahyr.com^
+||kreopbkabsit.com^
 ||krfbhbhal.com^
 ||krison.xyz^
 ||krjleggwikuil.com^
@@ -23321,6 +23331,7 @@
 ||ocpersian.com^
 ||ocphuciylacb.com^
 ||ocphuulbithyyd.com^
+||ocponcphaafb.com^
 ||ocsp.godaddy.com^
 ||octavius.rocks^
 ||octomarket.com^
@@ -24794,7 +24805,6 @@
 ||pixel.newscgp.com^
 ||pixel.newsdiscover.com.au^
 ||pixel.pcworld.com^
-||pixel.propublica.org^
 ||pixel.prosieben.de^
 ||pixel.quantserve.com^
 ||pixel.reddit.com^
@@ -25240,6 +25250,7 @@
 ||ppctrck.com^
 ||ppcwebspy.com^
 ||ppdb.pl^
+||ppezijkacga.com^
 ||ppfjlk1.5tps.vip^
 ||ppfpocea.com^
 ||pphyjqna.com^
@@ -30002,6 +30013,7 @@
 ||stats.videodelivery.net^
 ||stats.visistat.com^
 ||stats.webstarts.com^
+||stats.wp.com^
 ||stats.wwd.com^
 ||stats.yinyuetai.com^
 ||stats.ynet.co.il^
@@ -30725,6 +30737,7 @@
 ||taps.io^
 ||tapstream.com^
 ||taptica.com^
+||tapwhigwy.com^
 ||tarawerap.com^
 ||tardangro.com^
 ||targaubs.com^
@@ -31048,6 +31061,7 @@
 ||theirsvendor.com^
 ||thejesperbay.com^
 ||thekat.nl^
+||thelifeandmore.com^
 ||theloungenet.com^
 ||thelovebucks.com^
 ||themaxmall.com^
@@ -31688,7 +31702,6 @@
 ||tracker.wordstream.com^
 ||tracker.yhd.com^
 ||trackercollect.ddxq.mobi^
-||trackersimulator.org^
 ||trackerstatistik.init-ag.de^
 ||trackertest.org^
 ||trackfeed.com^
@@ -31835,6 +31848,7 @@
 ||trafficforce.com^
 ||trafficformoney.com^
 ||trafficfuel.com^
+||trafficfuelpixel.s3-us-west-2.amazonaws.com^
 ||trafficgrowth.com^
 ||traffichaus.com^
 ||trafficholder.com^

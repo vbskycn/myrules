@@ -12,15 +12,15 @@ Disney规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-04-08 02:15:12
+最后更新时间：2026-04-08 02:22:25
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN-SUFFIX | 171  | 
+| DOMAIN-SUFFIX | 172  | 
 | PROCESS-NAME | 2  | 
 | USER-AGENT | 1  | 
-| TOTAL | 174  | 
+| TOTAL | 175  | 
 
 
 ## Surge 

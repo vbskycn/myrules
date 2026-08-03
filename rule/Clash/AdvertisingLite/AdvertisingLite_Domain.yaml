@@ -1,13 +1,13 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-05-28 02:10:14
-# DOMAIN: 23751
+# UPDATED: 2025-12-08 02:03:38
+# DOMAIN: 23753
 # DOMAIN-KEYWORD: 187
-# DOMAIN-SUFFIX: 13927
+# DOMAIN-SUFFIX: 13939
 # IP-CIDR: 186
 # IP-CIDR6: 1
-# TOTAL: 38052
+# TOTAL: 38066
 payload:
   - '00-gov.cn'
   - '0024aadd.com'
@@ -1707,6 +1707,7 @@ payload:
   - 'adsdk.com'
   - 'adsdk.vivo.com.cn'
   - 'adsdot.ph'
+  - 'adsehera.ximalaya.com'
   - 'adsensecamp.com'
   - 'adsensedetective.com'
   - 'adser.io'
@@ -8592,6 +8593,7 @@ payload:
   - 'gg.1whour.com'
   - 'gg.huolinhe.com'
   - 'gg1.jc001.cn'
+  - 'ggadoffline.miguvideo.com'
   - 'ggaji.com'
   - 'ggc.cmvideo.cn'
   - 'ggdata1.cnr.cn'
@@ -25321,6 +25323,7 @@ payload:
   - '+.admedia.com'
   - '+.admeta.vo.llnwd.net'
   - '+.admgr.qingting.fm'
+  - '+.admiitad.com'
   - '+.admin.louxia.org'
   - '+.admin5.com'
   - '+.admin6.com'
@@ -25645,6 +25648,7 @@ payload:
   - '+.ahjzys.com'
   - '+.ahlxxx.com'
   - '+.ahqlx.top'
+  - '+.ahqovxli.com'
   - '+.ahszgog.com'
   - '+.ahuac.com'
   - '+.ahunai.cn'
@@ -25872,6 +25876,7 @@ payload:
   - '+.analyticsengine.s3.amazonaws.com'
   - '+.analyticsv2.dol.gr'
   - '+.analyze.full-marke.com'
+  - '+.analyzer51.fc2.com'
   - '+.analyzer52.fc2.com'
   - '+.anastasiaana.com'
   - '+.anatomicele.site'
@@ -27302,6 +27307,7 @@ payload:
   - '+.cloud.zyiis.net'
   - '+.cloudad.asia'
   - '+.cloudcdn.dopa.com.cn'
+  - '+.cloudfront-labs.amazonaws.com'
   - '+.cloudmobi.net'
   - '+.cloudpush.iqiyi.com'
   - '+.clubpenguinclub.com'
@@ -27545,6 +27551,7 @@ payload:
   - '+.counter.wapstart.ru'
   - '+.counter.yesky.com'
   - '+.counter.zerohedge.com'
+  - '+.counter2.blog.livedoor.com'
   - '+.counter2.condenast.it'
   - '+.countersys.cn'
   - '+.countertrck.com'
@@ -28218,7 +28225,6 @@ payload:
   - '+.dnfeu.com'
   - '+.dnskuu.com'
   - '+.dnvus.com'
-  - '+.do-not-tracker.org'
   - '+.do69ifsly4.me'
   - '+.doa1.immobilier-neuf.com'
   - '+.docerad.wps.cn'
@@ -28760,7 +28766,6 @@ payload:
   - '+.events.pingan.com'
   - '+.events.secureserver.net'
   - '+.eventurypol.site'
-  - '+.eviltracker.net'
   - '+.evisit.exeter.ac.uk'
   - '+.evt.izooto.com'
   - '+.evt.klarna.com'
@@ -28970,6 +28975,7 @@ payload:
   - '+.findnsave.idahostatesman.com'
   - '+.finead.cn'
   - '+.fingahvf.top'
+  - '+.fipabtomqok.com'
   - '+.fipipo.cn'
   - '+.firefang.cn'
   - '+.fishkekcamp.info'
@@ -29042,6 +29048,7 @@ payload:
   - '+.fpdownload.macromedia.com'
   - '+.fqtra.com'
   - '+.fqzds.com'
+  - '+.fractionfridgejudiciary.com'
   - '+.frame.enet.com.cn'
   - '+.fraudmetrix.cn'
   - '+.frdhq.cn'
@@ -29458,6 +29465,7 @@ payload:
   - '+.gneusqa.cn'
   - '+.gnmbd.top'
   - '+.gnncc.cc'
+  - '+.go-mpulse.net'
   - '+.go.10086.cn'
   - '+.go.hangzhou.com.cn'
   - '+.go.onclasrv.com'
@@ -29568,6 +29576,7 @@ payload:
   - '+.gtmsdd.alicdn.com'
   - '+.gtmucs.cn'
   - '+.gtnde.com'
+  - '+.gtrk.s3.amazonaws.com'
   - '+.gu.qlogo.cn'
   - '+.guaas.com'
   - '+.guang.lesports.com'
@@ -31138,6 +31147,7 @@ payload:
   - '+.kqy1.com'
   - '+.kr.sybspools.com'
   - '+.krakeshlaja.com'
+  - '+.kreopbkabsit.com'
   - '+.krux.net'
   - '+.ks67.com'
   - '+.ksdsuzhou.com'
@@ -32693,6 +32703,7 @@ payload:
   - '+.obj9.cn'
   - '+.oca.telemetry.microsoft.com.nsatc.net'
   - '+.ocm8.masmovil.es'
+  - '+.ocponcphaafb.com'
   - '+.ocsp.godaddy.com'
   - '+.octopuszyw.cn'
   - '+.od0gddq27wkk.com'
@@ -33185,7 +33196,6 @@ payload:
   - '+.pixel.newscgp.com'
   - '+.pixel.newsdiscover.com.au'
   - '+.pixel.pcworld.com'
-  - '+.pixel.propublica.org'
   - '+.pixel.prosieben.de'
   - '+.pixel.quantserve.com'
   - '+.pixel.reddit.com'
@@ -33302,6 +33312,7 @@ payload:
   - '+.pp9899.com'
   - '+.pp9kk.com'
   - '+.ppcashpop.com'
+  - '+.ppezijkacga.com'
   - '+.ppjia55.com'
   - '+.ppoi.org'
   - '+.pptte.com'
@@ -34899,6 +34910,7 @@ payload:
   - '+.stats.uswitch.com'
   - '+.stats.videodelivery.net'
   - '+.stats.visistat.com'
+  - '+.stats.wp.com'
   - '+.stats.wwd.com'
   - '+.stats.yinyuetai.com'
   - '+.stats.ynet.co.il'
@@ -35206,6 +35218,7 @@ payload:
   - '+.taplytics.com'
   - '+.tappx.com'
   - '+.taptica.com'
+  - '+.tapwhigwy.com'
   - '+.tarawerap.com'
   - '+.targetedinfo.com'
   - '+.targetedmedia.com.cn'
@@ -35306,6 +35319,7 @@ payload:
   - '+.thefuncoolstuff.com'
   - '+.thegreenzoneblog.com'
   - '+.thejesperbay.com'
+  - '+.thelifeandmore.com'
   - '+.themaxmall.com'
   - '+.themecat.cn'
   - '+.themee.cn'
@@ -35549,7 +35563,6 @@ payload:
   - '+.tracker.uprinting.com'
   - '+.tracker.wordstream.com'
   - '+.tracker.yhd.com'
-  - '+.trackersimulator.org'
   - '+.trackerstatistik.init-ag.de'
   - '+.tracking-opi.fonpit.de'
   - '+.tracking-server-prod-1.zenmxapps.com'
@@ -35613,6 +35626,7 @@ payload:
   - '+.traffic.uusee.com'
   - '+.trafficfactory.biz'
   - '+.trafficforce.com'
+  - '+.trafficfuelpixel.s3-us-west-2.amazonaws.com'
   - '+.trafficjam.cn'
   - '+.trafficjunky.com'
   - '+.trafficjunky.net'

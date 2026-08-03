@@ -12,14 +12,14 @@ iCloud规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-11-14 02:10:59
+最后更新时间：2026-06-30 02:43:26
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 1  | 
-| DOMAIN-SUFFIX | 58  | 
-| TOTAL | 59  | 
+| DOMAIN-SUFFIX | 60  | 
+| TOTAL | 61  | 
 
 
 ## Loon 

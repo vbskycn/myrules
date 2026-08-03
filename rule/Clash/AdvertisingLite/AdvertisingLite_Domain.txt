@@ -1,13 +1,13 @@
 # NAME: AdvertisingLite
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-05-28 02:10:14
-# DOMAIN: 23751
+# UPDATED: 2025-12-08 02:03:38
+# DOMAIN: 23753
 # DOMAIN-KEYWORD: 187
-# DOMAIN-SUFFIX: 13927
+# DOMAIN-SUFFIX: 13939
 # IP-CIDR: 186
 # IP-CIDR6: 1
-# TOTAL: 38052
+# TOTAL: 38066
 00-gov.cn
 0024aadd.com
 0026645142c89aeb1.com
@@ -1706,6 +1706,7 @@ adscreendirect.com
 adsdk.com
 adsdk.vivo.com.cn
 adsdot.ph
+adsehera.ximalaya.com
 adsensecamp.com
 adsensedetective.com
 adser.io
@@ -8591,6 +8592,7 @@ gfzluvsjsprkac.com
 gg.1whour.com
 gg.huolinhe.com
 gg1.jc001.cn
+ggadoffline.miguvideo.com
 ggaji.com
 ggc.cmvideo.cn
 ggdata1.cnr.cn
@@ -25320,6 +25322,7 @@ zzxosget.com
 .admedia.com
 .admeta.vo.llnwd.net
 .admgr.qingting.fm
+.admiitad.com
 .admin.louxia.org
 .admin5.com
 .admin6.com
@@ -25644,6 +25647,7 @@ zzxosget.com
 .ahjzys.com
 .ahlxxx.com
 .ahqlx.top
+.ahqovxli.com
 .ahszgog.com
 .ahuac.com
 .ahunai.cn
@@ -25871,6 +25875,7 @@ zzxosget.com
 .analyticsengine.s3.amazonaws.com
 .analyticsv2.dol.gr
 .analyze.full-marke.com
+.analyzer51.fc2.com
 .analyzer52.fc2.com
 .anastasiaana.com
 .anatomicele.site
@@ -27301,6 +27306,7 @@ zzxosget.com
 .cloud.zyiis.net
 .cloudad.asia
 .cloudcdn.dopa.com.cn
+.cloudfront-labs.amazonaws.com
 .cloudmobi.net
 .cloudpush.iqiyi.com
 .clubpenguinclub.com
@@ -27544,6 +27550,7 @@ zzxosget.com
 .counter.wapstart.ru
 .counter.yesky.com
 .counter.zerohedge.com
+.counter2.blog.livedoor.com
 .counter2.condenast.it
 .countersys.cn
 .countertrck.com
@@ -28217,7 +28224,6 @@ zzxosget.com
 .dnfeu.com
 .dnskuu.com
 .dnvus.com
-.do-not-tracker.org
 .do69ifsly4.me
 .doa1.immobilier-neuf.com
 .docerad.wps.cn
@@ -28759,7 +28765,6 @@ zzxosget.com
 .events.pingan.com
 .events.secureserver.net
 .eventurypol.site
-.eviltracker.net
 .evisit.exeter.ac.uk
 .evt.izooto.com
 .evt.klarna.com
@@ -28969,6 +28974,7 @@ zzxosget.com
 .findnsave.idahostatesman.com
 .finead.cn
 .fingahvf.top
+.fipabtomqok.com
 .fipipo.cn
 .firefang.cn
 .fishkekcamp.info
@@ -29041,6 +29047,7 @@ zzxosget.com
 .fpdownload.macromedia.com
 .fqtra.com
 .fqzds.com
+.fractionfridgejudiciary.com
 .frame.enet.com.cn
 .fraudmetrix.cn
 .frdhq.cn
@@ -29457,6 +29464,7 @@ zzxosget.com
 .gneusqa.cn
 .gnmbd.top
 .gnncc.cc
+.go-mpulse.net
 .go.10086.cn
 .go.hangzhou.com.cn
 .go.onclasrv.com
@@ -29567,6 +29575,7 @@ zzxosget.com
 .gtmsdd.alicdn.com
 .gtmucs.cn
 .gtnde.com
+.gtrk.s3.amazonaws.com
 .gu.qlogo.cn
 .guaas.com
 .guang.lesports.com
@@ -31137,6 +31146,7 @@ zzxosget.com
 .kqy1.com
 .kr.sybspools.com
 .krakeshlaja.com
+.kreopbkabsit.com
 .krux.net
 .ks67.com
 .ksdsuzhou.com
@@ -32692,6 +32702,7 @@ zzxosget.com
 .obj9.cn
 .oca.telemetry.microsoft.com.nsatc.net
 .ocm8.masmovil.es
+.ocponcphaafb.com
 .ocsp.godaddy.com
 .octopuszyw.cn
 .od0gddq27wkk.com
@@ -33184,7 +33195,6 @@ zzxosget.com
 .pixel.newscgp.com
 .pixel.newsdiscover.com.au
 .pixel.pcworld.com
-.pixel.propublica.org
 .pixel.prosieben.de
 .pixel.quantserve.com
 .pixel.reddit.com
@@ -33301,6 +33311,7 @@ zzxosget.com
 .pp9899.com
 .pp9kk.com
 .ppcashpop.com
+.ppezijkacga.com
 .ppjia55.com
 .ppoi.org
 .pptte.com
@@ -34898,6 +34909,7 @@ zzxosget.com
 .stats.uswitch.com
 .stats.videodelivery.net
 .stats.visistat.com
+.stats.wp.com
 .stats.wwd.com
 .stats.yinyuetai.com
 .stats.ynet.co.il
@@ -35205,6 +35217,7 @@ zzxosget.com
 .taplytics.com
 .tappx.com
 .taptica.com
+.tapwhigwy.com
 .tarawerap.com
 .targetedinfo.com
 .targetedmedia.com.cn
@@ -35305,6 +35318,7 @@ zzxosget.com
 .thefuncoolstuff.com
 .thegreenzoneblog.com
 .thejesperbay.com
+.thelifeandmore.com
 .themaxmall.com
 .themecat.cn
 .themee.cn
@@ -35548,7 +35562,6 @@ zzxosget.com
 .tracker.uprinting.com
 .tracker.wordstream.com
 .tracker.yhd.com
-.trackersimulator.org
 .trackerstatistik.init-ag.de
 .tracking-opi.fonpit.de
 .tracking-server-prod-1.zenmxapps.com
@@ -35612,6 +35625,7 @@ zzxosget.com
 .traffic.uusee.com
 .trafficfactory.biz
 .trafficforce.com
+.trafficfuelpixel.s3-us-west-2.amazonaws.com
 .trafficjam.cn
 .trafficjunky.com
 .trafficjunky.net

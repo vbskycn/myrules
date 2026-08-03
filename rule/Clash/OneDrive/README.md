@@ -12,15 +12,15 @@ OneDrive规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2024-07-03 16:14:51
+最后更新时间：2025-12-08 02:06:20
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN-KEYWORD | 3  | 
-| DOMAIN-SUFFIX | 12  | 
+| DOMAIN-SUFFIX | 13  | 
 | PROCESS-NAME | 2  | 
-| TOTAL | 17  | 
+| TOTAL | 18  | 
 
 
 ## Clash 

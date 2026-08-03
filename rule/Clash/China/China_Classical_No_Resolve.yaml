@@ -1,13 +1,13 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-04-13 02:13:15
+# UPDATED: 2026-06-22 02:36:19
 # DOMAIN: 17
 # DOMAIN-KEYWORD: 9
-# DOMAIN-SUFFIX: 3676
+# DOMAIN-SUFFIX: 3674
 # IP-CIDR: 17
 # IP-CIDR6: 4
-# TOTAL: 3723
+# TOTAL: 3721
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -1034,7 +1034,6 @@ payload:
   - DOMAIN-SUFFIX,cqccn.com
   - DOMAIN-SUFFIX,cqvip.com
   - DOMAIN-SUFFIX,cr173.com
-  - DOMAIN-SUFFIX,crashlytics.com
   - DOMAIN-SUFFIX,crggcn.com
   - DOMAIN-SUFFIX,crsky.com
   - DOMAIN-SUFFIX,cryuantafund.com
@@ -1379,8 +1378,6 @@ payload:
   - DOMAIN-SUFFIX,funnycore.com
   - DOMAIN-SUFFIX,funshion.com
   - DOMAIN-SUFFIX,funshion.net
-  - DOMAIN-SUFFIX,futu5.com
-  - DOMAIN-SUFFIX,futunn.com
   - DOMAIN-SUFFIX,fuwai.com
   - DOMAIN-SUFFIX,fuwj.com
   - DOMAIN-SUFFIX,fxxz.com
@@ -2243,6 +2240,7 @@ payload:
   - DOMAIN-SUFFIX,lxjapp.com
   - DOMAIN-SUFFIX,lxway.com
   - DOMAIN-SUFFIX,ly.com
+  - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m1.run
   - DOMAIN-SUFFIX,m6.run
   - DOMAIN-SUFFIX,m9.run
@@ -2491,7 +2489,6 @@ payload:
   - DOMAIN-SUFFIX,onlinedown.net
   - DOMAIN-SUFFIX,onlinesjtu.com
   - DOMAIN-SUFFIX,onlylady.com
-  - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,opdown.com
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,openapp.run
@@ -2680,6 +2677,7 @@ payload:
   - DOMAIN-SUFFIX,qq.cn.com
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qq.design
+  - DOMAIN-SUFFIX,qq.net
   - DOMAIN-SUFFIX,qq.wang
   - DOMAIN-SUFFIX,qq.xn--fiqs8s
   - DOMAIN-SUFFIX,qq163.com

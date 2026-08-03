@@ -1,15 +1,15 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-04-13 02:13:15
+# UPDATED: 2026-06-22 02:36:19
 # HOST: 17
 # HOST-KEYWORD: 9
-# HOST-SUFFIX: 3676
+# HOST-SUFFIX: 3674
 # HOST-WILDCARD: 1
 # IP-CIDR: 17
 # IP6-CIDR: 4
 # USER-AGENT: 31
-# TOTAL: 3755
+# TOTAL: 3753
 HOST,analytics.strava.com,China
 HOST,blzddist1-a.akamaihd.net,China
 HOST,cdn.angruo.com,China
@@ -1035,7 +1035,6 @@ HOST-SUFFIX,cpppf.org,China
 HOST-SUFFIX,cqccn.com,China
 HOST-SUFFIX,cqvip.com,China
 HOST-SUFFIX,cr173.com,China
-HOST-SUFFIX,crashlytics.com,China
 HOST-SUFFIX,crggcn.com,China
 HOST-SUFFIX,crsky.com,China
 HOST-SUFFIX,cryuantafund.com,China
@@ -1380,8 +1379,6 @@ HOST-SUFFIX,funcdn.com,China
 HOST-SUFFIX,funnycore.com,China
 HOST-SUFFIX,funshion.com,China
 HOST-SUFFIX,funshion.net,China
-HOST-SUFFIX,futu5.com,China
-HOST-SUFFIX,futunn.com,China
 HOST-SUFFIX,fuwai.com,China
 HOST-SUFFIX,fuwj.com,China
 HOST-SUFFIX,fxxz.com,China
@@ -2244,6 +2241,7 @@ HOST-SUFFIX,lxdns.org,China
 HOST-SUFFIX,lxjapp.com,China
 HOST-SUFFIX,lxway.com,China
 HOST-SUFFIX,ly.com,China
+HOST-SUFFIX,m-team.cc,China
 HOST-SUFFIX,m1.run,China
 HOST-SUFFIX,m6.run,China
 HOST-SUFFIX,m9.run,China
@@ -2492,7 +2490,6 @@ HOST-SUFFIX,oneyac.com,China
 HOST-SUFFIX,onlinedown.net,China
 HOST-SUFFIX,onlinesjtu.com,China
 HOST-SUFFIX,onlylady.com,China
-HOST-SUFFIX,ooklaserver.net,China
 HOST-SUFFIX,opdown.com,China
 HOST-SUFFIX,open.cd,China
 HOST-SUFFIX,openapp.run,China
@@ -2681,6 +2678,7 @@ HOST-SUFFIX,qnssl.com,China
 HOST-SUFFIX,qq.cn.com,China
 HOST-SUFFIX,qq.com,China
 HOST-SUFFIX,qq.design,China
+HOST-SUFFIX,qq.net,China
 HOST-SUFFIX,qq.wang,China
 HOST-SUFFIX,qq.xn--fiqs8s,China
 HOST-SUFFIX,qq163.com,China
