@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 680
+# TOTAL: 684
 
 payload:
   - '*m-team*'
@@ -504,6 +504,7 @@ payload:
   - '+.sdk-log-upload-os.hoyoverse.com'
   - '+.seaflysoft.com'
   - '+.seedpace.com'
+  - '+.senachina.com'
   - '+.server2.cn2gias.uk'
   - '+.sgtv.ii00.cc'
   - '+.shanghai-parking.com'
@@ -525,7 +526,9 @@ payload:
   - '+.ssjj2.com'
   - '+.starlink.uno'
   - '+.stkfanli.com'
+  - '+.sufe.me'
   - '+.sunrisecontent.akamaized.net'
+  - '+.suntl.com'
   - '+.susudesu.com'
   - '+.suu-fun.com'
   - '+.suyur.com'
@@ -682,5 +685,6 @@ payload:
   - '+.zuobiao.press'
   - '+.zysou.com'
   - '+.zzclass.com'
+  - '+.zzqrgs3148.vip'
   - '+.zzr.cc'
   - '+.zzz-log-upload-os.hoyoverse.com'
