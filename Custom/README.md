@@ -33,9 +33,14 @@
 本项目提供 OpenClash 设置文档、订阅转换模板、YAML 配置、规则文件、远程覆写模块及辅助脚本。各类资源可以独立使用；完整配置方案需要结合项目 Wiki 中的 OpenClash LuCI 设置。
 
 > [!IMPORTANT]
-> **关于 DNS 泄漏防护：使用本项目的 OpenClash 设置方案，并选择三种订阅路径中的任意一种（订阅转换、远程 YAML 覆写或手动导入 YAML），可以在下列前提成立时避免本地 DNS 泄漏。实际结果必须通过检测验证，不能仅以配置完成作为结论。**
+> **关于 DNS 泄漏防护**
 >
-> 上述结论以 Fake-IP、流量接管和 DNS 设置全部按 Wiki 生效，且终端 DNS 请求和相关流量均经过 OpenClash 为前提。客户端启用私有 DNS 或 DoH、设备或部分流量未被接管、插件或固件行为与文档不一致，或自行覆写 DNS 配置时，均超出该方案的控制范围，需要单独处理并验证。
+> 使用本项目的 OpenClash 设置方案，并选择三种订阅路径中的任意一种（订阅转换、远程 YAML 覆写或手动导入 YAML），在以下条件同时满足时，可以避免本地 DNS 泄漏：
+>
+> - Fake-IP、流量接管和 DNS 设置均已按 Wiki 生效；
+> - 终端 DNS 请求及相关流量均经过 OpenClash。
+>
+> 实际结果必须通过检测验证，不能仅以配置完成作为结论。客户端启用私有 DNS 或 DoH、设备或部分流量未被接管、插件或固件行为与文档不一致，或自行覆写 DNS 配置时，均超出该方案的控制范围，需要单独处理并验证。
 
 根目录的 `README.md` 作为项目首页和资源导航，仅介绍各类资源的定位与入口。具体文件、版本区别、参数和使用方法，请进入对应目录查看其自动展示的 `README.md`。
 
@@ -51,10 +56,10 @@
 | 首次配置 OpenClash 或系统了解其工作方式 | [项目 Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki) |
 | 使用订阅转换模板、YAML 配置或远程 YAML 覆写模块 | [`cfg/`](cfg/) |
 | 为现有配置补充或修正规则 | [`rule/`](rule/) |
-| 使用独立游戏规则 | [`game_rule/`](game_rule/) |
+| 使用独立游戏规则 | [`rule/game_rule/`](rule/game_rule/) |
 | 使用单功能远程覆写模块 | [`overwrite/`](overwrite/) |
 | 安装、更新或检测 OpenClash | [`shell/`](shell/) |
-| 筛选支持 IPv6 出站的 Sub-Store 节点 | [`script/sub-store/`](script/sub-store/) |
+| 使用 Sub-Store 扩展脚本 | [Sub-Store 脚本](script/sub-store/) |
 | 排查常见故障 | [故障排除](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4) |
 
 ---
@@ -118,7 +123,7 @@ OpenClash `dev` 版当前已内置本项目全部 8 个订阅转换模板，包�
 
 直连规则由项目用户共同参与维护。如需提交符合收录条件的域名，可使用 GitHub Issue、Pull Request 或 [RULE BOT](https://telegram.me/asailor_rulebot)。
 
-[`game_rule/`](game_rule/) 另存放人工整理的独立游戏规则。这些规则不会被主配置或规则生成工作流自动加载，也不保证持续更新；使用前应核对适用区服、更新时间和实际命中情况。
+[`rule/game_rule/`](rule/game_rule/) 另存放人工整理的独立游戏规则。目录中的 `.list` 是规则来源，工作流会自动生成 YAML 和 MRS 派生文件，但不会更新规则内容或将其加载到主配置。使用前应核对适用区服、更新时间和实际命中情况。
 
 **入口：** [`rule/`](rule/)
 
@@ -133,12 +138,12 @@ OpenClash `dev` 版当前已内置本项目全部 8 个订阅转换模板，包�
 
 脚本可能涉及软件源临时切换、插件覆盖重装、UCI 设置和 OpenClash 内置更新流程。运行前请进入目录阅读完整说明。
 
-[`script/sub-store/`](script/sub-store/) 提供独立的 Sub-Store IPv6 出站节点过滤器。该脚本不属于 OpenClash 安装流程，也不会被本项目配置自动加载。
+[Sub-Store 扩展脚本](script/sub-store/) 用于扩展 Sub-Store 的订阅处理能力。相关脚本独立于 OpenClash 安装流程，也不会被本项目配置自动加载。
 
 **入口：**
 
 - OpenClash 安装与维护脚本：[`shell/`](shell/)
-- Sub-Store 节点过滤器：[`script/sub-store/`](script/sub-store/)
+- Sub-Store 扩展脚本：[查看目录](script/sub-store/)
 
 ---
 
@@ -203,7 +208,7 @@ OpenClash `dev` 版当前已内置本项目全部 8 个订阅转换模板，包�
 > - 本项目编写于 2024 年 4 月，为非营利性质的技术研究与经验整理项目。
 > - 本项目内容仅为维护者个人经验的总结，用于技术交流，不具权威性，亦不构成 OpenClash 的唯一或推荐使用方式。
 > - 本项目未运营任何 YouTube 频道，亦未在 YouTube 或其他视频平台发布任何形式的教学或指导视频。
-> - 本项目内容未基于其他第三方教程或视频进行整理或改编。如因使用其他来源的教程、模板或配置文件产生问题，请勿在本项目的 Issues 或 Discussions 中反馈。
+> - 本项目文档由维护者根据实际使用经验独立整理；引用或使用的第三方项目、资料与资源在对应位置或下方「感谢」中标注。如因使用其他来源的教程、模板或配置文件产生问题，请勿在本项目的 Issues 或 Discussions 中反馈。
 > - 内容采用相对易于理解的表述，不代表对任何用户群体作出教学、指导或支持承诺。
 
 ---
@@ -218,32 +223,57 @@ OpenClash `dev` 版当前已内置本项目全部 8 个订阅转换模板，包�
 
 ## 🙏 感谢
 
-本项目使用或参考了以下项目和资源，排名不分先后：
+感谢以下项目和资源对本项目提供基础能力、数据、工具或参考。为准确说明关系，以下内容按实际用途分类，各分类内排名不分先后；列入本节不表示相关项目对本项目提供官方支持或背书。
 
-- [vernesong/OpenClash](https://github.com/vernesong/OpenClash)
-- [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo)
-- [vernesong/mihomo](https://github.com/vernesong/mihomo)
-- [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
-- [TraderWukong/demo](https://github.com/TraderWukong/demo)
-- [Giveupmoon/OpenClash_Overwrite](https://github.com/Giveupmoon/OpenClash_Overwrite)
-- [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
-- [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
-- [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
-- [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
-- [dogfight360/UsbEAm](https://www.dogfight360.com/blog/18627/)
-- [ddgksf2013/ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)
-- [mottzz87/crules](https://github.com/mottzz87/crules)
-- [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters)
-- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD)
-- [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
-- [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists)
-- [Aethersailor/adblockfilters-modified](https://github.com/Aethersailor/adblockfilters-modified)
-- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)
-- [Aethersailor/SubConverter-Extended](https://github.com/Aethersailor/SubConverter-Extended)
-- [Aethersailor/subconverter](https://github.com/Aethersailor/subconverter)
-- [Aethersailor/Rule-Bot](https://github.com/Aethersailor/Rule-Bot)
-- [oooldtoy/SSTAP_ip_crawl_tool](https://github.com/oooldtoy/SSTAP_ip_crawl_tool)
-- [immortalwrt/user-FAQ](https://github.com/immortalwrt/user-FAQ/)
+### 核心上游与现行数据源
+
+| 项目或资源 | 本项目中的用途 |
+| --- | --- |
+| [vernesong/OpenClash](https://github.com/vernesong/OpenClash) | 本项目配置、覆写脚本和使用文档所面向的 OpenWrt 插件 |
+| [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo) | 规则格式、配置能力以及 MRS 生成与校验工具 |
+| [vernesong/mihomo](https://github.com/vernesong/mihomo) | 安装脚本与第三方覆写方案使用的 LightGBM 模型资源 |
+| [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) | 本项目订阅转换配置的基础模板 |
+| [Giveupmoon/OpenClash_Overwrite](https://github.com/Giveupmoon/OpenClash_Overwrite) | 以 Git 子模块保留的第三方完整覆写方案 |
+| [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) | 中国大陆 IPTV 域名规则的数据来源 |
+| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community) | 游戏下载域名与加密 DNS GeoSite 规则的数据来源 |
+| [HaGeZi DNS Blocklists](https://gitlab.com/hagezi/mirror/-/tree/main/dns-blocklists) | 加密 DNS 域名与 IP 规则的数据来源 |
+| [DNSCrypt/dnscrypt-resolvers](https://github.com/DNSCrypt/dnscrypt-resolvers) | 加密 DNS 公共解析器、Relay 与 ODoH 端点的数据来源 |
+| [dogfight360/UsbEAm](https://www.dogfight360.com/blog/18627/) | 游戏网络地址与下载节点规则的参考工具 |
+
+### 本项目关联项目
+
+| 项目 | 与本项目的关系 |
+| --- | --- |
+| [Aethersailor/SubConverter-Extended](https://github.com/Aethersailor/SubConverter-Extended) | 本项目维护的增强型订阅转换后端 |
+| [Aethersailor/subconverter](https://github.com/Aethersailor/subconverter) | 本项目维护的传统订阅转换后端 |
+| [Aethersailor/Rule-Bot](https://github.com/Aethersailor/Rule-Bot) | 自定义规则提交工具 |
+| [Aethersailor/geoip](https://github.com/Aethersailor/geoip) | GeoIP 数据库与中国大陆 IPv4、IPv6 网段来源 |
+
+<details>
+<summary><strong>其他规则、工具与历史参考来源</strong></summary>
+
+| 项目或资源 | 本项目中的用途 |
+| --- | --- |
+| [felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list) | 补充直连域名的上游提交目标 |
+| [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat) | 完整配置模板中的 GeoIP、GeoSite 数据来源 |
+| [mottzz87/crules](https://github.com/mottzz87/crules) | Talkatone 规则的原始来源；相关规则已停止更新 |
+| [oooldtoy/SSTAP_ip_crawl_tool](https://github.com/oooldtoy/SSTAP_ip_crawl_tool) | 游戏服务器 IP 规则的抓取与整理工具 |
+| [alecthw/mmdb_china_ip_list](https://github.com/alecthw/mmdb_china_ip_list) | 完整配置模板及历史覆写脚本中的 MMDB 数据来源 |
+| [xishang0128/geoip](https://github.com/xishang0128/geoip) | 完整配置模板及历史覆写脚本中的 GeoASN 数据来源 |
+| [sub-store-org/Sub-Store](https://github.com/sub-store-org/Sub-Store) | 订阅处理脚本的运行平台 |
+| [网易 UU 加速器](https://uu.163.com/) | 游戏网络规则的参考来源 |
+| [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) | 已归档广告过滤脚本的数据来源 |
+| [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) | 已归档广告过滤脚本的数据来源 |
+| [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) | 已归档广告过滤脚本的数据来源 |
+| [Aethersailor/adblockfilters-modified](https://github.com/Aethersailor/adblockfilters-modified) | 已归档广告过滤脚本的数据来源 |
+| [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) | 已归档 GitHub 访问加速脚本的数据来源 |
+| [TraderWukong/demo](https://github.com/TraderWukong/demo) | 项目早期保留的参考来源 |
+| [ddgksf2013/ddgksf2013](https://github.com/ddgksf2013/ddgksf2013) | 项目早期保留的参考来源 |
+| [immortalwrt/user-FAQ](https://github.com/immortalwrt/user-FAQ/) | IPv6 文档的历史参考来源 |
+
+</details>
+
+“历史”或“已归档”表示相关内容不再主动维护或推荐使用，但为保留来源记录而继续列出。
 
 ---
 
@@ -252,6 +282,8 @@ OpenClash `dev` 版当前已内置本项目全部 8 个订阅转换模板，包�
 [![CC BY-SA 4.0 许可证](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 
 ### CC BY-SA 4.0
+
+本许可证适用于本项目的原创内容；第三方项目、规则、数据、工具与子模块仍适用各自的许可证或使用条款。引用、分发或修改前，请同时核对对应来源。
 
 ---
 
