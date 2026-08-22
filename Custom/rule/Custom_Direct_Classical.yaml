@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 717
+# TOTAL: 723
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -122,6 +122,7 @@ payload:
   - DOMAIN-SUFFIX,cangjie-lang.net
   - DOMAIN-SUFFIX,ccw.site
   - DOMAIN-SUFFIX,cdn.ist
+  - DOMAIN-SUFFIX,cdut.top
   - DOMAIN-SUFFIX,centbrowser.net
   - DOMAIN-SUFFIX,cftunnel.com
   - DOMAIN-SUFFIX,cg3da.com
@@ -276,6 +277,7 @@ payload:
   - DOMAIN-SUFFIX,gsnhcg.com
   - DOMAIN-SUFFIX,gsstic.com
   - DOMAIN-SUFFIX,guaitao.cc
+  - DOMAIN-SUFFIX,guang233.com
   - DOMAIN-SUFFIX,guangyapan.com
   - DOMAIN-SUFFIX,gvgoo.com
   - DOMAIN-SUFFIX,gwmapp-w.com
@@ -482,6 +484,7 @@ payload:
   - DOMAIN-SUFFIX,ponyemu.com
   - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,powershellgallery.com
+  - DOMAIN-SUFFIX,ppt28.com
   - DOMAIN-SUFFIX,privateapi.xyz
   - DOMAIN-SUFFIX,ptlgs.org
   - DOMAIN-SUFFIX,pwithe.com
@@ -705,10 +708,13 @@ payload:
   - DOMAIN-SUFFIX,ztytech.com
   - DOMAIN-SUFFIX,zuobiao.press
   - DOMAIN-SUFFIX,zysou.com
+  - DOMAIN-SUFFIX,zyyct.com
   - DOMAIN-SUFFIX,zzclass.com
   - DOMAIN-SUFFIX,zzqrgs3148.vip
   - DOMAIN-SUFFIX,zzr.cc
   - DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
+  - DOMAIN-SUFFIX,zzzcaculator.top
+  - DOMAIN-SUFFIX,zzzmap.com
   - DST-PORT,7844
   - SRC-PORT,41641
   - IP-CIDR,108.174.48.100/32,no-resolve
