@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 717
+# TOTAL: 726
 
 payload:
   - '*m-team*'
@@ -15,6 +15,7 @@ payload:
   - '+.112114.xyz'
   - '+.115cdn.de'
   - '+.123795.com'
+  - '+.123clouddisk.com'
   - '+.17van.com'
   - '+.1996999.xyz'
   - '+.204cloud.com'
@@ -96,6 +97,7 @@ payload:
   - '+.atticus.vip'
   - '+.awstme.top'
   - '+.axuex.top'
+  - '+.b7f3192.com'
   - '+.ba-hospital.com'
   - '+.babawar.com'
   - '+.baicaf.com'
@@ -122,7 +124,9 @@ payload:
   - '+.ca-sinfusi.com'
   - '+.canghaiip.com'
   - '+.cangjie-lang.net'
+  - '+.cc39ute.shop'
   - '+.ccw.site'
+  - '+.cdn.doctor'
   - '+.cdn.ist'
   - '+.cdut.top'
   - '+.centbrowser.net'
@@ -187,6 +191,7 @@ payload:
   - '+.douqq.com'
   - '+.drvceo.com'
   - '+.dskj-ops.com'
+  - '+.dtproj.top'
   - '+.dushe1.app'
   - '+.dytt8.com'
   - '+.eagsen.com'
@@ -285,6 +290,7 @@ payload:
   - '+.gwmapp-w.com'
   - '+.gxnnjidingkeji.top'
   - '+.gzybao.com'
+  - '+.h6009.top'
   - '+.haimaiedu.net'
   - '+.halvie.com'
   - '+.ham.xin'
@@ -490,6 +496,7 @@ payload:
   - '+.powershellgallery.com'
   - '+.ppt28.com'
   - '+.privateapi.xyz'
+  - '+.psf0404.shop'
   - '+.ptlgs.org'
   - '+.pwithe.com'
   - '+.qianfan.app'
@@ -505,6 +512,7 @@ payload:
   - '+.qjmotorlink.com'
   - '+.qmeng.top'
   - '+.quanxinfu.com'
+  - '+.quxuanshu.com'
   - '+.qweapi.com'
   - '+.qweatherapi.com'
   - '+.qzyun.net'
@@ -612,6 +620,7 @@ payload:
   - '+.vclbrokers.com'
   - '+.vcltrade.com'
   - '+.vgogbuy.com'
+  - '+.vip-cdn.com'
   - '+.vpsjyz.com'
   - '+.vv1865.com'
   - '+.warmheart.top'

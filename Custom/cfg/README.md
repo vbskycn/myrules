@@ -50,7 +50,7 @@ OpenClash `dev` 分支的内置列表已收录本仓库全部 8 个模板的远�
 | 重度分流版 | [`Custom_Clash_Full.ini`](./Custom_Clash_Full.ini) | 业务、地区和节点用途分组更丰富 |
 | 重度分流故障转移版 | [`Custom_Clash_Full_Fallback.ini`](./Custom_Clash_Full_Fallback.ini) | 重度分流结构与自动故障转移结合 |
 
-[`Custom_Clash_Mainland.ini`](./Custom_Clash_Mainland.ini) 是由工作流从 `Custom_Clash.ini` 自动同步的兼容文件，不是独立配置版本。不要直接修改该文件。
+[`Custom_Clash_Mainland.ini`](./Custom_Clash_Mainland.ini) 是由统一兼容配置生成流程从 `Custom_Clash.ini` 自动同步的文件，不是独立配置版本。不要直接修改该文件。
 
 ## 📊 版本区别
 
@@ -134,10 +134,10 @@ OpenClash `dev` 版通常可直接从内置列表选择全部 8 个模板。以�
 
 ### 标准版
 
-加速地址（`testingcf.jsdelivr.net`）：
+加速地址（`cdn.jsdelivr.net`）：
 
 ```text
-https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash.ini
+https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash.ini
 ```
 
 GitHub Raw 地址：
@@ -150,10 +150,10 @@ https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads
 
 ### 标准故障转移版
 
-加速地址（`testingcf.jsdelivr.net`）：
+加速地址（`cdn.jsdelivr.net`）：
 
 ```text
-https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Fallback.ini
+https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Fallback.ini
 ```
 
 GitHub Raw 地址：
@@ -164,10 +164,10 @@ https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads
 
 ### 轻量版
 
-加速地址（`testingcf.jsdelivr.net`）：
+加速地址（`cdn.jsdelivr.net`）：
 
 ```text
-https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Lite.ini
+https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Lite.ini
 ```
 
 GitHub Raw 地址：
@@ -180,10 +180,10 @@ https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads
 
 ### 轻量故障转移版
 
-加速地址（`testingcf.jsdelivr.net`）：
+加速地址（`cdn.jsdelivr.net`）：
 
 ```text
-https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Lite_Fallback.ini
+https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Lite_Fallback.ini
 ```
 
 GitHub Raw 地址：
@@ -194,10 +194,10 @@ https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads
 
 ### 极简 GFW 版
 
-加速地址（`testingcf.jsdelivr.net`）：
+加速地址（`cdn.jsdelivr.net`）：
 
 ```text
-https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_GFW.ini
+https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_GFW.ini
 ```
 
 GitHub Raw 地址：
@@ -210,10 +210,10 @@ https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads
 
 ### 极简 GFW 故障转移版
 
-加速地址（`testingcf.jsdelivr.net`）：
+加速地址（`cdn.jsdelivr.net`）：
 
 ```text
-https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_GFW_Fallback.ini
+https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_GFW_Fallback.ini
 ```
 
 GitHub Raw 地址：
@@ -224,10 +224,10 @@ https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads
 
 ### 重度分流版
 
-加速地址（`testingcf.jsdelivr.net`）：
+加速地址（`cdn.jsdelivr.net`）：
 
 ```text
-https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Full.ini
+https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Full.ini
 ```
 
 GitHub Raw 地址：
@@ -240,10 +240,10 @@ https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads
 
 ### 重度分流故障转移版
 
-加速地址（`testingcf.jsdelivr.net`）：
+加速地址（`cdn.jsdelivr.net`）：
 
 ```text
-https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Full_Fallback.ini
+https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@refs/heads/main/cfg/Custom_Clash_Full_Fallback.ini
 ```
 
 GitHub Raw 地址：
