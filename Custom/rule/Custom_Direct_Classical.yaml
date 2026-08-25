@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 738
+# TOTAL: 750
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -59,6 +59,7 @@ payload:
   - DOMAIN-SUFFIX,998tool.com
   - DOMAIN-SUFFIX,a0d.top
   - DOMAIN-SUFFIX,aaawz.cc
+  - DOMAIN-SUFFIX,abctougu.com
   - DOMAIN-SUFFIX,acepanel.net
   - DOMAIN-SUFFIX,acgdraw.com
   - DOMAIN-SUFFIX,acggit.com
@@ -96,6 +97,7 @@ payload:
   - DOMAIN-SUFFIX,asgardion.space
   - DOMAIN-SUFFIX,atticus.vip
   - DOMAIN-SUFFIX,awstme.top
+  - DOMAIN-SUFFIX,ax1x.com
   - DOMAIN-SUFFIX,axuex.top
   - DOMAIN-SUFFIX,b7f3192.com
   - DOMAIN-SUFFIX,ba-hospital.com
@@ -121,6 +123,7 @@ payload:
   - DOMAIN-SUFFIX,boyuemobile.com
   - DOMAIN-SUFFIX,bsbsb.top
   - DOMAIN-SUFFIX,bunny.net
+  - DOMAIN-SUFFIX,bvmlt.top
   - DOMAIN-SUFFIX,ca-sinfusi.com
   - DOMAIN-SUFFIX,canghaiip.com
   - DOMAIN-SUFFIX,cangjie-lang.net
@@ -146,6 +149,7 @@ payload:
   - DOMAIN-SUFFIX,chuguansmart.com
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN-SUFFIX,chushi.cool
+  - DOMAIN-SUFFIX,ciallo.party
   - DOMAIN-SUFFIX,clivia.fun
   - DOMAIN-SUFFIX,cmbc.run
   - DOMAIN-SUFFIX,cmhk.com
@@ -230,6 +234,7 @@ payload:
   - DOMAIN-SUFFIX,ft07.com
   - DOMAIN-SUFFIX,ftqq.com
   - DOMAIN-SUFFIX,functorz.com
+  - DOMAIN-SUFFIX,funmob.top
   - DOMAIN-SUFFIX,fussengroup.com
   - DOMAIN-SUFFIX,fuyinkeji.top
   - DOMAIN-SUFFIX,fuziche.com
@@ -310,6 +315,7 @@ payload:
   - DOMAIN-SUFFIX,hfhs8x.info
   - DOMAIN-SUFFIX,hhtvc.com
   - DOMAIN-SUFFIX,hijin.vip
+  - DOMAIN-SUFFIX,hiocloud.com
   - DOMAIN-SUFFIX,hiwms.com
   - DOMAIN-SUFFIX,hkchat.app
   - DOMAIN-SUFFIX,hnchasing.com
@@ -318,6 +324,7 @@ payload:
   - DOMAIN-SUFFIX,hongxingdl.com
   - DOMAIN-SUFFIX,hongxingdl.love
   - DOMAIN-SUFFIX,hprtupgrade.com
+  - DOMAIN-SUFFIX,hrhgstock.com
   - DOMAIN-SUFFIX,hsbc.com.hk
   - DOMAIN-SUFFIX,hstbroker.com
   - DOMAIN-SUFFIX,hszq6.com
@@ -407,6 +414,7 @@ payload:
   - DOMAIN-SUFFIX,liunn.com
   - DOMAIN-SUFFIX,liveperson.net
   - DOMAIN-SUFFIX,longmenshuju.com
+  - DOMAIN-SUFFIX,loveutips.com
   - DOMAIN-SUFFIX,lsbj365.com
   - DOMAIN-SUFFIX,lucky.gd
   - DOMAIN-SUFFIX,lyihub.com
@@ -444,6 +452,7 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,mslmc.net
   - DOMAIN-SUFFIX,mtaokj.com
+  - DOMAIN-SUFFIX,muhemob.com
   - DOMAIN-SUFFIX,mykuaidi.com
   - DOMAIN-SUFFIX,myrny.xin
   - DOMAIN-SUFFIX,myshopex.com
@@ -459,6 +468,7 @@ payload:
   - DOMAIN-SUFFIX,nkxingxh.top
   - DOMAIN-SUFFIX,nlyd.club
   - DOMAIN-SUFFIX,nn.ci
+  - DOMAIN-SUFFIX,no-mad-sub.one
   - DOMAIN-SUFFIX,nodcloud.com
   - DOMAIN-SUFFIX,noyer.eu.org
   - DOMAIN-SUFFIX,nxog.top
@@ -536,6 +546,7 @@ payload:
   - DOMAIN-SUFFIX,seaflysoft.com
   - DOMAIN-SUFFIX,seedpace.com
   - DOMAIN-SUFFIX,senachina.com
+  - DOMAIN-SUFFIX,senmuse.com
   - DOMAIN-SUFFIX,server2.cn2gias.uk
   - DOMAIN-SUFFIX,sgtv.ii00.cc
   - DOMAIN-SUFFIX,shanghai-parking.com
@@ -712,6 +723,7 @@ payload:
   - DOMAIN-SUFFIX,zhongancloud.com
   - DOMAIN-SUFFIX,zhouyiy.com
   - DOMAIN-SUFFIX,zhu.today
+  - DOMAIN-SUFFIX,zhytstudio.com
   - DOMAIN-SUFFIX,zjjslawyer.com
   - DOMAIN-SUFFIX,zjshulong.com
   - DOMAIN-SUFFIX,zjxhedu.com
