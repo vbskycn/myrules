@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 750
+# TOTAL: 771
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -19,6 +19,7 @@ payload:
   - DOMAIN-SUFFIX,17van.com
   - DOMAIN-SUFFIX,1996999.xyz
   - DOMAIN-SUFFIX,204cloud.com
+  - DOMAIN-SUFFIX,25mao.com
   - DOMAIN-SUFFIX,2mcnxs.cc
   - DOMAIN-SUFFIX,365ting.com
   - DOMAIN-SUFFIX,365wp.top
@@ -30,6 +31,7 @@ payload:
   - DOMAIN-SUFFIX,4kgj.com
   - DOMAIN-SUFFIX,4xiaoshuo.org
   - DOMAIN-SUFFIX,51kandianshi.com
+  - DOMAIN-SUFFIX,51mowan.com
   - DOMAIN-SUFFIX,51tbox.com
   - DOMAIN-SUFFIX,51wanxue.com
   - DOMAIN-SUFFIX,51zmt.top
@@ -65,6 +67,7 @@ payload:
   - DOMAIN-SUFFIX,acggit.com
   - DOMAIN-SUFFIX,adhuanxiao.com
   - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN-SUFFIX,adosmo.com
   - DOMAIN-SUFFIX,afeica.com
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,agentscope.io
@@ -110,6 +113,7 @@ payload:
   - DOMAIN-SUFFIX,bdcb.cc
   - DOMAIN-SUFFIX,beautifulcarrot.com
   - DOMAIN-SUFFIX,belimked.com
+  - DOMAIN-SUFFIX,belongme.top
   - DOMAIN-SUFFIX,betahub.tech
   - DOMAIN-SUFFIX,biandangroup.com
   - DOMAIN-SUFFIX,biaoda.me
@@ -166,6 +170,7 @@ payload:
   - DOMAIN-SUFFIX,crrcgo.cc
   - DOMAIN-SUFFIX,crtyhr.com
   - DOMAIN-SUFFIX,csqaq.com
+  - DOMAIN-SUFFIX,cydiabc.top
   - DOMAIN-SUFFIX,cym520.top
   - DOMAIN-SUFFIX,cyouzai.com
   - DOMAIN-SUFFIX,d4ctech.com
@@ -214,6 +219,7 @@ payload:
   - DOMAIN-SUFFIX,everdrawing.com
   - DOMAIN-SUFFIX,excelbbx.net
   - DOMAIN-SUFFIX,exiliumgf.com
+  - DOMAIN-SUFFIX,fastify.cc
   - DOMAIN-SUFFIX,fb71ef91e1014.beer
   - DOMAIN-SUFFIX,fdfinvoice.com
   - DOMAIN-SUFFIX,feihengip.com
@@ -314,6 +320,7 @@ payload:
   - DOMAIN-SUFFIX,hf-mirror.com
   - DOMAIN-SUFFIX,hfhs8x.info
   - DOMAIN-SUFFIX,hhtvc.com
+  - DOMAIN-SUFFIX,higgsweb.com
   - DOMAIN-SUFFIX,hijin.vip
   - DOMAIN-SUFFIX,hiocloud.com
   - DOMAIN-SUFFIX,hiwms.com
@@ -398,9 +405,12 @@ payload:
   - DOMAIN-SUFFIX,keyoo.com
   - DOMAIN-SUFFIX,kgithub.com
   - DOMAIN-SUFFIX,kit327.com
+  - DOMAIN-SUFFIX,kiwiot.com
   - DOMAIN-SUFFIX,kldai.vip
   - DOMAIN-SUFFIX,kmeila.com
   - DOMAIN-SUFFIX,kuaicha888.com
+  - DOMAIN-SUFFIX,kudashi.com
+  - DOMAIN-SUFFIX,kukongjian.com
   - DOMAIN-SUFFIX,lanyun.net
   - DOMAIN-SUFFIX,laogongju.com
   - DOMAIN-SUFFIX,latexlive.com
@@ -429,6 +439,7 @@ payload:
   - DOMAIN-SUFFIX,mchuiji.com
   - DOMAIN-SUFFIX,mcxyzt.cc
   - DOMAIN-SUFFIX,medtechshare.com
+  - DOMAIN-SUFFIX,meijian.com
   - DOMAIN-SUFFIX,meishiffx.online
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,melecode.com
@@ -444,6 +455,7 @@ payload:
   - DOMAIN-SUFFIX,miraiemby.com
   - DOMAIN-SUFFIX,mixly.org
   - DOMAIN-SUFFIX,mobai.sbs
+  - DOMAIN-SUFFIX,modaiyun.com
   - DOMAIN-SUFFIX,modelscope.net
   - DOMAIN-SUFFIX,monkeyray.net
   - DOMAIN-SUFFIX,morefuntengyun.com
@@ -488,8 +500,10 @@ payload:
   - DOMAIN-SUFFIX,ourschool.cc
   - DOMAIN-SUFFIX,p01.epsonconnect.com
   - DOMAIN-SUFFIX,packertec.com
+  - DOMAIN-SUFFIX,panjue.com
   - DOMAIN-SUFFIX,paperang.com
   - DOMAIN-SUFFIX,passnat.com
+  - DOMAIN-SUFFIX,pcwatch.com
   - DOMAIN-SUFFIX,piedaochuan.top
   - DOMAIN-SUFFIX,pixcheese.com
   - DOMAIN-SUFFIX,pkghund.com
@@ -560,6 +574,7 @@ payload:
   - DOMAIN-SUFFIX,shyxhy.com
   - DOMAIN-SUFFIX,sisiim.com
   - DOMAIN-SUFFIX,sixloy428.top
+  - DOMAIN-SUFFIX,skktec.com
   - DOMAIN-SUFFIX,sksight.com
   - DOMAIN-SUFFIX,snfox.com
   - DOMAIN-SUFFIX,snltty.com
@@ -578,6 +593,7 @@ payload:
   - DOMAIN-SUFFIX,svyun.com
   - DOMAIN-SUFFIX,sxlljm.com
   - DOMAIN-SUFFIX,sy1.top
+  - DOMAIN-SUFFIX,sztopten.com
   - DOMAIN-SUFFIX,tailgdd.com
   - DOMAIN-SUFFIX,tailscale.com
   - DOMAIN-SUFFIX,tajiduo.com
@@ -598,6 +614,7 @@ payload:
   - DOMAIN-SUFFIX,thmnet.com
   - DOMAIN-SUFFIX,threep.top
   - DOMAIN-SUFFIX,tianlala.com
+  - DOMAIN-SUFFIX,tianruo.xyz
   - DOMAIN-SUFFIX,timbrd.com
   - DOMAIN-SUFFIX,tixue.net
   - DOMAIN-SUFFIX,tluyou.com
@@ -608,6 +625,7 @@ payload:
   - DOMAIN-SUFFIX,tongkask.com
   - DOMAIN-SUFFIX,tool56.com
   - DOMAIN-SUFFIX,topwd.top
+  - DOMAIN-SUFFIX,touchgal.ink
   - DOMAIN-SUFFIX,tozi-cn.top
   - DOMAIN-SUFFIX,trjho.com
   - DOMAIN-SUFFIX,ts3.ink
@@ -616,6 +634,7 @@ payload:
   - DOMAIN-SUFFIX,tumukaoyan.com
   - DOMAIN-SUFFIX,tuxing.art
   - DOMAIN-SUFFIX,twinkstar.com
+  - DOMAIN-SUFFIX,tztec.top
   - DOMAIN-SUFFIX,u-carloan.com
   - DOMAIN-SUFFIX,uascent-iot.com
   - DOMAIN-SUFFIX,ugdocker.link
@@ -690,6 +709,7 @@ payload:
   - DOMAIN-SUFFIX,xxir.com
   - DOMAIN-SUFFIX,xxrsm.com
   - DOMAIN-SUFFIX,xyys.com
+  - DOMAIN-SUFFIX,xzong.online
   - DOMAIN-SUFFIX,xzsckj.com
   - DOMAIN-SUFFIX,xzzhtc.com
   - DOMAIN-SUFFIX,yayi360.com
@@ -727,6 +747,7 @@ payload:
   - DOMAIN-SUFFIX,zjjslawyer.com
   - DOMAIN-SUFFIX,zjshulong.com
   - DOMAIN-SUFFIX,zjxhedu.com
+  - DOMAIN-SUFFIX,zllinks.com
   - DOMAIN-SUFFIX,zmis.me
   - DOMAIN-SUFFIX,znnu.com
   - DOMAIN-SUFFIX,znztv.com
