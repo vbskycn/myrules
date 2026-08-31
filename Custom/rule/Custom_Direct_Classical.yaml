@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 803
+# TOTAL: 810
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -49,6 +49,7 @@ payload:
   - DOMAIN-SUFFIX,737698.xyz
   - DOMAIN-SUFFIX,77shuku.org
   - DOMAIN-SUFFIX,7sef.com
+  - DOMAIN-SUFFIX,800686.xyz
   - DOMAIN-SUFFIX,85sc.com
   - DOMAIN-SUFFIX,86656.net
   - DOMAIN-SUFFIX,888lm02.com
@@ -134,6 +135,7 @@ payload:
   - DOMAIN-SUFFIX,bunny.net
   - DOMAIN-SUFFIX,bvmlt.top
   - DOMAIN-SUFFIX,ca-sinfusi.com
+  - DOMAIN-SUFFIX,calmate.cc
   - DOMAIN-SUFFIX,canghaiip.com
   - DOMAIN-SUFFIX,cangjie-lang.net
   - DOMAIN-SUFFIX,cc39ute.shop
@@ -238,6 +240,7 @@ payload:
   - DOMAIN-SUFFIX,fjpit.com
   - DOMAIN-SUFFIX,flingtrainer.com
   - DOMAIN-SUFFIX,fofuai.com
+  - DOMAIN-SUFFIX,founderyt.com
   - DOMAIN-SUFFIX,fowep.com
   - DOMAIN-SUFFIX,freetv.top
   - DOMAIN-SUFFIX,frp-ski.com
@@ -464,6 +467,7 @@ payload:
   - DOMAIN-SUFFIX,meloong.com
   - DOMAIN-SUFFIX,members.3322.org
   - DOMAIN-SUFFIX,meoof-pet.com
+  - DOMAIN-SUFFIX,mfdqsc.com
   - DOMAIN-SUFFIX,miaotixing.com
   - DOMAIN-SUFFIX,micu.hk
   - DOMAIN-SUFFIX,micun.com
@@ -484,7 +488,9 @@ payload:
   - DOMAIN-SUFFIX,mslmc.net
   - DOMAIN-SUFFIX,mtaokj.com
   - DOMAIN-SUFFIX,muhemob.com
+  - DOMAIN-SUFFIX,myfenghua.com
   - DOMAIN-SUFFIX,mykuaidi.com
+  - DOMAIN-SUFFIX,mypikpak.net
   - DOMAIN-SUFFIX,myrny.xin
   - DOMAIN-SUFFIX,myshopex.com
   - DOMAIN-SUFFIX,mystery0.vip
@@ -721,6 +727,7 @@ payload:
   - DOMAIN-SUFFIX,xingaochengtai.com
   - DOMAIN-SUFFIX,xinghaiwaimai.com
   - DOMAIN-SUFFIX,xingyaozhilian.com
+  - DOMAIN-SUFFIX,xinstall.top
   - DOMAIN-SUFFIX,xiqueer.com
   - DOMAIN-SUFFIX,xiuxitong.com
   - DOMAIN-SUFFIX,xiwang.com

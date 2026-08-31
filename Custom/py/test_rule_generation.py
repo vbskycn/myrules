@@ -226,16 +226,35 @@ class StashConfigGenerationTests(unittest.TestCase):
             self.outputs[Path("cfg/Custom_Stash_Mainland.ini")],
         )
 
-    def test_committed_outputs_are_current(self) -> None:
-        self.assertEqual(
-            generate_stash_configs.check_outputs(self.root),
-            (),
-        )
+    def test_writes_and_checks_external_output_directory(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_dir = Path(temp_dir) / "cfg"
+            generate_stash_configs.write_stash_outputs(output_dir, self.outputs)
+            self.assertEqual(
+                generate_stash_configs.check_stash_outputs(
+                    output_dir,
+                    self.outputs,
+                ),
+                (),
+            )
+
+            stale_path = output_dir / "Custom_Stash_Obsolete.ini"
+            stale_path.write_text("obsolete\n", encoding="utf-8")
+            self.assertEqual(
+                generate_stash_configs.check_stash_outputs(
+                    output_dir,
+                    self.outputs,
+                ),
+                (Path("Custom_Stash_Obsolete.ini"),),
+            )
+            generate_stash_configs.write_stash_outputs(output_dir, self.outputs)
+            self.assertFalse(stale_path.exists())
 
     def test_clash_mainland_compatibility_output_matches_standard(self) -> None:
-        outputs = generate_stash_configs.compatibility_outputs(self.root)
         self.assertEqual(
-            outputs[Path("cfg/Custom_Clash_Mainland.ini")],
+            (self.root / "cfg/Custom_Clash_Mainland.ini").read_text(
+                encoding="utf-8"
+            ),
             (self.root / "cfg/Custom_Clash.ini").read_text(encoding="utf-8"),
         )
 
