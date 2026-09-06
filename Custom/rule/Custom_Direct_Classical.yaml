@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 828
+# TOTAL: 838
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,2mcnxs.cc
   - DOMAIN-SUFFIX,365ting.com
   - DOMAIN-SUFFIX,365wp.top
+  - DOMAIN-SUFFIX,3ced.top
   - DOMAIN-SUFFIX,3d-apollo.com
   - DOMAIN-SUFFIX,3dwhere.com
   - DOMAIN-SUFFIX,3gxk.net
@@ -70,6 +71,7 @@ payload:
   - DOMAIN-SUFFIX,acgdraw.com
   - DOMAIN-SUFFIX,acggit.com
   - DOMAIN-SUFFIX,adhuanxiao.com
+  - DOMAIN-SUFFIX,admobile.top
   - DOMAIN-SUFFIX,admpv.com
   - DOMAIN-SUFFIX,admpv.net
   - DOMAIN-SUFFIX,adobe.com
@@ -322,6 +324,7 @@ payload:
   - DOMAIN-SUFFIX,gxnnjidingkeji.top
   - DOMAIN-SUFFIX,gzjkoa.com
   - DOMAIN-SUFFIX,gzybao.com
+  - DOMAIN-SUFFIX,h5bqb.top
   - DOMAIN-SUFFIX,h6009.top
   - DOMAIN-SUFFIX,haimaiedu.net
   - DOMAIN-SUFFIX,halvie.com
@@ -390,6 +393,7 @@ payload:
   - DOMAIN-SUFFIX,inetlab.top
   - DOMAIN-SUFFIX,infini-fantasy.com
   - DOMAIN-SUFFIX,initaq.com
+  - DOMAIN-SUFFIX,inmobicdn.net
   - DOMAIN-SUFFIX,inte.net
   - DOMAIN-SUFFIX,iosgujian.com
   - DOMAIN-SUFFIX,iot889.com
@@ -401,6 +405,7 @@ payload:
   - DOMAIN-SUFFIX,ipshu.com
   - DOMAIN-SUFFIX,istoreos.com
   - DOMAIN-SUFFIX,itptg.com
+  - DOMAIN-SUFFIX,itui.cc
   - DOMAIN-SUFFIX,jbsy20riz9.com
   - DOMAIN-SUFFIX,jduoduo.com
   - DOMAIN-SUFFIX,jfjt.cc
@@ -472,6 +477,7 @@ payload:
   - DOMAIN-SUFFIX,mc-user.com
   - DOMAIN-SUFFIX,mcar.vip
   - DOMAIN-SUFFIX,mchuiji.com
+  - DOMAIN-SUFFIX,mcrmb.com
   - DOMAIN-SUFFIX,mcxyzt.cc
   - DOMAIN-SUFFIX,medtechshare.com
   - DOMAIN-SUFFIX,meijian.com
@@ -486,6 +492,7 @@ payload:
   - DOMAIN-SUFFIX,micu.hk
   - DOMAIN-SUFFIX,micun.com
   - DOMAIN-SUFFIX,midoci.com
+  - DOMAIN-SUFFIX,midoci.top
   - DOMAIN-SUFFIX,mifeng.plus
   - DOMAIN-SUFFIX,mifon.com
   - DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
@@ -527,6 +534,7 @@ payload:
   - DOMAIN-SUFFIX,oai.sb
   - DOMAIN-SUFFIX,oceando.cloud
   - DOMAIN-SUFFIX,ok321.top
+  - DOMAIN-SUFFIX,omq.cc
   - DOMAIN-SUFFIX,onebuygz.com
   - DOMAIN-SUFFIX,onetoken.sh
   - DOMAIN-SUFFIX,onetools.top
@@ -630,6 +638,7 @@ payload:
   - DOMAIN-SUFFIX,ssjj2.com
   - DOMAIN-SUFFIX,starlink.uno
   - DOMAIN-SUFFIX,startssl.com
+  - DOMAIN-SUFFIX,staticmeow.com
   - DOMAIN-SUFFIX,stkfanli.com
   - DOMAIN-SUFFIX,sufe.me
   - DOMAIN-SUFFIX,sunrisecontent.akamaized.net
@@ -768,6 +777,7 @@ payload:
   - DOMAIN-SUFFIX,xzzhtc.com
   - DOMAIN-SUFFIX,yayi360.com
   - DOMAIN-SUFFIX,ycjintou.com
+  - DOMAIN-SUFFIX,ycyct.com
   - DOMAIN-SUFFIX,ydayc.com
   - DOMAIN-SUFFIX,yhxjkj.top
   - DOMAIN-SUFFIX,yibanbianji.com
