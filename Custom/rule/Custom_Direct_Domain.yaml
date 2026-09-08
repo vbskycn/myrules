@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 834
+# TOTAL: 845
 
 payload:
   - '*m-team*'
@@ -44,6 +44,7 @@ payload:
   - '+.55555.ink'
   - '+.56tvc.com'
   - '+.580ai.net'
+  - '+.618208.xyz'
   - '+.657192.com'
   - '+.66990000.xyz'
   - '+.6v520.net'
@@ -94,6 +95,7 @@ payload:
   - '+.alonginwind.to'
   - '+.alonginwind.top'
   - '+.aloys233.top'
+  - '+.amap-cdn.com'
   - '+.antping.com'
   - '+.anvnjmc.com'
   - '+.anycubic.com'
@@ -279,6 +281,7 @@ payload:
   - '+.gaojiua.com'
   - '+.gaze.run'
   - '+.gdcucc.v1.mk'
+  - '+.gdpcdz.com'
   - '+.gdzhimou.com'
   - '+.geektool.top'
   - '+.gegeselect.hk'
@@ -473,6 +476,7 @@ payload:
   - '+.loveutips.com'
   - '+.lsbj365.com'
   - '+.lsposed.zip'
+  - '+.lty02.com'
   - '+.lucky.gd'
   - '+.lyihub.com'
   - '+.lyilife.com'
@@ -631,6 +635,7 @@ payload:
   - '+.share123.top'
   - '+.shineacc.com'
   - '+.shuangqingtech.com'
+  - '+.shuangxiumall.com'
   - '+.shuinfo.com'
   - '+.shunjing.xin'
   - '+.shuqiandiqiu.com'
@@ -642,6 +647,7 @@ payload:
   - '+.snfox.com'
   - '+.snltty.com'
   - '+.soulteary.com'
+  - '+.spisec.com'
   - '+.sptv.ii00.cc'
   - '+.ssjj2.com'
   - '+.starlink.uno'
@@ -716,6 +722,7 @@ payload:
   - '+.vcltrade.com'
   - '+.vgogbuy.com'
   - '+.vip-cdn.com'
+  - '+.vlan5.com'
   - '+.vpsjyz.com'
   - '+.vv1865.com'
   - '+.warmheart.top'
@@ -729,6 +736,7 @@ payload:
   - '+.wildfirechat.net'
   - '+.wjx.top'
   - '+.wlcdn88.com'
+  - '+.wlkac.com'
   - '+.wlups.com'
   - '+.wologic.net'
   - '+.wpurl.cc'
@@ -760,6 +768,7 @@ payload:
   - '+.ximogo.com'
   - '+.xingaochengtai.com'
   - '+.xinghaiwaimai.com'
+  - '+.xingmojs.com'
   - '+.xingyaozhilian.com'
   - '+.xinstall.top'
   - '+.xiqueer.com'
@@ -769,6 +778,7 @@ payload:
   - '+.xkkapk.com'
   - '+.xn--4kq62z5rby2qupq9ub.top'
   - '+.xn--cesw6hd3s99f.com'
+  - '+.xn--id-ov2cb7n32b01yl6auun2bpzk4p2dgip.com'
   - '+.xn--mmz.cc'
   - '+.xn--vhqr42drhf5k7b.com'
   - '+.xn--zfru1ggxt.fun'
@@ -829,6 +839,7 @@ payload:
   - '+.zqin758.xyz'
   - '+.zsytit.com'
   - '+.ztytech.com'
+  - '+.zuidazym3u8.com'
   - '+.zuobiao.press'
   - '+.zysou.com'
   - '+.zyyct.com'
