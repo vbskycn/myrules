@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 845
+# TOTAL: 853
 
 payload:
   - '*m-team*'
@@ -208,6 +208,7 @@ payload:
   - '+.dell.com'
   - '+.dfhog.com'
   - '+.dhub.kubesre.xyz'
+  - '+.diandaojia.net'
   - '+.dingdingzn.com'
   - '+.dingstock.net'
   - '+.dircleaner.com'
@@ -242,6 +243,7 @@ payload:
   - '+.everdrawing.com'
   - '+.excelbbx.net'
   - '+.exiliumgf.com'
+  - '+.eye4cloud.com'
   - '+.faka163.com'
   - '+.fastify.cc'
   - '+.fb71ef91e1014.beer'
@@ -271,6 +273,7 @@ payload:
   - '+.fussengroup.com'
   - '+.fuyinkeji.top'
   - '+.fuziche.com'
+  - '+.fzedu.pub'
   - '+.fzshouji.com'
   - '+.fzvcolco.com'
   - '+.fzwqq.com'
@@ -363,6 +366,7 @@ payload:
   - '+.hoaihe.store'
   - '+.hongxingdl.com'
   - '+.hongxingdl.love'
+  - '+.hongyanyanbaihuo.online'
   - '+.hooos.com'
   - '+.hpr7e.top'
   - '+.hprtupgrade.com'
@@ -413,6 +417,7 @@ payload:
   - '+.ipapi.co'
   - '+.iposl.com'
   - '+.ipshu.com'
+  - '+.iquantumad.com'
   - '+.istoreos.com'
   - '+.itptg.com'
   - '+.itui.cc'
@@ -506,6 +511,7 @@ payload:
   - '+.midoci.top'
   - '+.mifeng.plus'
   - '+.mifon.com'
+  - '+.mifosy.com'
   - '+.minor-api-os.hoyoverse.com'
   - '+.miraiemby.com'
   - '+.mixly.org'
@@ -540,6 +546,7 @@ payload:
   - '+.no-mad-sub.one'
   - '+.nodcloud.com'
   - '+.noyer.eu.org'
+  - '+.nwiztech.com'
   - '+.nxog.top'
   - '+.nyxcuy.com'
   - '+.oai.sb'
@@ -755,6 +762,7 @@ payload:
   - '+.xesim.net'
   - '+.xfltd.org'
   - '+.xgzb.top'
+  - '+.xhey.top'
   - '+.xianghuiin.com'
   - '+.xiankabao.com'
   - '+.xiaobeiyangji.com'
