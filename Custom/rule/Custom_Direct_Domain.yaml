@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 855
+# TOTAL: 860
 
 payload:
   - '*m-team*'
@@ -317,6 +317,7 @@ payload:
   - '+.goalmapapp.com'
   - '+.goka.top'
   - '+.gongxiangjizhang.com'
+  - '+.goodq.top'
   - '+.goofish.pro'
   - '+.googoc.com'
   - '+.gootho.com'
@@ -334,6 +335,7 @@ payload:
   - '+.gvgoo.com'
   - '+.gwmapp-w.com'
   - '+.gxnnjidingkeji.top'
+  - '+.gxrke1715.com'
   - '+.gzjkoa.com'
   - '+.gzybao.com'
   - '+.h5bqb.top'
@@ -413,6 +415,7 @@ payload:
   - '+.iosgujian.com'
   - '+.iot889.com'
   - '+.iotrix.net'
+  - '+.ip.plus'
   - '+.ip159.com'
   - '+.ip6.seeip.org'
   - '+.ipapi.co'
@@ -449,6 +452,7 @@ payload:
   - '+.kaijiejinrong.com'
   - '+.kaipanhong.com'
   - '+.kancaibao.com'
+  - '+.kanxiquan.com'
   - '+.kaspersky-labs.com'
   - '+.kaspersky.com'
   - '+.kasperskydaily.com'
@@ -551,6 +555,7 @@ payload:
   - '+.nxog.top'
   - '+.nyxcuy.com'
   - '+.oai.sb'
+  - '+.oath.com'
   - '+.oceando.cloud'
   - '+.ok321.top'
   - '+.omq.cc'
