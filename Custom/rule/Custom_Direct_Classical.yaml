@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 872
+# TOTAL: 879
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -60,6 +60,7 @@ payload:
   - DOMAIN-SUFFIX,8kc.top
   - DOMAIN-SUFFIX,8x14khzwmi.com
   - DOMAIN-SUFFIX,900cha.com
+  - DOMAIN-SUFFIX,91biu.work
   - DOMAIN-SUFFIX,91shenfan.com
   - DOMAIN-SUFFIX,975135.xyz
   - DOMAIN-SUFFIX,97973399.com
@@ -96,6 +97,7 @@ payload:
   - DOMAIN-SUFFIX,alonginwind.top
   - DOMAIN-SUFFIX,aloys233.top
   - DOMAIN-SUFFIX,amap-cdn.com
+  - DOMAIN-SUFFIX,ankltoken.com
   - DOMAIN-SUFFIX,antping.com
   - DOMAIN-SUFFIX,anvnjmc.com
   - DOMAIN-SUFFIX,anycubic.com
@@ -258,6 +260,7 @@ payload:
   - DOMAIN-SUFFIX,ffhome.com
   - DOMAIN-SUFFIX,fjpit.com
   - DOMAIN-SUFFIX,flingtrainer.com
+  - DOMAIN-SUFFIX,fnspeed.net
   - DOMAIN-SUFFIX,fofuai.com
   - DOMAIN-SUFFIX,founderyt.com
   - DOMAIN-SUFFIX,fowep.com
@@ -392,6 +395,7 @@ payload:
   - DOMAIN-SUFFIX,hybiome.com
   - DOMAIN-SUFFIX,hzlawyer.net
   - DOMAIN-SUFFIX,hzqsn.com
+  - DOMAIN-SUFFIX,hzyi.eu.org
   - DOMAIN-SUFFIX,ibnjl.shop
   - DOMAIN-SUFFIX,ibwm5lynb6.com
   - DOMAIN-SUFFIX,icvcs.com
@@ -566,6 +570,7 @@ payload:
   - DOMAIN-SUFFIX,openevai.com
   - DOMAIN-SUFFIX,openkylin.top
   - DOMAIN-SUFFIX,opentrust.net
+  - DOMAIN-SUFFIX,opera.com
   - DOMAIN-SUFFIX,orence.net
   - DOMAIN-SUFFIX,osbdf.com
   - DOMAIN-SUFFIX,ossrs.net
@@ -715,6 +720,7 @@ payload:
   - DOMAIN-SUFFIX,trjho.com
   - DOMAIN-SUFFIX,ts3.ink
   - DOMAIN-SUFFIX,ttshitu.com
+  - DOMAIN-SUFFIX,tualatin.club
   - DOMAIN-SUFFIX,tulipsport.com
   - DOMAIN-SUFFIX,tumukaoyan.com
   - DOMAIN-SUFFIX,tuxing.art
@@ -836,6 +842,7 @@ payload:
   - DOMAIN-SUFFIX,zeekrline.com
   - DOMAIN-SUFFIX,zhaiad.com
   - DOMAIN-SUFFIX,zhangleglobal.com
+  - DOMAIN-SUFFIX,zhewx.com
   - DOMAIN-SUFFIX,zhi10.com
   - DOMAIN-SUFFIX,zhiexa.com
   - DOMAIN-SUFFIX,zhituwujie.com
