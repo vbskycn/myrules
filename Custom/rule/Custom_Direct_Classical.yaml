@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 886
+# TOTAL: 890
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -79,6 +79,7 @@ payload:
   - DOMAIN-SUFFIX,admpv.net
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,adosmo.com
+  - DOMAIN-SUFFIX,adsmart.cc
   - DOMAIN-SUFFIX,afeica.com
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,agentkey.app
@@ -144,6 +145,7 @@ payload:
   - DOMAIN-SUFFIX,boowayun.com
   - DOMAIN-SUFFIX,bowenkj.com
   - DOMAIN-SUFFIX,boxim.online
+  - DOMAIN-SUFFIX,boxkj.com
   - DOMAIN-SUFFIX,boyuemobile.com
   - DOMAIN-SUFFIX,bsbsb.top
   - DOMAIN-SUFFIX,bunny.net
@@ -254,6 +256,7 @@ payload:
   - DOMAIN-SUFFIX,fb71ef91e1014.beer
   - DOMAIN-SUFFIX,fdfinvoice.com
   - DOMAIN-SUFFIX,feihengip.com
+  - DOMAIN-SUFFIX,feiyujiaju.com
   - DOMAIN-SUFFIX,feizhiyi.com
   - DOMAIN-SUFFIX,fengda.me
   - DOMAIN-SUFFIX,fengsutb.com
@@ -687,6 +690,7 @@ payload:
   - DOMAIN-SUFFIX,suyur.com
   - DOMAIN-SUFFIX,svyun.com
   - DOMAIN-SUFFIX,sxlljm.com
+  - DOMAIN-SUFFIX,sxstczx.com
   - DOMAIN-SUFFIX,sy1.top
   - DOMAIN-SUFFIX,sztopten.com
   - DOMAIN-SUFFIX,taichuansmart.com
