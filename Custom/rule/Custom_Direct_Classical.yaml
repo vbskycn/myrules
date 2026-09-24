@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 900
+# TOTAL: 909
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -161,6 +161,7 @@ payload:
   - DOMAIN-SUFFIX,ccw.site
   - DOMAIN-SUFFIX,cdn.doctor
   - DOMAIN-SUFFIX,cdn.ist
+  - DOMAIN-SUFFIX,cdn362.cc
   - DOMAIN-SUFFIX,cdut.top
   - DOMAIN-SUFFIX,centbrowser.net
   - DOMAIN-SUFFIX,cftunnel.com
@@ -183,6 +184,7 @@ payload:
   - DOMAIN-SUFFIX,chushi.cool
   - DOMAIN-SUFFIX,ciallo.party
   - DOMAIN-SUFFIX,clivia.fun
+  - DOMAIN-SUFFIX,cloudllll.com
   - DOMAIN-SUFFIX,cmbc.run
   - DOMAIN-SUFFIX,cmhk.com
   - DOMAIN-SUFFIX,cn-music.mefun.vip
@@ -458,6 +460,7 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.com
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,jsj.top
+  - DOMAIN-SUFFIX,jspvz.com
   - DOMAIN-SUFFIX,julebu.co
   - DOMAIN-SUFFIX,jxjktzjt.com
   - DOMAIN-SUFFIX,jxpp.com
@@ -485,6 +488,7 @@ payload:
   - DOMAIN-SUFFIX,kuaicha888.com
   - DOMAIN-SUFFIX,kudashi.com
   - DOMAIN-SUFFIX,kukongjian.com
+  - DOMAIN-SUFFIX,kuktxu.com
   - DOMAIN-SUFFIX,kwai.net
   - DOMAIN-SUFFIX,lanyun.net
   - DOMAIN-SUFFIX,laogongju.com
@@ -614,11 +618,13 @@ payload:
   - DOMAIN-SUFFIX,pookcdn.net
   - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,powershellgallery.com
+  - DOMAIN-SUFFIX,ppqrrs.com
   - DOMAIN-SUFFIX,ppt28.com
   - DOMAIN-SUFFIX,privateapi.xyz
   - DOMAIN-SUFFIX,psf0404.shop
   - DOMAIN-SUFFIX,ptlgs.org
   - DOMAIN-SUFFIX,pubsub.tech
+  - DOMAIN-SUFFIX,pvz1.com
   - DOMAIN-SUFFIX,pwithe.com
   - DOMAIN-SUFFIX,qianfan.app
   - DOMAIN-SUFFIX,qiankunshopping.com
@@ -677,6 +683,7 @@ payload:
   - DOMAIN-SUFFIX,shyxhy.com
   - DOMAIN-SUFFIX,sisiim.com
   - DOMAIN-SUFFIX,sixloy428.top
+  - DOMAIN-SUFFIX,sjchess.com
   - DOMAIN-SUFFIX,skktec.com
   - DOMAIN-SUFFIX,sksight.com
   - DOMAIN-SUFFIX,skxvc.com
@@ -769,6 +776,7 @@ payload:
   - DOMAIN-SUFFIX,warmheart.top
   - DOMAIN-SUFFIX,we-stats.com
   - DOMAIN-SUFFIX,webs.vc
+  - DOMAIN-SUFFIX,weixinpcs.com
   - DOMAIN-SUFFIX,wenyi188.com
   - DOMAIN-SUFFIX,wera.eu.org
   - DOMAIN-SUFFIX,weshape3d.com
@@ -799,6 +807,7 @@ payload:
   - DOMAIN-SUFFIX,xhey.top
   - DOMAIN-SUFFIX,xianghuiin.com
   - DOMAIN-SUFFIX,xiankabao.com
+  - DOMAIN-SUFFIX,xiaoai.live
   - DOMAIN-SUFFIX,xiaobeiyangji.com
   - DOMAIN-SUFFIX,xiaocaiyuan.com
   - DOMAIN-SUFFIX,xiaochuanyun.com
