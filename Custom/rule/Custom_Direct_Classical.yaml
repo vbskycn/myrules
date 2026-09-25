@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 909
+# TOTAL: 914
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -381,6 +381,7 @@ payload:
   - DOMAIN-SUFFIX,hkchat.app
   - DOMAIN-SUFFIX,hnchasing.com
   - DOMAIN-SUFFIX,hnxzctec.com
+  - DOMAIN-SUFFIX,hnzjyw.com
   - DOMAIN-SUFFIX,hoaihe.store
   - DOMAIN-SUFFIX,hongxingdl.com
   - DOMAIN-SUFFIX,hongxingdl.love
@@ -407,6 +408,7 @@ payload:
   - DOMAIN-SUFFIX,hybiome.com
   - DOMAIN-SUFFIX,hzlawyer.net
   - DOMAIN-SUFFIX,hzqsn.com
+  - DOMAIN-SUFFIX,hzssjp.com
   - DOMAIN-SUFFIX,hzyi.eu.org
   - DOMAIN-SUFFIX,ibnjl.shop
   - DOMAIN-SUFFIX,ibwm5lynb6.com
@@ -724,6 +726,7 @@ payload:
   - DOMAIN-SUFFIX,terrabbs.ink
   - DOMAIN-SUFFIX,tggfl.com
   - DOMAIN-SUFFIX,theluyuan.com
+  - DOMAIN-SUFFIX,theuwa.com
   - DOMAIN-SUFFIX,thinkerride.com
   - DOMAIN-SUFFIX,thispx.com
   - DOMAIN-SUFFIX,thmnet.com
@@ -751,6 +754,7 @@ payload:
   - DOMAIN-SUFFIX,tumukaoyan.com
   - DOMAIN-SUFFIX,tuxing.art
   - DOMAIN-SUFFIX,twinkstar.com
+  - DOMAIN-SUFFIX,type.fun
   - DOMAIN-SUFFIX,tztec.top
   - DOMAIN-SUFFIX,u-carloan.com
   - DOMAIN-SUFFIX,uascent-iot.com
@@ -768,6 +772,7 @@ payload:
   - DOMAIN-SUFFIX,vcltrade.com
   - DOMAIN-SUFFIX,vgogbuy.com
   - DOMAIN-SUFFIX,vip-cdn.com
+  - DOMAIN-SUFFIX,vipjiapu.com
   - DOMAIN-SUFFIX,visionariopro.com
   - DOMAIN-SUFFIX,vlan5.com
   - DOMAIN-SUFFIX,vpsjyz.com
