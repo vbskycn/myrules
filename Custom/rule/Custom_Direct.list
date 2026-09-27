@@ -346,6 +346,14 @@ DOMAIN-SUFFIX,ahlt10010.com
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# add by Rule-Bot Client / Date: 2026-09-28 06:10:59
+DOMAIN-SUFFIX,aiyohoo.com
+# add by Rule-Bot Client / Date: 2026-09-27 19:40:33
+DOMAIN-SUFFIX,hsdxdl.com
+# add by Rule-Bot Client / Date: 2026-09-27 16:05:59
+DOMAIN-SUFFIX,ljj233.top
+# add by Rule-Bot Client / Date: 2026-09-27 08:57:00
+DOMAIN-SUFFIX,juantui.com
 # tgpro 服务器 / add by Telegram user: Solntse_332 / Date: 2026-09-26 23:48:58
 DOMAIN-SUFFIX,tgpro.top
 # CS2 TGPRO 训练服官网 / add by Telegram user: Solntse_332 / Date: 2026-09-26 23:48:11

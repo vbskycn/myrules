@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 920
+# TOTAL: 924
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -94,6 +94,7 @@ payload:
   - DOMAIN-SUFFIX,ainfinit.com
   - DOMAIN-SUFFIX,aisnogames.com
   - DOMAIN-SUFFIX,aistudio-app.com
+  - DOMAIN-SUFFIX,aiyohoo.com
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,allptt.com
@@ -394,6 +395,7 @@ payload:
   - DOMAIN-SUFFIX,hprtupgrade.com
   - DOMAIN-SUFFIX,hrhgstock.com
   - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,hsdxdl.com
   - DOMAIN-SUFFIX,hstbroker.com
   - DOMAIN-SUFFIX,hszq6.com
   - DOMAIN-SUFFIX,htkgsx.com
@@ -466,6 +468,7 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,jsj.top
   - DOMAIN-SUFFIX,jspvz.com
+  - DOMAIN-SUFFIX,juantui.com
   - DOMAIN-SUFFIX,julebu.co
   - DOMAIN-SUFFIX,jxjktzjt.com
   - DOMAIN-SUFFIX,jxpp.com
@@ -509,6 +512,7 @@ payload:
   - DOMAIN-SUFFIX,listenai.com
   - DOMAIN-SUFFIX,liunn.com
   - DOMAIN-SUFFIX,liveperson.net
+  - DOMAIN-SUFFIX,ljj233.top
   - DOMAIN-SUFFIX,longmenshuju.com
   - DOMAIN-SUFFIX,loveutips.com
   - DOMAIN-SUFFIX,lsbj365.com
