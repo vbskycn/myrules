@@ -347,6 +347,20 @@ DOMAIN-SUFFIX,ahlt10010.com
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# add by Rule-Bot Client / Date: 2026-10-17 00:00:35
+DOMAIN-SUFFIX,wawo.cc
+# add by Rule-Bot Client / Date: 2026-10-16 23:04:01
+DOMAIN-SUFFIX,lzgame.top
+# add by Rule-Bot Client / Date: 2026-10-16 20:59:14
+DOMAIN-SUFFIX,xn--estr6ge7tok1a.com
+# add by Telegram user: Aethersailor / Date: 2026-10-16 20:57:09
+DOMAIN-SUFFIX,bambulab.com
+# add by Telegram user: donglailin / Date: 2026-10-16 15:08:07
+DOMAIN-SUFFIX,astrobox.online
+# add by Telegram user: Mrhuiji / Date: 2026-10-16 12:04:36
+DOMAIN-SUFFIX,onesetapp.com
+# add by Telegram user: Mrhuiji / Date: 2026-10-16 11:02:42
+DOMAIN-SUFFIX,handfree.work
 # add by Rule-Bot Client / Date: 2026-10-16 02:01:53
 DOMAIN-SUFFIX,ptxzn.com
 # add by Telegram user: Mrhuiji / Date: 2026-10-15 16:42:10

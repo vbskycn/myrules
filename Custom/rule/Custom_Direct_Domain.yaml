@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 985
+# TOTAL: 992
 
 payload:
   - '+.00333118.com'
@@ -121,6 +121,7 @@ payload:
   - '+.argotunnel.com'
   - '+.armvm.com'
   - '+.asgardion.space'
+  - '+.astrobox.online'
   - '+.atticus.vip'
   - '+.awstme.top'
   - '+.ax1x.com'
@@ -132,6 +133,7 @@ payload:
   - '+.baidu94.com'
   - '+.baiyishequ.com'
   - '+.bajie.la'
+  - '+.bambulab.com'
   - '+.banban.work'
   - '+.banxueketang.com'
   - '+.baominggongju.com'
@@ -384,6 +386,7 @@ payload:
   - '+.haimaiedu.net'
   - '+.halvie.com'
   - '+.ham.xin'
+  - '+.handfree.work'
   - '+.hangnakeji.com'
   - '+.hanqiuming888.com'
   - '+.haofanhuoban.com'
@@ -554,6 +557,7 @@ payload:
   - '+.lw5.co'
   - '+.lyihub.com'
   - '+.lyilife.com'
+  - '+.lzgame.top'
   - '+.m-team.cc'
   - '+.m-team.io'
   - '+.machtalk.net'
@@ -630,6 +634,7 @@ payload:
   - '+.ok321.top'
   - '+.omq.cc'
   - '+.onebuygz.com'
+  - '+.onesetapp.com'
   - '+.onetoken.sh'
   - '+.onetools.top'
   - '+.openappfilter.com'
@@ -852,6 +857,7 @@ payload:
   - '+.vtools.online'
   - '+.vv1865.com'
   - '+.warmheart.top'
+  - '+.wawo.cc'
   - '+.we-stats.com'
   - '+.webs.vc'
   - '+.weixinpcs.com'
@@ -910,6 +916,7 @@ payload:
   - '+.xkkapk.com'
   - '+.xn--4kq62z5rby2qupq9ub.top'
   - '+.xn--cesw6hd3s99f.com'
+  - '+.xn--estr6ge7tok1a.com'
   - '+.xn--id-ov2cb7n32b01yl6auun2bpzk4p2dgip.com'
   - '+.xn--mmz.cc'
   - '+.xn--vhqr42drhf5k7b.com'

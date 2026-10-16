@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1000
+# TOTAL: 1007
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -124,6 +124,7 @@ payload:
   - DOMAIN-SUFFIX,argotunnel.com
   - DOMAIN-SUFFIX,armvm.com
   - DOMAIN-SUFFIX,asgardion.space
+  - DOMAIN-SUFFIX,astrobox.online
   - DOMAIN-SUFFIX,atticus.vip
   - DOMAIN-SUFFIX,awstme.top
   - DOMAIN-SUFFIX,ax1x.com
@@ -135,6 +136,7 @@ payload:
   - DOMAIN-SUFFIX,baidu94.com
   - DOMAIN-SUFFIX,baiyishequ.com
   - DOMAIN-SUFFIX,bajie.la
+  - DOMAIN-SUFFIX,bambulab.com
   - DOMAIN-SUFFIX,banban.work
   - DOMAIN-SUFFIX,banxueketang.com
   - DOMAIN-SUFFIX,baominggongju.com
@@ -387,6 +389,7 @@ payload:
   - DOMAIN-SUFFIX,haimaiedu.net
   - DOMAIN-SUFFIX,halvie.com
   - DOMAIN-SUFFIX,ham.xin
+  - DOMAIN-SUFFIX,handfree.work
   - DOMAIN-SUFFIX,hangnakeji.com
   - DOMAIN-SUFFIX,hanqiuming888.com
   - DOMAIN-SUFFIX,haofanhuoban.com
@@ -557,6 +560,7 @@ payload:
   - DOMAIN-SUFFIX,lw5.co
   - DOMAIN-SUFFIX,lyihub.com
   - DOMAIN-SUFFIX,lyilife.com
+  - DOMAIN-SUFFIX,lzgame.top
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-SUFFIX,machtalk.net
@@ -633,6 +637,7 @@ payload:
   - DOMAIN-SUFFIX,ok321.top
   - DOMAIN-SUFFIX,omq.cc
   - DOMAIN-SUFFIX,onebuygz.com
+  - DOMAIN-SUFFIX,onesetapp.com
   - DOMAIN-SUFFIX,onetoken.sh
   - DOMAIN-SUFFIX,onetools.top
   - DOMAIN-SUFFIX,openappfilter.com
@@ -855,6 +860,7 @@ payload:
   - DOMAIN-SUFFIX,vtools.online
   - DOMAIN-SUFFIX,vv1865.com
   - DOMAIN-SUFFIX,warmheart.top
+  - DOMAIN-SUFFIX,wawo.cc
   - DOMAIN-SUFFIX,we-stats.com
   - DOMAIN-SUFFIX,webs.vc
   - DOMAIN-SUFFIX,weixinpcs.com
@@ -913,6 +919,7 @@ payload:
   - DOMAIN-SUFFIX,xkkapk.com
   - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
   - DOMAIN-SUFFIX,xn--cesw6hd3s99f.com
+  - DOMAIN-SUFFIX,xn--estr6ge7tok1a.com
   - DOMAIN-SUFFIX,xn--id-ov2cb7n32b01yl6auun2bpzk4p2dgip.com
   - DOMAIN-SUFFIX,xn--mmz.cc
   - DOMAIN-SUFFIX,xn--vhqr42drhf5k7b.com
