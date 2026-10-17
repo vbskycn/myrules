@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 992
+# TOTAL: 998
 
 payload:
   - '+.00333118.com'
@@ -178,6 +178,7 @@ payload:
   - '+.cftunnel.com'
   - '+.cg3da.com'
   - '+.cgicop.com'
+  - '+.changjirb.com'
   - '+.chaxunjiao.com'
   - '+.chaz.fun'
   - '+.checkip.dyndns.org'
@@ -261,6 +262,7 @@ payload:
   - '+.easytier.top'
   - '+.easytomessage.com'
   - '+.eceshi.com'
+  - '+.ectaiping.com'
   - '+.einfo-tech.com'
   - '+.emby.yun'
   - '+.englibrary.com'
@@ -400,6 +402,7 @@ payload:
   - '+.hdbz.net'
   - '+.hdcm00.com'
   - '+.hexiny.com'
+  - '+.heysida.com'
   - '+.hezuvip.com'
   - '+.hf-mirror.com'
   - '+.hfhs8x.info'
@@ -476,6 +479,7 @@ payload:
   - '+.ipjrh.com'
   - '+.iposl.com'
   - '+.ipshu.com'
+  - '+.iq.com'
   - '+.iquantumad.com'
   - '+.istoreos.com'
   - '+.itptg.com'
@@ -679,6 +683,7 @@ payload:
   - '+.ppt28.com'
   - '+.privateapi.xyz'
   - '+.psf0404.shop'
+  - '+.pthqzpc100.com'
   - '+.ptlgs.org'
   - '+.ptxzn.com'
   - '+.pubsub.tech'
@@ -831,6 +836,7 @@ payload:
   - '+.tumukaoyan.com'
   - '+.tuxing.art'
   - '+.twinkstar.com'
+  - '+.twtapp.com'
   - '+.type.fun'
   - '+.tztec.top'
   - '+.u-carloan.com'
