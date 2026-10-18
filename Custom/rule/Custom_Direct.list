@@ -8,7 +8,7 @@
 # ImmortalWrt 相关
 DOMAIN-SUFFIX,immortalwrt.org
 #DOMAIN-SUFFIX,kyarucloud.moe
-DOMAIN-SUFFIX,r2s.site
+#DOMAIN-SUFFIX,r2s.site
 
 # Tailscale
 DOMAIN-SUFFIX,tailscale.com
@@ -347,6 +347,10 @@ DOMAIN-SUFFIX,ahlt10010.com
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# add by Telegram user: mpbizn / Date: 2026-10-18 19:53:57
+DOMAIN-SUFFIX,sollin.top
+# add by Rule-Bot Client / Date: 2026-10-18 17:26:22
+DOMAIN-SUFFIX,12zayb.com
 # add by Rule-Bot Client / Date: 2026-10-17 16:29:35
 DOMAIN-SUFFIX,iq.com
 # add by Rule-Bot Client / Date: 2026-10-17 14:37:03

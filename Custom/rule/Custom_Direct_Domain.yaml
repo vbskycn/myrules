@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 998
+# TOTAL: 999
 
 payload:
   - '+.00333118.com'
@@ -17,6 +17,7 @@ payload:
   - '+.115cdn.de'
   - '+.123795.com'
   - '+.123clouddisk.com'
+  - '+.12zayb.com'
   - '+.17van.com'
   - '+.1996999.xyz'
   - '+.204cloud.com'
@@ -710,7 +711,6 @@ payload:
   - '+.qweapi.com'
   - '+.qweatherapi.com'
   - '+.qzyun.net'
-  - '+.r2s.site'
   - '+.ranwen.tw'
   - '+.rayws.top'
   - '+.redenmc.com'
@@ -763,6 +763,7 @@ payload:
   - '+.skxvc.com'
   - '+.snfox.com'
   - '+.snltty.com'
+  - '+.sollin.top'
   - '+.soulteary.com'
   - '+.spisec.com'
   - '+.spst1.com'
