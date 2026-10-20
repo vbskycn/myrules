@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1004
+# TOTAL: 1007
 
 payload:
   - '+.00333118.com'
@@ -137,6 +137,7 @@ payload:
   - '+.bambulab.com'
   - '+.banban.work'
   - '+.banxueketang.com'
+  - '+.baoku.one'
   - '+.baominggongju.com'
   - '+.batchat.com'
   - '+.bdcb.cc'
@@ -157,6 +158,7 @@ payload:
   - '+.boxim.online'
   - '+.boxkj.com'
   - '+.boyuemobile.com'
+  - '+.browserscan.net'
   - '+.bs-iot.com'
   - '+.bsbsb.top'
   - '+.bunny.net'
@@ -797,6 +799,7 @@ payload:
   - '+.talk-cloud.net'
   - '+.tange365.com'
   - '+.tangguobaohe.com'
+  - '+.taotoken.net'
   - '+.tclai.top'
   - '+.tcp.mk'
   - '+.tcp.pub'
