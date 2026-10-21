@@ -399,6 +399,7 @@ payload:
   - DOMAIN-SUFFIX,handfree.work
   - DOMAIN-SUFFIX,hangnakeji.com
   - DOMAIN-SUFFIX,hanqiuming888.com
+  - DOMAIN-SUFFIX,hanzhe.site
   - DOMAIN-SUFFIX,haofanhuoban.com
   - DOMAIN-SUFFIX,haojieyun.com
   - DOMAIN-SUFFIX,haoxueche.com
@@ -469,7 +470,6 @@ payload:
   - DOMAIN-SUFFIX,ijingyi.com
   - DOMAIN-SUFFIX,ilucky.net
   - DOMAIN-SUFFIX,imacos.top
-  - DOMAIN-SUFFIX,immortalwrt.org
   - DOMAIN-SUFFIX,indeedpower.com
   - DOMAIN-SUFFIX,inetlab.top
   - DOMAIN-SUFFIX,inextos.com
