@@ -2,6 +2,7 @@
 # OpenClash 专用最小 YAML 配置文件（重度分流版）
 # 项目地址：https://github.com/Aethersailor/Custom_OpenClash_Rules
 # 本文件仅定义节点来源、静态节点、策略组、规则提供者与分流规则。
+# 与对应 INI 保持分流一致；INI 的 ruleset 条目总数须不超过 64。
 # 端口、运行模式、DNS、IPv6、TUN、嗅探、GeoData、日志及控制器等参数全部由 OpenClash LuCI 管理。
 # 建议先按照项目 Wiki 完成 OpenClash 设置，再加载本配置。
 
@@ -467,81 +468,6 @@ proxy-groups:
       - "🐢 低倍率节点"
     use:
       - provider1
-  - name: "🤖 Cursor"
-    type: select
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "🚀 手动选择"
-      - "♻️ 自动选择"
-      - "🇸🇬 新加坡节点"
-      - "🇭🇰 香港节点"
-      - "🇺🇸 美国节点"
-      - "🇯🇵 日本节点"
-      - "🇼🇸 台湾节点"
-      - "🇰🇷 韩国节点"
-      - "🇨🇦 加拿大节点"
-      - "🇬🇧 英国节点"
-      - "🇫🇷 法国节点"
-      - "🇩🇪 德国节点"
-      - "🇳🇱 荷兰节点"
-      - "🇹🇷 土耳其节点"
-      - "🇷🇺 俄罗斯节点"
-      - "🌐 其他地区"
-      - "🏠 家宽节点"
-      - "🐢 低倍率节点"
-    use:
-      - provider1
-  - name: "🤖 Perplexity"
-    type: select
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "🚀 手动选择"
-      - "♻️ 自动选择"
-      - "🇸🇬 新加坡节点"
-      - "🇭🇰 香港节点"
-      - "🇺🇸 美国节点"
-      - "🇯🇵 日本节点"
-      - "🇼🇸 台湾节点"
-      - "🇰🇷 韩国节点"
-      - "🇨🇦 加拿大节点"
-      - "🇬🇧 英国节点"
-      - "🇫🇷 法国节点"
-      - "🇩🇪 德国节点"
-      - "🇳🇱 荷兰节点"
-      - "🇹🇷 土耳其节点"
-      - "🇷🇺 俄罗斯节点"
-      - "🌐 其他地区"
-      - "🏠 家宽节点"
-      - "🐢 低倍率节点"
-    use:
-      - provider1
-  - name: "🤗 Hugging Face"
-    type: select
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "🚀 手动选择"
-      - "♻️ 自动选择"
-      - "🇸🇬 新加坡节点"
-      - "🇭🇰 香港节点"
-      - "🇺🇸 美国节点"
-      - "🇯🇵 日本节点"
-      - "🇼🇸 台湾节点"
-      - "🇰🇷 韩国节点"
-      - "🇨🇦 加拿大节点"
-      - "🇬🇧 英国节点"
-      - "🇫🇷 法国节点"
-      - "🇩🇪 德国节点"
-      - "🇳🇱 荷兰节点"
-      - "🇹🇷 土耳其节点"
-      - "🇷🇺 俄罗斯节点"
-      - "🌐 其他地区"
-      - "🏠 家宽节点"
-      - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "🤖 国外AI服务"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -619,31 +545,6 @@ proxy-groups:
     use:
       - provider1
   - name: "📹 YouTube"
-    type: select
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "🚀 手动选择"
-      - "♻️ 自动选择"
-      - "🇸🇬 新加坡节点"
-      - "🇭🇰 香港节点"
-      - "🇺🇸 美国节点"
-      - "🇯🇵 日本节点"
-      - "🇼🇸 台湾节点"
-      - "🇰🇷 韩国节点"
-      - "🇨🇦 加拿大节点"
-      - "🇬🇧 英国节点"
-      - "🇫🇷 法国节点"
-      - "🇩🇪 德国节点"
-      - "🇳🇱 荷兰节点"
-      - "🇹🇷 土耳其节点"
-      - "🇷🇺 俄罗斯节点"
-      - "🌐 其他地区"
-      - "🏠 家宽节点"
-      - "🐢 低倍率节点"
-    use:
-      - provider1
-  - name: "📺 Twitch"
     type: select
     url: https://www.gstatic.com/generate_204
     interval: 300
@@ -846,56 +747,6 @@ proxy-groups:
       - "🐢 低倍率节点"
     use:
       - provider1
-  - name: "📺 ABEMA"
-    type: select
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "🇯🇵 日本节点"
-      - "🚀 手动选择"
-      - "♻️ 自动选择"
-      - "🇭🇰 香港节点"
-      - "🇺🇸 美国节点"
-      - "🇸🇬 新加坡节点"
-      - "🇼🇸 台湾节点"
-      - "🇰🇷 韩国节点"
-      - "🇨🇦 加拿大节点"
-      - "🇬🇧 英国节点"
-      - "🇫🇷 法国节点"
-      - "🇩🇪 德国节点"
-      - "🇳🇱 荷兰节点"
-      - "🇹🇷 土耳其节点"
-      - "🇷🇺 俄罗斯节点"
-      - "🌐 其他地区"
-      - "🏠 家宽节点"
-      - "🐢 低倍率节点"
-    use:
-      - provider1
-  - name: "🎮 DMM"
-    type: select
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "🇯🇵 日本节点"
-      - "🚀 手动选择"
-      - "♻️ 自动选择"
-      - "🇭🇰 香港节点"
-      - "🇺🇸 美国节点"
-      - "🇸🇬 新加坡节点"
-      - "🇼🇸 台湾节点"
-      - "🇰🇷 韩国节点"
-      - "🇨🇦 加拿大节点"
-      - "🇬🇧 英国节点"
-      - "🇫🇷 法国节点"
-      - "🇩🇪 德国节点"
-      - "🇳🇱 荷兰节点"
-      - "🇹🇷 土耳其节点"
-      - "🇷🇺 俄罗斯节点"
-      - "🌐 其他地区"
-      - "🏠 家宽节点"
-      - "🐢 低倍率节点"
-    use:
-      - provider1
   - name: "📺 Bahamut"
     type: select
     url: https://www.gstatic.com/generate_204
@@ -905,31 +756,6 @@ proxy-groups:
       - "🇭🇰 香港节点"
       - "🚀 手动选择"
       - "🎯 全球直连"
-    use:
-      - provider1
-  - name: "📺 哔哩哔哩海外"
-    type: select
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "🚀 手动选择"
-      - "♻️ 自动选择"
-      - "🇸🇬 新加坡节点"
-      - "🇭🇰 香港节点"
-      - "🇺🇸 美国节点"
-      - "🇯🇵 日本节点"
-      - "🇼🇸 台湾节点"
-      - "🇰🇷 韩国节点"
-      - "🇨🇦 加拿大节点"
-      - "🇬🇧 英国节点"
-      - "🇫🇷 法国节点"
-      - "🇩🇪 德国节点"
-      - "🇳🇱 荷兰节点"
-      - "🇹🇷 土耳其节点"
-      - "🇷🇺 俄罗斯节点"
-      - "🌐 其他地区"
-      - "🏠 家宽节点"
-      - "🐢 低倍率节点"
     use:
       - provider1
   - name: "🌎 国外媒体"
@@ -1159,32 +985,6 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
-    use:
-      - provider1
-  - name: "☁️ 国外网盘"
-    type: select
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - "🚀 手动选择"
-      - "♻️ 自动选择"
-      - "🇭🇰 香港节点"
-      - "🇺🇸 美国节点"
-      - "🇯🇵 日本节点"
-      - "🇸🇬 新加坡节点"
-      - "🇼🇸 台湾节点"
-      - "🇰🇷 韩国节点"
-      - "🇨🇦 加拿大节点"
-      - "🇬🇧 英国节点"
-      - "🇫🇷 法国节点"
-      - "🇩🇪 德国节点"
-      - "🇳🇱 荷兰节点"
-      - "🇹🇷 土耳其节点"
-      - "🇷🇺 俄罗斯节点"
-      - "🌐 其他地区"
-      - "🏠 家宽节点"
-      - "🐢 低倍率节点"
-      - "🎯 全球直连"
     use:
       - provider1
   - name: "💳 PayPal"
@@ -1615,9 +1415,6 @@ rules:
   - "GEOSITE,bing,🤖 Copilot"
   - "GEOSITE,anthropic,🤖 Claude"
   - "GEOSITE,google-gemini,🤖 Gemini"
-  - "GEOSITE,cursor,🤖 Cursor"
-  - "GEOSITE,perplexity,🤖 Perplexity"
-  - "GEOSITE,huggingface,🤗 Hugging Face"
   - "GEOSITE,category-ai-!cn,🤖 国外AI服务"
   # 国内 AI 服务默认直连，可按需切换代理；须位于 cn 兜底规则之前。
   - "GEOSITE,category-ai-cn,🤖 国内AI服务"
@@ -1631,10 +1428,8 @@ rules:
   - "GEOSITE,category-speedtest,🚀 测速工具"
   - "GEOSITE,steam,🎮 Steam"
   - "GEOSITE,youtube,📹 YouTube"
-  - "GEOSITE,twitch,📺 Twitch"
   - "GEOSITE,apple-tvplus,🎥 AppleTV+"
   - "GEOSITE,apple,🍎 苹果服务"
-  - "GEOSITE,category-netdisk-!cn,☁️ 国外网盘"
   - "GEOSITE,microsoft,Ⓜ️ 微软服务"
   - "GEOSITE,googlefcm,📢 谷歌FCM"
   - "GEOSITE,google,🇬 谷歌服务"
@@ -1646,9 +1441,6 @@ rules:
   - "GEOSITE,category-emby,🎥 Emby"
   - "GEOSITE,spotify,🎻 Spotify"
   - "GEOSITE,bahamut,📺 Bahamut"
-  - "GEOSITE,abema,📺 ABEMA"
-  - "GEOSITE,dmm,🎮 DMM"
-  - "GEOSITE,bilibili@!cn,📺 哔哩哔哩海外"
   - "GEOSITE,category-games,🎮 游戏平台"
   - "GEOSITE,category-media,📰 新闻资讯"
   - "GEOSITE,category-entertainment,🌎 国外媒体"
