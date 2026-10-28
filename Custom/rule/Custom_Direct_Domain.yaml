@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1018
+# TOTAL: 1025
 
 payload:
   - '+.00333118.com'
@@ -186,6 +186,7 @@ payload:
   - '+.cg3da.com'
   - '+.cgicop.com'
   - '+.changjirb.com'
+  - '+.changzhi.top'
   - '+.chaxunjiao.com'
   - '+.chaz.fun'
   - '+.checkip.dyndns.org'
@@ -447,6 +448,7 @@ payload:
   - '+.hub.xdark.top'
   - '+.hueihuei.top'
   - '+.huikao8.com'
+  - '+.human-horizons.com'
   - '+.hutaoyun.top'
   - '+.hwbim.com'
   - '+.hwjianmo.com'
@@ -550,6 +552,7 @@ payload:
   - '+.laogongju.com'
   - '+.latexlive.com'
   - '+.laupqc.com'
+  - '+.ldboost.com'
   - '+.leadweigh.com'
   - '+.leelen.com'
   - '+.letaoedu.com'
@@ -562,6 +565,7 @@ payload:
   - '+.listenai.com'
   - '+.liunn.com'
   - '+.liveperson.net'
+  - '+.liyunol.com'
   - '+.ljj233.top'
   - '+.longmenshuju.com'
   - '+.loveutips.com'
@@ -720,6 +724,7 @@ payload:
   - '+.quxuanshu.com'
   - '+.qweapi.com'
   - '+.qweatherapi.com'
+  - '+.qzy.xyz'
   - '+.qzyun.net'
   - '+.ranwen.tw'
   - '+.rayws.top'
@@ -784,6 +789,7 @@ payload:
   - '+.staticmeow.com'
   - '+.stkfanli.com'
   - '+.sufe.me'
+  - '+.sun-panel.top'
   - '+.sunrisecontent.akamaized.net'
   - '+.suntl.com'
   - '+.susudesu.com'
@@ -926,6 +932,7 @@ payload:
   - '+.xiaolikj.online'
   - '+.xiaomaicn.com'
   - '+.xiaoxia.vip'
+  - '+.xiaoyao.co'
   - '+.xiaoyuan888.com'
   - '+.xiberia.net'
   - '+.ximogo.com'
