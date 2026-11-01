@@ -38,8 +38,8 @@ DOMAIN-SUFFIX,github.moeyy.xyz
 DOMAIN-SUFFIX,github.site
 DOMAIN-SUFFIX,github.store
 DOMAIN-SUFFIX,hub.gitmirror.com
-DOMAIN-SUFFIX,jsdelivr.com
-DOMAIN-SUFFIX,jsdelivr.net
+#DOMAIN-SUFFIX,jsdelivr.com
+#DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,kgithub.com
 
 # Docker 反代 CDN
@@ -347,6 +347,24 @@ DOMAIN-SUFFIX,ahlt10010.com
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# add by Rule-Bot Client / Date: 2026-11-02 05:49:12
+DOMAIN-SUFFIX,dd3862.com
+# add by Rule-Bot Client / Date: 2026-11-02 01:21:59
+DOMAIN-SUFFIX,225284.xyz
+# add by Rule-Bot Client / Date: 2026-11-02 00:01:15
+DOMAIN-SUFFIX,kkmmy.com
+# add by Rule-Bot Client / Date: 2026-11-01 23:11:49
+DOMAIN-SUFFIX,hexieark.com
+# add by Rule-Bot Client / Date: 2026-11-01 19:24:03
+DOMAIN-SUFFIX,tylk.cc
+# add by Rule-Bot Client / Date: 2026-11-01 18:48:41
+DOMAIN-SUFFIX,leux.net
+# add by Rule-Bot Client / Date: 2026-11-01 14:48:08
+DOMAIN-SUFFIX,luxiangwu.com
+# add by Telegram user: mpbizn / Date: 2026-11-01 13:40:04
+DOMAIN-SUFFIX,hndk1.com
+# add by Rule-Bot Client / Date: 2026-11-01 07:16:37
+DOMAIN-SUFFIX,qpe27.top
 # add by Rule-Bot Client / Date: 2026-10-31 14:52:29
 DOMAIN-SUFFIX,allsaints.top
 # AITO汽车服务 / add by Telegram user: pangxiaopang666 / Date: 2026-10-31 13:52:12

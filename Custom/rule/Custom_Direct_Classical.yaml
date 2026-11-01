@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1083
+# TOTAL: 1090
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -25,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,17van.com
   - DOMAIN-SUFFIX,1996999.xyz
   - DOMAIN-SUFFIX,204cloud.com
+  - DOMAIN-SUFFIX,225284.xyz
   - DOMAIN-SUFFIX,25mao.com
   - DOMAIN-SUFFIX,2mcnxs.cc
   - DOMAIN-SUFFIX,365ting.com
@@ -248,6 +249,7 @@ payload:
   - DOMAIN-SUFFIX,dayilive.com
   - DOMAIN-SUFFIX,dcgstd.com
   - DOMAIN-SUFFIX,dcshfu.com
+  - DOMAIN-SUFFIX,dd3862.com
   - DOMAIN-SUFFIX,ddsrem.com
   - DOMAIN-SUFFIX,ddzn.tech
   - DOMAIN-SUFFIX,deepzero.com
@@ -432,6 +434,7 @@ payload:
   - DOMAIN-SUFFIX,hclassplatform.com
   - DOMAIN-SUFFIX,hdbz.net
   - DOMAIN-SUFFIX,hdcm00.com
+  - DOMAIN-SUFFIX,hexieark.com
   - DOMAIN-SUFFIX,hexiny.com
   - DOMAIN-SUFFIX,heysida.com
   - DOMAIN-SUFFIX,hezuvip.com
@@ -445,6 +448,7 @@ payload:
   - DOMAIN-SUFFIX,hjgdrop.cc
   - DOMAIN-SUFFIX,hkchat.app
   - DOMAIN-SUFFIX,hnchasing.com
+  - DOMAIN-SUFFIX,hndk1.com
   - DOMAIN-SUFFIX,hnxzctec.com
   - DOMAIN-SUFFIX,hnzjyw.com
   - DOMAIN-SUFFIX,hoaihe.store
@@ -534,8 +538,6 @@ payload:
   - DOMAIN-SUFFIX,jjzyy.org
   - DOMAIN-SUFFIX,jkgeek.com
   - DOMAIN-SUFFIX,jnsjz.com
-  - DOMAIN-SUFFIX,jsdelivr.com
-  - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,jsj.top
   - DOMAIN-SUFFIX,jspvz.com
   - DOMAIN-SUFFIX,juantui.com
@@ -563,6 +565,7 @@ payload:
   - DOMAIN-SUFFIX,kit327.com
   - DOMAIN-SUFFIX,kiwiot.com
   - DOMAIN-SUFFIX,kke.com.hk
+  - DOMAIN-SUFFIX,kkmmy.com
   - DOMAIN-SUFFIX,kldai.vip
   - DOMAIN-SUFFIX,kmeila.com
   - DOMAIN-SUFFIX,koebpmhcce.com
@@ -579,6 +582,7 @@ payload:
   - DOMAIN-SUFFIX,leadweigh.com
   - DOMAIN-SUFFIX,leelen.com
   - DOMAIN-SUFFIX,letaoedu.com
+  - DOMAIN-SUFFIX,leux.net
   - DOMAIN-SUFFIX,lezuan6.com
   - DOMAIN-SUFFIX,lg3000.top
   - DOMAIN-SUFFIX,lightmake.site
@@ -597,6 +601,7 @@ payload:
   - DOMAIN-SUFFIX,lsposed.zip
   - DOMAIN-SUFFIX,lty02.com
   - DOMAIN-SUFFIX,lucky.gd
+  - DOMAIN-SUFFIX,luxiangwu.com
   - DOMAIN-SUFFIX,lw5.co
   - DOMAIN-SUFFIX,lyihub.com
   - DOMAIN-SUFFIX,lyilife.com
@@ -748,6 +753,7 @@ payload:
   - DOMAIN-SUFFIX,qjmotorlink.com
   - DOMAIN-SUFFIX,qmeng.top
   - DOMAIN-SUFFIX,qmpx.net
+  - DOMAIN-SUFFIX,qpe27.top
   - DOMAIN-SUFFIX,quanxinfu.com
   - DOMAIN-SUFFIX,quanzhua.com
   - DOMAIN-SUFFIX,quxuanshu.com
@@ -894,6 +900,7 @@ payload:
   - DOMAIN-SUFFIX,tuxing.art
   - DOMAIN-SUFFIX,twinkstar.com
   - DOMAIN-SUFFIX,twtapp.com
+  - DOMAIN-SUFFIX,tylk.cc
   - DOMAIN-SUFFIX,type.fun
   - DOMAIN-SUFFIX,tztec.top
   - DOMAIN-SUFFIX,u-carloan.com

@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1068
+# TOTAL: 1075
 
 payload:
   - '+.00333118.com'
@@ -22,6 +22,7 @@ payload:
   - '+.17van.com'
   - '+.1996999.xyz'
   - '+.204cloud.com'
+  - '+.225284.xyz'
   - '+.25mao.com'
   - '+.2mcnxs.cc'
   - '+.365ting.com'
@@ -245,6 +246,7 @@ payload:
   - '+.dayilive.com'
   - '+.dcgstd.com'
   - '+.dcshfu.com'
+  - '+.dd3862.com'
   - '+.ddsrem.com'
   - '+.ddzn.tech'
   - '+.deepzero.com'
@@ -429,6 +431,7 @@ payload:
   - '+.hclassplatform.com'
   - '+.hdbz.net'
   - '+.hdcm00.com'
+  - '+.hexieark.com'
   - '+.hexiny.com'
   - '+.heysida.com'
   - '+.hezuvip.com'
@@ -442,6 +445,7 @@ payload:
   - '+.hjgdrop.cc'
   - '+.hkchat.app'
   - '+.hnchasing.com'
+  - '+.hndk1.com'
   - '+.hnxzctec.com'
   - '+.hnzjyw.com'
   - '+.hoaihe.store'
@@ -531,8 +535,6 @@ payload:
   - '+.jjzyy.org'
   - '+.jkgeek.com'
   - '+.jnsjz.com'
-  - '+.jsdelivr.com'
-  - '+.jsdelivr.net'
   - '+.jsj.top'
   - '+.jspvz.com'
   - '+.juantui.com'
@@ -560,6 +562,7 @@ payload:
   - '+.kit327.com'
   - '+.kiwiot.com'
   - '+.kke.com.hk'
+  - '+.kkmmy.com'
   - '+.kldai.vip'
   - '+.kmeila.com'
   - '+.koebpmhcce.com'
@@ -576,6 +579,7 @@ payload:
   - '+.leadweigh.com'
   - '+.leelen.com'
   - '+.letaoedu.com'
+  - '+.leux.net'
   - '+.lezuan6.com'
   - '+.lg3000.top'
   - '+.lightmake.site'
@@ -594,6 +598,7 @@ payload:
   - '+.lsposed.zip'
   - '+.lty02.com'
   - '+.lucky.gd'
+  - '+.luxiangwu.com'
   - '+.lw5.co'
   - '+.lyihub.com'
   - '+.lyilife.com'
@@ -745,6 +750,7 @@ payload:
   - '+.qjmotorlink.com'
   - '+.qmeng.top'
   - '+.qmpx.net'
+  - '+.qpe27.top'
   - '+.quanxinfu.com'
   - '+.quanzhua.com'
   - '+.quxuanshu.com'
@@ -891,6 +897,7 @@ payload:
   - '+.tuxing.art'
   - '+.twinkstar.com'
   - '+.twtapp.com'
+  - '+.tylk.cc'
   - '+.type.fun'
   - '+.tztec.top'
   - '+.u-carloan.com'
