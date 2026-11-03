@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1075
+# TOTAL: 1081
 
 payload:
   - '+.00333118.com'
@@ -48,6 +48,7 @@ payload:
   - '+.52met.com'
   - '+.52muban.com'
   - '+.52youzai.com'
+  - '+.52ywp.com'
   - '+.55555.ink'
   - '+.56tvc.com'
   - '+.580ai.net'
@@ -235,6 +236,7 @@ payload:
   - '+.crrcgo.cc'
   - '+.crtyhr.com'
   - '+.csqaq.com'
+  - '+.cyberpig.tech'
   - '+.cydiabc.top'
   - '+.cym520.top'
   - '+.cyouzai.com'
@@ -582,9 +584,11 @@ payload:
   - '+.leux.net'
   - '+.lezuan6.com'
   - '+.lg3000.top'
+  - '+.lianguo-tech.com'
   - '+.lightmake.site'
   - '+.linka2a.net'
   - '+.linkcircle.net'
+  - '+.linkease.net'
   - '+.linux.sb'
   - '+.listenai.com'
   - '+.liunn.com'
@@ -813,6 +817,7 @@ payload:
   - '+.skktec.com'
   - '+.sksight.com'
   - '+.skxvc.com'
+  - '+.skyts.net'
   - '+.snfox.com'
   - '+.snltty.com'
   - '+.sollin.top'
@@ -888,6 +893,7 @@ payload:
   - '+.touchgal.ink'
   - '+.touchgaloss.com'
   - '+.tozi-cn.top'
+  - '+.tracker.ink'
   - '+.trjho.com'
   - '+.ts3.ink'
   - '+.ttshitu.com'
