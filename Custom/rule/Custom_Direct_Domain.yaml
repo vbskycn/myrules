@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1101
+# TOTAL: 1110
 
 payload:
   - '+.00333118.com'
@@ -24,6 +24,7 @@ payload:
   - '+.204cloud.com'
   - '+.225284.xyz'
   - '+.25mao.com'
+  - '+.264788.xyz'
   - '+.2mcnxs.cc'
   - '+.365ting.com'
   - '+.365wp.top'
@@ -217,6 +218,7 @@ payload:
   - '+.chujingapp.com'
   - '+.chushi.cool'
   - '+.ciallo.party'
+  - '+.cilizhai.net'
   - '+.cindy.app'
   - '+.ciyuancenter.cc'
   - '+.clivia.fun'
@@ -235,6 +237,7 @@ payload:
   - '+.constantinefun.com'
   - '+.constasj.me'
   - '+.coros.com'
+  - '+.cqhy.fun'
   - '+.cqjypg.com'
   - '+.cqnbmarathon.com'
   - '+.crrcgo.cc'
@@ -248,6 +251,7 @@ payload:
   - '+.dadateach.com'
   - '+.dahai96.com'
   - '+.daocloud.vip'
+  - '+.darwinchow.com'
   - '+.day.app'
   - '+.dayilive.com'
   - '+.dcgstd.com'
@@ -397,6 +401,7 @@ payload:
   - '+.gootho.com'
   - '+.gpetrip.com'
   - '+.gpgwx.com'
+  - '+.greennet-inc.com'
   - '+.grz-hx.com'
   - '+.gseen.com'
   - '+.gsgltz.com'
@@ -785,6 +790,7 @@ payload:
   - '+.registry.dockermirror.com'
   - '+.rewards.bing.com'
   - '+.rkgamingstore.com'
+  - '+.ro1029mango.com'
   - '+.royqh.net'
   - '+.rsfcxq.com'
   - '+.rsmods.cc'
@@ -972,6 +978,7 @@ payload:
   - '+.wlups.com'
   - '+.wologic.net'
   - '+.wpurl.cc'
+  - '+.wt2zxk.com'
   - '+.wty-yy.top'
   - '+.wuhanjijin.com'
   - '+.wwwh.eu.org'
@@ -1006,6 +1013,7 @@ payload:
   - '+.xiaoyuan888.com'
   - '+.xiberia.net'
   - '+.ximogo.com'
+  - '+.xincili01ng.top'
   - '+.xingaochengtai.com'
   - '+.xinghaiwaimai.com'
   - '+.xingmojs.com'
@@ -1082,6 +1090,7 @@ payload:
   - '+.zhouyiy.com'
   - '+.zhu.today'
   - '+.zhytstudio.com'
+  - '+.zi1029panda.top'
   - '+.zjjslawyer.com'
   - '+.zjshulong.com'
   - '+.zjxhedu.com'

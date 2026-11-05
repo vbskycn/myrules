@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1116
+# TOTAL: 1125
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -27,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,204cloud.com
   - DOMAIN-SUFFIX,225284.xyz
   - DOMAIN-SUFFIX,25mao.com
+  - DOMAIN-SUFFIX,264788.xyz
   - DOMAIN-SUFFIX,2mcnxs.cc
   - DOMAIN-SUFFIX,365ting.com
   - DOMAIN-SUFFIX,365wp.top
@@ -220,6 +221,7 @@ payload:
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN-SUFFIX,chushi.cool
   - DOMAIN-SUFFIX,ciallo.party
+  - DOMAIN-SUFFIX,cilizhai.net
   - DOMAIN-SUFFIX,cindy.app
   - DOMAIN-SUFFIX,ciyuancenter.cc
   - DOMAIN-SUFFIX,clivia.fun
@@ -238,6 +240,7 @@ payload:
   - DOMAIN-SUFFIX,constantinefun.com
   - DOMAIN-SUFFIX,constasj.me
   - DOMAIN-SUFFIX,coros.com
+  - DOMAIN-SUFFIX,cqhy.fun
   - DOMAIN-SUFFIX,cqjypg.com
   - DOMAIN-SUFFIX,cqnbmarathon.com
   - DOMAIN-SUFFIX,crrcgo.cc
@@ -251,6 +254,7 @@ payload:
   - DOMAIN-SUFFIX,dadateach.com
   - DOMAIN-SUFFIX,dahai96.com
   - DOMAIN-SUFFIX,daocloud.vip
+  - DOMAIN-SUFFIX,darwinchow.com
   - DOMAIN-SUFFIX,day.app
   - DOMAIN-SUFFIX,dayilive.com
   - DOMAIN-SUFFIX,dcgstd.com
@@ -400,6 +404,7 @@ payload:
   - DOMAIN-SUFFIX,gootho.com
   - DOMAIN-SUFFIX,gpetrip.com
   - DOMAIN-SUFFIX,gpgwx.com
+  - DOMAIN-SUFFIX,greennet-inc.com
   - DOMAIN-SUFFIX,grz-hx.com
   - DOMAIN-SUFFIX,gseen.com
   - DOMAIN-SUFFIX,gsgltz.com
@@ -788,6 +793,7 @@ payload:
   - DOMAIN-SUFFIX,registry.dockermirror.com
   - DOMAIN-SUFFIX,rewards.bing.com
   - DOMAIN-SUFFIX,rkgamingstore.com
+  - DOMAIN-SUFFIX,ro1029mango.com
   - DOMAIN-SUFFIX,royqh.net
   - DOMAIN-SUFFIX,rsfcxq.com
   - DOMAIN-SUFFIX,rsmods.cc
@@ -975,6 +981,7 @@ payload:
   - DOMAIN-SUFFIX,wlups.com
   - DOMAIN-SUFFIX,wologic.net
   - DOMAIN-SUFFIX,wpurl.cc
+  - DOMAIN-SUFFIX,wt2zxk.com
   - DOMAIN-SUFFIX,wty-yy.top
   - DOMAIN-SUFFIX,wuhanjijin.com
   - DOMAIN-SUFFIX,wwwh.eu.org
@@ -1009,6 +1016,7 @@ payload:
   - DOMAIN-SUFFIX,xiaoyuan888.com
   - DOMAIN-SUFFIX,xiberia.net
   - DOMAIN-SUFFIX,ximogo.com
+  - DOMAIN-SUFFIX,xincili01ng.top
   - DOMAIN-SUFFIX,xingaochengtai.com
   - DOMAIN-SUFFIX,xinghaiwaimai.com
   - DOMAIN-SUFFIX,xingmojs.com
@@ -1085,6 +1093,7 @@ payload:
   - DOMAIN-SUFFIX,zhouyiy.com
   - DOMAIN-SUFFIX,zhu.today
   - DOMAIN-SUFFIX,zhytstudio.com
+  - DOMAIN-SUFFIX,zi1029panda.top
   - DOMAIN-SUFFIX,zjjslawyer.com
   - DOMAIN-SUFFIX,zjshulong.com
   - DOMAIN-SUFFIX,zjxhedu.com
