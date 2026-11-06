@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1165
+# TOTAL: 1173
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -72,6 +72,7 @@ payload:
   - DOMAIN-SUFFIX,847ds.com
   - DOMAIN-SUFFIX,85sc.com
   - DOMAIN-SUFFIX,86656.net
+  - DOMAIN-SUFFIX,870833.com
   - DOMAIN-SUFFIX,888lm02.com
   - DOMAIN-SUFFIX,88996api.cloud
   - DOMAIN-SUFFIX,8kc.top
@@ -104,6 +105,7 @@ payload:
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,agentkey.app
   - DOMAIN-SUFFIX,agentscope.io
+  - DOMAIN-SUFFIX,agi2rjr.cc
   - DOMAIN-SUFFIX,ahlt10010.com
   - DOMAIN-SUFFIX,aibeike.com
   - DOMAIN-SUFFIX,aichangbaishan.com
@@ -180,6 +182,7 @@ payload:
   - DOMAIN-SUFFIX,boxim.online
   - DOMAIN-SUFFIX,boxkj.com
   - DOMAIN-SUFFIX,boyuemobile.com
+  - DOMAIN-SUFFIX,bro.pw
   - DOMAIN-SUFFIX,browserscan.net
   - DOMAIN-SUFFIX,bs-iot.com
   - DOMAIN-SUFFIX,bsbsb.top
@@ -357,6 +360,7 @@ payload:
   - DOMAIN-SUFFIX,ft07.com
   - DOMAIN-SUFFIX,ftqq.com
   - DOMAIN-SUFFIX,ftsup.com
+  - DOMAIN-SUFFIX,fullo.top
   - DOMAIN-SUFFIX,functorz.com
   - DOMAIN-SUFFIX,funlinkads.com
   - DOMAIN-SUFFIX,funmob.top
@@ -381,6 +385,7 @@ payload:
   - DOMAIN-SUFFIX,geektool.top
   - DOMAIN-SUFFIX,gegeselect.hk
   - DOMAIN-SUFFIX,gelaiyun.net
+  - DOMAIN-SUFFIX,gexuanyi.top
   - DOMAIN-SUFFIX,ggbond.org
   - DOMAIN-SUFFIX,gh-proxy.com
   - DOMAIN-SUFFIX,gh.con.sh
@@ -610,6 +615,7 @@ payload:
   - DOMAIN-SUFFIX,kudashi.com
   - DOMAIN-SUFFIX,kukongjian.com
   - DOMAIN-SUFFIX,kuktxu.com
+  - DOMAIN-SUFFIX,kuleu.com
   - DOMAIN-SUFFIX,kwai.net
   - DOMAIN-SUFFIX,lanyun.net
   - DOMAIN-SUFFIX,laogongju.com
@@ -824,6 +830,7 @@ payload:
   - DOMAIN-SUFFIX,rewards.bing.com
   - DOMAIN-SUFFIX,rkgamingstore.com
   - DOMAIN-SUFFIX,ro1029mango.com
+  - DOMAIN-SUFFIX,rocrp.net
   - DOMAIN-SUFFIX,royqh.net
   - DOMAIN-SUFFIX,rsfcxq.com
   - DOMAIN-SUFFIX,rsmods.cc
@@ -991,6 +998,7 @@ payload:
   - DOMAIN-SUFFIX,vlan5.com
   - DOMAIN-SUFFIX,volcanomob.com
   - DOMAIN-SUFFIX,vpsjyz.com
+  - DOMAIN-SUFFIX,vryfh.top
   - DOMAIN-SUFFIX,vtools.online
   - DOMAIN-SUFFIX,vv1865.com
   - DOMAIN-SUFFIX,vvhan.com

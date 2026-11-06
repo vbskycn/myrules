@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1150
+# TOTAL: 1158
 
 payload:
   - '+.00333118.com'
@@ -69,6 +69,7 @@ payload:
   - '+.847ds.com'
   - '+.85sc.com'
   - '+.86656.net'
+  - '+.870833.com'
   - '+.888lm02.com'
   - '+.88996api.cloud'
   - '+.8kc.top'
@@ -101,6 +102,7 @@ payload:
   - '+.afuns.me'
   - '+.agentkey.app'
   - '+.agentscope.io'
+  - '+.agi2rjr.cc'
   - '+.ahlt10010.com'
   - '+.aibeike.com'
   - '+.aichangbaishan.com'
@@ -177,6 +179,7 @@ payload:
   - '+.boxim.online'
   - '+.boxkj.com'
   - '+.boyuemobile.com'
+  - '+.bro.pw'
   - '+.browserscan.net'
   - '+.bs-iot.com'
   - '+.bsbsb.top'
@@ -354,6 +357,7 @@ payload:
   - '+.ft07.com'
   - '+.ftqq.com'
   - '+.ftsup.com'
+  - '+.fullo.top'
   - '+.functorz.com'
   - '+.funlinkads.com'
   - '+.funmob.top'
@@ -378,6 +382,7 @@ payload:
   - '+.geektool.top'
   - '+.gegeselect.hk'
   - '+.gelaiyun.net'
+  - '+.gexuanyi.top'
   - '+.ggbond.org'
   - '+.gh-proxy.com'
   - '+.gh.con.sh'
@@ -607,6 +612,7 @@ payload:
   - '+.kudashi.com'
   - '+.kukongjian.com'
   - '+.kuktxu.com'
+  - '+.kuleu.com'
   - '+.kwai.net'
   - '+.lanyun.net'
   - '+.laogongju.com'
@@ -821,6 +827,7 @@ payload:
   - '+.rewards.bing.com'
   - '+.rkgamingstore.com'
   - '+.ro1029mango.com'
+  - '+.rocrp.net'
   - '+.royqh.net'
   - '+.rsfcxq.com'
   - '+.rsmods.cc'
@@ -988,6 +995,7 @@ payload:
   - '+.vlan5.com'
   - '+.volcanomob.com'
   - '+.vpsjyz.com'
+  - '+.vryfh.top'
   - '+.vtools.online'
   - '+.vv1865.com'
   - '+.vvhan.com'
