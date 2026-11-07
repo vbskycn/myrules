@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1158
+# TOTAL: 1165
 
 payload:
   - '+.00333118.com'
@@ -254,6 +254,7 @@ payload:
   - '+.crtyhr.com'
   - '+.csqaq.com'
   - '+.csrqoa.com'
+  - '+.ctzpj.com'
   - '+.cyberpig.tech'
   - '+.cydiabc.top'
   - '+.cym520.top'
@@ -275,6 +276,7 @@ payload:
   - '+.dell.com'
   - '+.dfhog.com'
   - '+.dg3yy.com'
+  - '+.dggdjt.com'
   - '+.dhjsnx.com'
   - '+.dhub.kubesre.xyz'
   - '+.diandaojia.net'
@@ -450,6 +452,7 @@ payload:
   - '+.haimaiedu.net'
   - '+.halvie.com'
   - '+.ham.xin'
+  - '+.hanbodianzi.com'
   - '+.handfree.work'
   - '+.hangnakeji.com'
   - '+.hanoking.com'
@@ -559,6 +562,7 @@ payload:
   - '+.istoreos.com'
   - '+.itptg.com'
   - '+.itui.cc'
+  - '+.iya365.com'
   - '+.jbsy20riz9.com'
   - '+.jduoduo.com'
   - '+.jfjt.cc'
@@ -658,6 +662,7 @@ payload:
   - '+.manfuz.co'
   - '+.maticooads.com'
   - '+.maxdo.tech'
+  - '+.mb518.com'
   - '+.mblyun.com'
   - '+.mbm06.com'
   - '+.mc-user.com'
@@ -933,6 +938,7 @@ payload:
   - '+.tgpro.top'
   - '+.thejoyridegames.com'
   - '+.theluyuan.com'
+  - '+.theshikilab.com'
   - '+.theuwa.com'
   - '+.thinkerride.com'
   - '+.thispx.com'
@@ -1153,6 +1159,7 @@ payload:
   - '+.zuidazym3u8.com'
   - '+.zuobiao.press'
   - '+.zxp7.cc'
+  - '+.zxstech.com'
   - '+.zysou.com'
   - '+.zyyct.com'
   - '+.zzclass.com'
