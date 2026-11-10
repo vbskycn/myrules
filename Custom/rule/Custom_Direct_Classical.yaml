@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1201
+# TOTAL: 1207
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -217,6 +217,7 @@ payload:
   - DOMAIN-SUFFIX,cgicop.com
   - DOMAIN-SUFFIX,changjirb.com
   - DOMAIN-SUFFIX,changzhi.top
+  - DOMAIN-SUFFIX,chaoway.net
   - DOMAIN-SUFFIX,chatlabs.net
   - DOMAIN-SUFFIX,chaxunjiao.com
   - DOMAIN-SUFFIX,chaz.fun
@@ -230,10 +231,12 @@ payload:
   - DOMAIN-SUFFIX,chii.in
   - DOMAIN-SUFFIX,china-amass.com
   - DOMAIN-SUFFIX,chinatle.com
+  - DOMAIN-SUFFIX,chixiatech.com
   - DOMAIN-SUFFIX,chocolateswap.com
   - DOMAIN-SUFFIX,chuguansmart.com
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN-SUFFIX,chushi.cool
+  - DOMAIN-SUFFIX,chyqaq.online
   - DOMAIN-SUFFIX,ciallo.party
   - DOMAIN-SUFFIX,cilizhai.net
   - DOMAIN-SUFFIX,cindy.app
@@ -649,6 +652,7 @@ payload:
   - DOMAIN-SUFFIX,lg3000.top
   - DOMAIN-SUFFIX,lhndksn.com
   - DOMAIN-SUFFIX,lianguo-tech.com
+  - DOMAIN-SUFFIX,liangyuji.com
   - DOMAIN-SUFFIX,libtv.com
   - DOMAIN-SUFFIX,lightmake.site
   - DOMAIN-SUFFIX,linka2a.net
@@ -937,6 +941,7 @@ payload:
   - DOMAIN-SUFFIX,szfx.top
   - DOMAIN-SUFFIX,szmtzd.com
   - DOMAIN-SUFFIX,sztopten.com
+  - DOMAIN-SUFFIX,szyrtech.com
   - DOMAIN-SUFFIX,taichuansmart.com
   - DOMAIN-SUFFIX,tailgdd.com
   - DOMAIN-SUFFIX,tailscale.com
@@ -1047,6 +1052,7 @@ payload:
   - DOMAIN-SUFFIX,wlcdn88.com
   - DOMAIN-SUFFIX,wlkac.com
   - DOMAIN-SUFFIX,wlups.com
+  - DOMAIN-SUFFIX,wlygrowth.com
   - DOMAIN-SUFFIX,wmvbo.com
   - DOMAIN-SUFFIX,wologic.net
   - DOMAIN-SUFFIX,wpurl.cc
