@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1194
+# TOTAL: 1201
 
 payload:
   - '+.00333118.com'
@@ -681,6 +681,7 @@ payload:
   - '+.manfuz.co'
   - '+.maticooads.com'
   - '+.maxdo.tech'
+  - '+.mayihttp.com'
   - '+.mb518.com'
   - '+.mblyun.com'
   - '+.mbm06.com'
@@ -855,6 +856,7 @@ payload:
   - '+.rewards.bing.com'
   - '+.rkgamingstore.com'
   - '+.ro1029mango.com'
+  - '+.rockchips.net'
   - '+.rocrp.net'
   - '+.royqh.net'
   - '+.rsfcxq.com'
@@ -888,6 +890,7 @@ payload:
   - '+.shccywlkj.xyz'
   - '+.shenzhendongwei.com'
   - '+.shineacc.com'
+  - '+.shirui3.com'
   - '+.shrxnet.com'
   - '+.shsw.top'
   - '+.shuangqingtech.com'
@@ -906,6 +909,7 @@ payload:
   - '+.sksight.com'
   - '+.skxvc.com'
   - '+.skyts.net'
+  - '+.smartryan.com'
   - '+.smw9t0a.cc'
   - '+.snfox.com'
   - '+.snltty.com'
@@ -1004,6 +1008,7 @@ payload:
   - '+.tztec.top'
   - '+.u-carloan.com'
   - '+.u5nm5uvh1w.com'
+  - '+.u7ygkovbl.cc'
   - '+.uascent-iot.com'
   - '+.ugdocker.link'
   - '+.ugediao.com'
@@ -1084,6 +1089,7 @@ payload:
   - '+.xiaocaiyuan.com'
   - '+.xiaochuanyun.com'
   - '+.xiaodingfang.com'
+  - '+.xiaokuai.com'
   - '+.xiaolikj.online'
   - '+.xiaomaicn.com'
   - '+.xiaoxia.vip'
@@ -1160,6 +1166,7 @@ payload:
   - '+.zcloud.world'
   - '+.zctnet.top'
   - '+.zeekrline.com'
+  - '+.zendao8.top'
   - '+.zhaiad.com'
   - '+.zhangleglobal.com'
   - '+.zhewx.com'

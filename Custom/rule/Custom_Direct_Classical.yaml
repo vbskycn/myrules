@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1209
+# TOTAL: 1216
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -684,6 +684,7 @@ payload:
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-SUFFIX,maticooads.com
   - DOMAIN-SUFFIX,maxdo.tech
+  - DOMAIN-SUFFIX,mayihttp.com
   - DOMAIN-SUFFIX,mb518.com
   - DOMAIN-SUFFIX,mblyun.com
   - DOMAIN-SUFFIX,mbm06.com
@@ -858,6 +859,7 @@ payload:
   - DOMAIN-SUFFIX,rewards.bing.com
   - DOMAIN-SUFFIX,rkgamingstore.com
   - DOMAIN-SUFFIX,ro1029mango.com
+  - DOMAIN-SUFFIX,rockchips.net
   - DOMAIN-SUFFIX,rocrp.net
   - DOMAIN-SUFFIX,royqh.net
   - DOMAIN-SUFFIX,rsfcxq.com
@@ -891,6 +893,7 @@ payload:
   - DOMAIN-SUFFIX,shccywlkj.xyz
   - DOMAIN-SUFFIX,shenzhendongwei.com
   - DOMAIN-SUFFIX,shineacc.com
+  - DOMAIN-SUFFIX,shirui3.com
   - DOMAIN-SUFFIX,shrxnet.com
   - DOMAIN-SUFFIX,shsw.top
   - DOMAIN-SUFFIX,shuangqingtech.com
@@ -909,6 +912,7 @@ payload:
   - DOMAIN-SUFFIX,sksight.com
   - DOMAIN-SUFFIX,skxvc.com
   - DOMAIN-SUFFIX,skyts.net
+  - DOMAIN-SUFFIX,smartryan.com
   - DOMAIN-SUFFIX,smw9t0a.cc
   - DOMAIN-SUFFIX,snfox.com
   - DOMAIN-SUFFIX,snltty.com
@@ -1007,6 +1011,7 @@ payload:
   - DOMAIN-SUFFIX,tztec.top
   - DOMAIN-SUFFIX,u-carloan.com
   - DOMAIN-SUFFIX,u5nm5uvh1w.com
+  - DOMAIN-SUFFIX,u7ygkovbl.cc
   - DOMAIN-SUFFIX,uascent-iot.com
   - DOMAIN-SUFFIX,ugdocker.link
   - DOMAIN-SUFFIX,ugediao.com
@@ -1087,6 +1092,7 @@ payload:
   - DOMAIN-SUFFIX,xiaocaiyuan.com
   - DOMAIN-SUFFIX,xiaochuanyun.com
   - DOMAIN-SUFFIX,xiaodingfang.com
+  - DOMAIN-SUFFIX,xiaokuai.com
   - DOMAIN-SUFFIX,xiaolikj.online
   - DOMAIN-SUFFIX,xiaomaicn.com
   - DOMAIN-SUFFIX,xiaoxia.vip
@@ -1163,6 +1169,7 @@ payload:
   - DOMAIN-SUFFIX,zcloud.world
   - DOMAIN-SUFFIX,zctnet.top
   - DOMAIN-SUFFIX,zeekrline.com
+  - DOMAIN-SUFFIX,zendao8.top
   - DOMAIN-SUFFIX,zhaiad.com
   - DOMAIN-SUFFIX,zhangleglobal.com
   - DOMAIN-SUFFIX,zhewx.com
