@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1214
+# TOTAL: 1223
 
 payload:
   - '+.00333118.com'
@@ -63,6 +63,7 @@ payload:
   - '+.618208.xyz'
   - '+.657192.com'
   - '+.66990000.xyz'
+  - '+.6apzfdx.com'
   - '+.6v520.net'
   - '+.71.am'
   - '+.737698.xyz'
@@ -149,6 +150,7 @@ payload:
   - '+.argotunnel.com'
   - '+.argslink.com'
   - '+.armvm.com'
+  - '+.aroychmdcl.cc'
   - '+.asgardion.space'
   - '+.astrobox.online'
   - '+.atticus.vip'
@@ -173,6 +175,7 @@ payload:
   - '+.belimked.com'
   - '+.belongme.top'
   - '+.betahub.tech'
+  - '+.betaints.com'
   - '+.bhduhs.com'
   - '+.biandangroup.com'
   - '+.biaoda.me'
@@ -452,6 +455,7 @@ payload:
   - '+.guang233.com'
   - '+.guangshiting.top'
   - '+.guangyapan.com'
+  - '+.guazi.fun'
   - '+.guiguiya.com'
   - '+.guyuns.asia'
   - '+.gvgoo.com'
@@ -754,6 +758,7 @@ payload:
   - '+.neihang.net'
   - '+.netzz.net'
   - '+.nhjdixj.com'
+  - '+.nht5dbh.cc'
   - '+.nicezhuanye.com'
   - '+.njlisi.top'
   - '+.njonemall.com'
@@ -856,10 +861,12 @@ payload:
   - '+.qweatherapi.com'
   - '+.qzy.xyz'
   - '+.qzyun.net'
+  - '+.r11cc.com'
   - '+.ranwen.tw'
   - '+.rayws.top'
   - '+.redenmc.com'
   - '+.registry.dockermirror.com'
+  - '+.remo.video'
   - '+.rewards.bing.com'
   - '+.rkgamingstore.com'
   - '+.ro1029mango.com'
@@ -988,6 +995,7 @@ payload:
   - '+.tianruo.xyz'
   - '+.timbrd.com'
   - '+.tixue.net'
+  - '+.tjnhscgs.com'
   - '+.tlkg.com'
   - '+.tluyou.com'
   - '+.tmallyc.com'
@@ -1151,6 +1159,7 @@ payload:
   - '+.yicaiykt.com'
   - '+.yikeapi.com'
   - '+.yingshi.dog'
+  - '+.yishares.com'
   - '+.yiso.fun'
   - '+.yixc.com'
   - '+.yixlab.com'
