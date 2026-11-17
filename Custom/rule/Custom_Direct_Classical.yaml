@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1244
+# TOTAL: 1261
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -33,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,25mao.com
   - DOMAIN-SUFFIX,264788.xyz
   - DOMAIN-SUFFIX,2mcnxs.cc
+  - DOMAIN-SUFFIX,33442805.com
   - DOMAIN-SUFFIX,365ting.com
   - DOMAIN-SUFFIX,365wp.top
   - DOMAIN-SUFFIX,3688baihuo.com
@@ -65,12 +66,14 @@ payload:
   - DOMAIN-SUFFIX,580ai.net
   - DOMAIN-SUFFIX,618208.xyz
   - DOMAIN-SUFFIX,657192.com
+  - DOMAIN-SUFFIX,66298845.com
   - DOMAIN-SUFFIX,66990000.xyz
   - DOMAIN-SUFFIX,6apzfdx.com
   - DOMAIN-SUFFIX,6v520.net
   - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,737698.xyz
   - DOMAIN-SUFFIX,757abc.com
+  - DOMAIN-SUFFIX,77505113.com
   - DOMAIN-SUFFIX,77shuku.info
   - DOMAIN-SUFFIX,77shuku.org
   - DOMAIN-SUFFIX,7sef.com
@@ -81,6 +84,7 @@ payload:
   - DOMAIN-SUFFIX,86656.net
   - DOMAIN-SUFFIX,870833.com
   - DOMAIN-SUFFIX,888lm02.com
+  - DOMAIN-SUFFIX,88923531.com
   - DOMAIN-SUFFIX,88996api.cloud
   - DOMAIN-SUFFIX,8kc.top
   - DOMAIN-SUFFIX,8x14khzwmi.com
@@ -300,6 +304,7 @@ payload:
   - DOMAIN-SUFFIX,dhub.kubesre.xyz
   - DOMAIN-SUFFIX,diandaojia.net
   - DOMAIN-SUFFIX,dingdingzn.com
+  - DOMAIN-SUFFIX,dingdongbao.com
   - DOMAIN-SUFFIX,dingstock.net
   - DOMAIN-SUFFIX,dircleaner.com
   - DOMAIN-SUFFIX,divoiotcloud.com
@@ -608,11 +613,13 @@ payload:
   - DOMAIN-SUFFIX,jinsan168.com
   - DOMAIN-SUFFIX,jinzanzan.com
   - DOMAIN-SUFFIX,jiqw.com
+  - DOMAIN-SUFFIX,jjwer.com
   - DOMAIN-SUFFIX,jjzyy.org
   - DOMAIN-SUFFIX,jkgeek.com
   - DOMAIN-SUFFIX,jnsjz.com
   - DOMAIN-SUFFIX,jsj.top
   - DOMAIN-SUFFIX,jspvz.com
+  - DOMAIN-SUFFIX,jtti.cc
   - DOMAIN-SUFFIX,juantui.com
   - DOMAIN-SUFFIX,julebu.co
   - DOMAIN-SUFFIX,jxjktzjt.com
@@ -635,6 +642,7 @@ payload:
   - DOMAIN-SUFFIX,kcbd.top
   - DOMAIN-SUFFIX,kcttpa.com
   - DOMAIN-SUFFIX,kejiweixun.com
+  - DOMAIN-SUFFIX,kelexuexi.com
   - DOMAIN-SUFFIX,keyoo.com
   - DOMAIN-SUFFIX,kgithub.com
   - DOMAIN-SUFFIX,kit327.com
@@ -674,6 +682,7 @@ payload:
   - DOMAIN-SUFFIX,linux.sb
   - DOMAIN-SUFFIX,listenai.com
   - DOMAIN-SUFFIX,litemob.vip
+  - DOMAIN-SUFFIX,litepan.top
   - DOMAIN-SUFFIX,liunn.com
   - DOMAIN-SUFFIX,liveperson.net
   - DOMAIN-SUFFIX,liyunol.com
@@ -695,6 +704,7 @@ payload:
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-SUFFIX,machtalk.net
+  - DOMAIN-SUFFIX,manbangcredit.com
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-SUFFIX,maticooads.com
   - DOMAIN-SUFFIX,maxdo.tech
@@ -719,6 +729,7 @@ payload:
   - DOMAIN-SUFFIX,meoof-pet.com
   - DOMAIN-SUFFIX,metrix.bar
   - DOMAIN-SUFFIX,mfdqsc.com
+  - DOMAIN-SUFFIX,mfosunhani.com
   - DOMAIN-SUFFIX,miaona.app
   - DOMAIN-SUFFIX,miaotixing.com
   - DOMAIN-SUFFIX,micu.hk
@@ -816,6 +827,7 @@ payload:
   - DOMAIN-SUFFIX,pcwatch.com
   - DOMAIN-SUFFIX,pdf001.com
   - DOMAIN-SUFFIX,pdhnx.com
+  - DOMAIN-SUFFIX,pheicloud.com
   - DOMAIN-SUFFIX,piedaochuan.top
   - DOMAIN-SUFFIX,pinshuxsw.com
   - DOMAIN-SUFFIX,pixcheese.com
@@ -911,6 +923,7 @@ payload:
   - DOMAIN-SUFFIX,shanghongbei.com
   - DOMAIN-SUFFIX,share123.top
   - DOMAIN-SUFFIX,shccywlkj.xyz
+  - DOMAIN-SUFFIX,shemen365.com
   - DOMAIN-SUFFIX,shenzhendongwei.com
   - DOMAIN-SUFFIX,shineacc.com
   - DOMAIN-SUFFIX,shirui3.com
@@ -995,6 +1008,7 @@ payload:
   - DOMAIN-SUFFIX,theluyuan.com
   - DOMAIN-SUFFIX,theshikilab.com
   - DOMAIN-SUFFIX,theuwa.com
+  - DOMAIN-SUFFIX,theyojoy.com
   - DOMAIN-SUFFIX,thinkerride.com
   - DOMAIN-SUFFIX,thispx.com
   - DOMAIN-SUFFIX,thmnet.com
@@ -1035,6 +1049,7 @@ payload:
   - DOMAIN-SUFFIX,tztec.top
   - DOMAIN-SUFFIX,u-carloan.com
   - DOMAIN-SUFFIX,u5nm5uvh1w.com
+  - DOMAIN-SUFFIX,u77.games
   - DOMAIN-SUFFIX,u7ygkovbl.cc
   - DOMAIN-SUFFIX,uascent-iot.com
   - DOMAIN-SUFFIX,ugdocker.link
@@ -1176,6 +1191,8 @@ payload:
   - DOMAIN-SUFFIX,ymwfy.com
   - DOMAIN-SUFFIX,ymzec.com
   - DOMAIN-SUFFIX,ynsj001.com
+  - DOMAIN-SUFFIX,yojoy.mobi
+  - DOMAIN-SUFFIX,yojoy.vip
   - DOMAIN-SUFFIX,yongyu.xyz
   - DOMAIN-SUFFIX,yooc.me
   - DOMAIN-SUFFIX,youkuimg.icu
