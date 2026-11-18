@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1246
+# TOTAL: 1256
 
 payload:
   - '+.00333118.com'
@@ -31,6 +31,7 @@ payload:
   - '+.264788.xyz'
   - '+.2mcnxs.cc'
   - '+.33442805.com'
+  - '+.360luxiang.com'
   - '+.365ting.com'
   - '+.365wp.top'
   - '+.3688baihuo.com'
@@ -158,6 +159,7 @@ payload:
   - '+.aroychmdcl.cc'
   - '+.asgardion.space'
   - '+.astrobox.online'
+  - '+.ataw.top'
   - '+.atticus.vip'
   - '+.awstme.top'
   - '+.ax1x.com'
@@ -181,6 +183,7 @@ payload:
   - '+.belongme.top'
   - '+.betahub.tech'
   - '+.betaints.com'
+  - '+.bfr2.top'
   - '+.bhduhs.com'
   - '+.biandangroup.com'
   - '+.biaoda.me'
@@ -469,6 +472,7 @@ payload:
   - '+.gxcould.com'
   - '+.gxnnjidingkeji.top'
   - '+.gxnnxsqy.top'
+  - '+.gxqmeiwujun.com'
   - '+.gxrke1715.com'
   - '+.gzjkoa.com'
   - '+.gzybao.com'
@@ -590,6 +594,7 @@ payload:
   - '+.ipshu.com'
   - '+.iq.com'
   - '+.iquantumad.com'
+  - '+.isbestgame.com'
   - '+.istoreos.com'
   - '+.itptg.com'
   - '+.itui.cc'
@@ -727,6 +732,7 @@ payload:
   - '+.metrix.bar'
   - '+.mfdqsc.com'
   - '+.mfosunhani.com'
+  - '+.mfpt8g.com'
   - '+.miaona.app'
   - '+.miaotixing.com'
   - '+.micu.hk'
@@ -741,6 +747,7 @@ payload:
   - '+.miraiemby.com'
   - '+.mixly.org'
   - '+.mobai.sbs'
+  - '+.mobbananagame.com'
   - '+.mochadj.com'
   - '+.moctory.com'
   - '+.modaiyun.com'
@@ -793,6 +800,7 @@ payload:
   - '+.oai.sb'
   - '+.oath.com'
   - '+.oceando.cloud'
+  - '+.oemdss.com'
   - '+.ohdnhxj.com'
   - '+.ok321.top'
   - '+.omq.cc'
@@ -970,6 +978,7 @@ payload:
   - '+.suyur.com'
   - '+.svyun.com'
   - '+.sxdidc.com'
+  - '+.sxjd.ink'
   - '+.sxjiabeide.com'
   - '+.sxjkj22.top'
   - '+.sxlljm.com'
@@ -1097,6 +1106,7 @@ payload:
   - '+.wlups.com'
   - '+.wlygrowth.com'
   - '+.wmvbo.com'
+  - '+.woca.fun'
   - '+.wologic.net'
   - '+.wpurl.cc'
   - '+.wshifen.com'

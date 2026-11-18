@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1261
+# TOTAL: 1271
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -34,6 +34,7 @@ payload:
   - DOMAIN-SUFFIX,264788.xyz
   - DOMAIN-SUFFIX,2mcnxs.cc
   - DOMAIN-SUFFIX,33442805.com
+  - DOMAIN-SUFFIX,360luxiang.com
   - DOMAIN-SUFFIX,365ting.com
   - DOMAIN-SUFFIX,365wp.top
   - DOMAIN-SUFFIX,3688baihuo.com
@@ -161,6 +162,7 @@ payload:
   - DOMAIN-SUFFIX,aroychmdcl.cc
   - DOMAIN-SUFFIX,asgardion.space
   - DOMAIN-SUFFIX,astrobox.online
+  - DOMAIN-SUFFIX,ataw.top
   - DOMAIN-SUFFIX,atticus.vip
   - DOMAIN-SUFFIX,awstme.top
   - DOMAIN-SUFFIX,ax1x.com
@@ -184,6 +186,7 @@ payload:
   - DOMAIN-SUFFIX,belongme.top
   - DOMAIN-SUFFIX,betahub.tech
   - DOMAIN-SUFFIX,betaints.com
+  - DOMAIN-SUFFIX,bfr2.top
   - DOMAIN-SUFFIX,bhduhs.com
   - DOMAIN-SUFFIX,biandangroup.com
   - DOMAIN-SUFFIX,biaoda.me
@@ -472,6 +475,7 @@ payload:
   - DOMAIN-SUFFIX,gxcould.com
   - DOMAIN-SUFFIX,gxnnjidingkeji.top
   - DOMAIN-SUFFIX,gxnnxsqy.top
+  - DOMAIN-SUFFIX,gxqmeiwujun.com
   - DOMAIN-SUFFIX,gxrke1715.com
   - DOMAIN-SUFFIX,gzjkoa.com
   - DOMAIN-SUFFIX,gzybao.com
@@ -593,6 +597,7 @@ payload:
   - DOMAIN-SUFFIX,ipshu.com
   - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,iquantumad.com
+  - DOMAIN-SUFFIX,isbestgame.com
   - DOMAIN-SUFFIX,istoreos.com
   - DOMAIN-SUFFIX,itptg.com
   - DOMAIN-SUFFIX,itui.cc
@@ -730,6 +735,7 @@ payload:
   - DOMAIN-SUFFIX,metrix.bar
   - DOMAIN-SUFFIX,mfdqsc.com
   - DOMAIN-SUFFIX,mfosunhani.com
+  - DOMAIN-SUFFIX,mfpt8g.com
   - DOMAIN-SUFFIX,miaona.app
   - DOMAIN-SUFFIX,miaotixing.com
   - DOMAIN-SUFFIX,micu.hk
@@ -744,6 +750,7 @@ payload:
   - DOMAIN-SUFFIX,miraiemby.com
   - DOMAIN-SUFFIX,mixly.org
   - DOMAIN-SUFFIX,mobai.sbs
+  - DOMAIN-SUFFIX,mobbananagame.com
   - DOMAIN-SUFFIX,mochadj.com
   - DOMAIN-SUFFIX,moctory.com
   - DOMAIN-SUFFIX,modaiyun.com
@@ -796,6 +803,7 @@ payload:
   - DOMAIN-SUFFIX,oai.sb
   - DOMAIN-SUFFIX,oath.com
   - DOMAIN-SUFFIX,oceando.cloud
+  - DOMAIN-SUFFIX,oemdss.com
   - DOMAIN-SUFFIX,ohdnhxj.com
   - DOMAIN-SUFFIX,ok321.top
   - DOMAIN-SUFFIX,omq.cc
@@ -973,6 +981,7 @@ payload:
   - DOMAIN-SUFFIX,suyur.com
   - DOMAIN-SUFFIX,svyun.com
   - DOMAIN-SUFFIX,sxdidc.com
+  - DOMAIN-SUFFIX,sxjd.ink
   - DOMAIN-SUFFIX,sxjiabeide.com
   - DOMAIN-SUFFIX,sxjkj22.top
   - DOMAIN-SUFFIX,sxlljm.com
@@ -1100,6 +1109,7 @@ payload:
   - DOMAIN-SUFFIX,wlups.com
   - DOMAIN-SUFFIX,wlygrowth.com
   - DOMAIN-SUFFIX,wmvbo.com
+  - DOMAIN-SUFFIX,woca.fun
   - DOMAIN-SUFFIX,wologic.net
   - DOMAIN-SUFFIX,wpurl.cc
   - DOMAIN-SUFFIX,wshifen.com
