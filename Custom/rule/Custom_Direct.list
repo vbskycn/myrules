@@ -60,15 +60,6 @@ DOMAIN-SUFFIX,hf-mirror.com
 # DDNS
 DOMAIN-KEYWORD,synology
 DOMAIN-KEYWORD,quickconnect
-DOMAIN-SUFFIX,checkip.dyndns.org
-DOMAIN-SUFFIX,checkipv6.dyndns.org
-DOMAIN-SUFFIX,ifconfig.co
-DOMAIN-SUFFIX,api.myip.com
-DOMAIN-SUFFIX,giveup.top
-#DOMAIN-SUFFIX,ip-api.com 会影响某些 DNS 泄露检测网站的结果，暂时屏蔽
-DOMAIN-SUFFIX,ipapi.co
-DOMAIN-SUFFIX,ip6.seeip.org
-DOMAIN-SUFFIX,kit327.com
 DOMAIN-SUFFIX,members.3322.org
 
 # Windows 网络连接探测
@@ -347,6 +338,16 @@ DOMAIN-SUFFIX,ahlt10010.com
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# add by Rule-Bot Client / Date: 2026-11-20 08:08:19
+DOMAIN-SUFFIX,yuanqidesk3.com
+# add by Rule-Bot Client / Date: 2026-11-19 20:32:41
+DOMAIN-SUFFIX,icitycdn.com
+# add by Rule-Bot Client / Date: 2026-11-19 19:26:00
+DOMAIN-SUFFIX,webportal.top
+# add by Rule-Bot Client / Date: 2026-11-19 15:16:39
+DOMAIN-SUFFIX,yueyouqu.com
+# add by Rule-Bot Client / Date: 2026-11-19 09:41:32
+DOMAIN-SUFFIX,znigddzwz.cc
 # add by Rule-Bot Client / Date: 2026-11-19 05:28:20
 DOMAIN-SUFFIX,kanv7k.live
 # add by Rule-Bot Client / Date: 2026-11-18 22:24:27
