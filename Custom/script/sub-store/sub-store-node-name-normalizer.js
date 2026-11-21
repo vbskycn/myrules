@@ -2,6 +2,8 @@
  * Sub-Store 节点名称规范化器
  *
  * 根据节点名称中的可靠地区证据，将已识别节点改为“中文地区名 + 编号”。
+ * 带编号的家宽节点默认保留家宽标记和原编号。设置 preserve_residential=false 可关闭。
+ * 设置 preferred_domain=true 可同时规范化无地区信息的优选域名节点。
  * 脚本只处理本地名称，不查询 IP、GeoIP 或远程接口，不删除节点，
  * 不改变节点顺序，也不修改名称以外的节点属性。
  *
@@ -402,11 +404,26 @@ for (const row of COMMON_ALIAS_ROWS) {
 function operator(proxies = []) {
   if (!Array.isArray(proxies) || proxies.length === 0) return []
 
+  const args = typeof $arguments === 'undefined' ? undefined : $arguments
+  const preferredDomain = args?.preferred_domain
+  const normalizePreferredDomain = preferredDomain === true || preferredDomain === 'true'
+  const preserveResidential = args?.preserve_residential !== false && args?.preserve_residential !== 'false'
   const counters = new Map()
   return proxies.map(proxy => {
     const originalName = String(proxy && proxy.name != null ? proxy.name : '')
     const result = resolveRegion(originalName)
+    if (result.state === 'unmatched' && normalizePreferredDomain) {
+      const preferred = /^(?:\[(?:GPT|IPv6)\]\s*)*优选域名[- ]([0-9]+)$/.exec(
+        originalName.trim(),
+      )
+      if (preferred) return updateProxy(proxy, `优选域名 ${preferred[1]}`)
+    }
     if (result.state !== 'matched') return proxy
+
+    if (preserveResidential && originalName.includes('家宽')) {
+      const residentialName = formatResidentialName(originalName, result.region)
+      if (residentialName) return updateProxy(proxy, residentialName)
+    }
 
     const count = (counters.get(result.region.code) || 0) + 1
     counters.set(result.region.code, count)
@@ -415,6 +432,18 @@ function operator(proxies = []) {
       `${result.region.zh} ${String(count).padStart(2, '0')}`,
     )
   })
+}
+
+function formatResidentialName(name, region) {
+  let label = name.trim().replace(/^(?:(?:\[(?:GPT|IPv6)\]|🏠)\s*)+/, '')
+  if (label.startsWith(region.flag)) label = label.slice(region.flag.length).trimStart()
+
+  const upstream = /^[A-Z]{2,3}[- ]家宽[- ]([0-9]+)$/.exec(label)
+  const prefix = region.zh + '家宽 '
+  if (upstream) return prefix + upstream[1]
+
+  if (label.startsWith(prefix) && /^[0-9]+$/.test(label.slice(prefix.length))) return label
+  return null
 }
 
 function resolveRegion(name) {
