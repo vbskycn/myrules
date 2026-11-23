@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1307
+# TOTAL: 1311
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -128,6 +128,7 @@ payload:
   - DOMAIN-SUFFIX,agi2rjr.cc
   - DOMAIN-SUFFIX,ahlt10010.com
   - DOMAIN-SUFFIX,aibeike.com
+  - DOMAIN-SUFFIX,aibox.eu.org
   - DOMAIN-SUFFIX,aichangbaishan.com
   - DOMAIN-SUFFIX,aidien.fun
   - DOMAIN-SUFFIX,aidream.website
@@ -378,6 +379,7 @@ payload:
   - DOMAIN-SUFFIX,fengda.me
   - DOMAIN-SUFFIX,fengsutb.com
   - DOMAIN-SUFFIX,fenno.ai
+  - DOMAIN-SUFFIX,fexsqz.com
   - DOMAIN-SUFFIX,fffff.games
   - DOMAIN-SUFFIX,ffhome.com
   - DOMAIN-SUFFIX,fgaiservice.com
@@ -465,6 +467,7 @@ payload:
   - DOMAIN-SUFFIX,gseen.com
   - DOMAIN-SUFFIX,gsgltz.com
   - DOMAIN-SUFFIX,gsjkjt.com
+  - DOMAIN-SUFFIX,gslock.com
   - DOMAIN-SUFFIX,gsnhcg.com
   - DOMAIN-SUFFIX,gsstic.com
   - DOMAIN-SUFFIX,gta5max.com
@@ -621,6 +624,7 @@ payload:
   - DOMAIN-SUFFIX,jiangningwater.com
   - DOMAIN-SUFFIX,jiangyuxj.com
   - DOMAIN-SUFFIX,jianzhixiaoke.net
+  - DOMAIN-SUFFIX,jiaohukejian.com
   - DOMAIN-SUFFIX,jiaoyanyun.com
   - DOMAIN-SUFFIX,jieyoutsg.com
   - DOMAIN-SUFFIX,jieyunwangluokeji.com
