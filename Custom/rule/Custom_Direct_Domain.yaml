@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1296
+# TOTAL: 1300
 
 payload:
   - '+.00333118.com'
@@ -676,6 +676,7 @@ payload:
   - '+.kukongjian.com'
   - '+.kuktxu.com'
   - '+.kuleu.com'
+  - '+.kuntapp.com'
   - '+.kwai.net'
   - '+.lanyun.net'
   - '+.laogongju.com'
@@ -807,6 +808,7 @@ payload:
   - '+.njonemall.com'
   - '+.nkxingxh.top'
   - '+.nlyd.club'
+  - '+.nmjsjs.com'
   - '+.nn.ci'
   - '+.no-mad-sub.one'
   - '+.nodcloud.com'
@@ -902,6 +904,7 @@ payload:
   - '+.qswpt.com'
   - '+.quanxinfu.com'
   - '+.quanzhua.com'
+  - '+.quwan.co'
   - '+.quxuanshu.com'
   - '+.qweapi.com'
   - '+.qweatherapi.com'
@@ -1127,6 +1130,7 @@ payload:
   - '+.wewillpro.com'
   - '+.wget.la'
   - '+.wildfirechat.net'
+  - '+.windinput.com'
   - '+.wirefee.site'
   - '+.wisecleaner.net'
   - '+.wjx.top'
