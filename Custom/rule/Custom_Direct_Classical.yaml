@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1321
+# TOTAL: 1332
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -25,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,1254225.com
   - DOMAIN-SUFFIX,12zayb.com
   - DOMAIN-SUFFIX,1335273.com
+  - DOMAIN-SUFFIX,14590562.com
   - DOMAIN-SUFFIX,153532.com
   - DOMAIN-SUFFIX,17van.com
   - DOMAIN-SUFFIX,1996999.xyz
@@ -34,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,225284.xyz
   - DOMAIN-SUFFIX,25mao.com
   - DOMAIN-SUFFIX,264788.xyz
+  - DOMAIN-SUFFIX,26531313.com
   - DOMAIN-SUFFIX,2mcnxs.cc
   - DOMAIN-SUFFIX,33442805.com
   - DOMAIN-SUFFIX,34619481.com
@@ -48,6 +50,7 @@ payload:
   - DOMAIN-SUFFIX,3d-apollo.com
   - DOMAIN-SUFFIX,3dwhere.com
   - DOMAIN-SUFFIX,3gxk.net
+  - DOMAIN-SUFFIX,41563901.com
   - DOMAIN-SUFFIX,419g.com
   - DOMAIN-SUFFIX,43645202.com
   - DOMAIN-SUFFIX,4399zmxy.com
@@ -70,6 +73,7 @@ payload:
   - DOMAIN-SUFFIX,55555.ink
   - DOMAIN-SUFFIX,56tvc.com
   - DOMAIN-SUFFIX,580ai.net
+  - DOMAIN-SUFFIX,60601826.com
   - DOMAIN-SUFFIX,618208.xyz
   - DOMAIN-SUFFIX,657192.com
   - DOMAIN-SUFFIX,66298845.com
@@ -249,6 +253,7 @@ payload:
   - DOMAIN-SUFFIX,chatlabs.net
   - DOMAIN-SUFFIX,chaxunjiao.com
   - DOMAIN-SUFFIX,chaz.fun
+  - DOMAIN-SUFFIX,chengguo4.com
   - DOMAIN-SUFFIX,chengguodj.com
   - DOMAIN-SUFFIX,chenyuxia.com
   - DOMAIN-SUFFIX,cheriexsky.love
@@ -306,6 +311,7 @@ payload:
   - DOMAIN-SUFFIX,darwinchow.com
   - DOMAIN-SUFFIX,day.app
   - DOMAIN-SUFFIX,dayilive.com
+  - DOMAIN-SUFFIX,dccztux.com
   - DOMAIN-SUFFIX,dcgstd.com
   - DOMAIN-SUFFIX,dcshfu.com
   - DOMAIN-SUFFIX,dd3862.com
@@ -483,6 +489,7 @@ payload:
   - DOMAIN-SUFFIX,guangyapan.com
   - DOMAIN-SUFFIX,guazi.fun
   - DOMAIN-SUFFIX,guiguiya.com
+  - DOMAIN-SUFFIX,gulufenfa.com
   - DOMAIN-SUFFIX,guyuns.asia
   - DOMAIN-SUFFIX,gvgoo.com
   - DOMAIN-SUFFIX,gwmapp-w.com
@@ -575,6 +582,7 @@ payload:
   - DOMAIN-SUFFIX,hzyi.eu.org
   - DOMAIN-SUFFIX,i6z7t5.com
   - DOMAIN-SUFFIX,i955jr0pk.com
+  - DOMAIN-SUFFIX,iadlioo.com
   - DOMAIN-SUFFIX,ibnjl.shop
   - DOMAIN-SUFFIX,ibwm5lynb6.com
   - DOMAIN-SUFFIX,ichongjiayuan.com
@@ -785,6 +793,7 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,mslmc.net
   - DOMAIN-SUFFIX,mssdag.com
+  - DOMAIN-SUFFIX,mssxapp.com
   - DOMAIN-SUFFIX,mtaokj.com
   - DOMAIN-SUFFIX,muhemob.com
   - DOMAIN-SUFFIX,mulingyuer.com
@@ -1096,6 +1105,7 @@ payload:
   - DOMAIN-SUFFIX,ugnas.cloud
   - DOMAIN-SUFFIX,ulife.group
   - DOMAIN-SUFFIX,uploadlog.com
+  - DOMAIN-SUFFIX,upoem1.com
   - DOMAIN-SUFFIX,us.ci
   - DOMAIN-SUFFIX,v-koolsh.com
   - DOMAIN-SUFFIX,vanjee.net
@@ -1240,6 +1250,7 @@ payload:
   - DOMAIN-SUFFIX,yiso.fun
   - DOMAIN-SUFFIX,yixc.com
   - DOMAIN-SUFFIX,yixlab.com
+  - DOMAIN-SUFFIX,yjshai.com
   - DOMAIN-SUFFIX,yldw.net
   - DOMAIN-SUFFIX,ymm56-cdn.com
   - DOMAIN-SUFFIX,ymwfy.com
